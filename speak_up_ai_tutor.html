@@ -1601,6 +1601,17 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
     }
 
 
+    
+    function updateDashboardUI() {
+        try {
+            const metricMinutes = document.getElementById('metricMinutes');
+            const metricScore = document.getElementById('metricScore');
+            if (metricMinutes) metricMinutes.innerText = (sentencesCount * 0.4).toFixed(1);
+            if (metricScore) metricScore.innerText = Math.min(98, 75 + Math.floor(sentencesCount * 1.5)) + "%";
+        } catch(e){}
+    }
+
+
     function openServiceWorkspace(serviceId) {
         console.log("OPENING WORKSPACE:", serviceId);
 
