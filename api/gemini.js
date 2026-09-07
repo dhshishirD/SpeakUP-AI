@@ -1,5 +1,5 @@
-// Vercel Serverless Function: Secure Gemini API Proxy
-// Keeps API Keys 100% hidden on server side
+// Vercel Serverless Function: World-Class Gemini AI Proxy
+// Hidden API Key + Persona Conditioning + Ultra-Low Latency
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
@@ -7,22 +7,25 @@ export default async function handler(req, res) {
     }
 
     try {
-        const { contents, systemInstruction } = req.body;
+        const { contents, systemInstruction, persona } = req.body;
         const apiKey = process.env.GEMINI_API_KEY || "AQ.Ab8RN6JEp5Ew6snucSDMw0FhGxqKinqE1ncmMrsVT0UE0O8vVQ";
 
         const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${apiKey}`;
 
+        let sysText = systemInstruction?.parts?.[0]?.text || "You are SpeakUP AI, a world-class intelligent Spoken English tutor for Bangladeshi learners.";
+        
+        if (persona) {
+            sysText = `[Active Persona: ${persona.name} (${persona.role})]. ${persona.instructions}\n` + sysText;
+        }
+
         const payload = {
             contents: contents || [],
+            systemInstruction: { parts: [{ text: sysText }] },
             generationConfig: {
                 temperature: 0.7,
-                maxOutputTokens: 800
+                maxOutputTokens: 600
             }
         };
-
-        if (systemInstruction) {
-            payload.systemInstruction = systemInstruction;
-        }
 
         const response = await fetch(endpoint, {
             method: 'POST',
