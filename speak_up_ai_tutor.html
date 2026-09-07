@@ -408,6 +408,7 @@
 
 </head>
 <body>
+    <!-- Vercel Deployment Trigger: Super Premium Silicon Valley Upgrade v2.0 -->
 
 <div class="card">
 
@@ -500,9 +501,121 @@
     </div>
 
 
-    <!-- AI SPOKEN PARTNER WORKSPACE -->
-    <div 
-    <!-- ✈️ IELTS BAND 8.0 SPEAKING STUDIO WORKSPACE -->
+    <!-- 🤖 1. AI SPOKEN PARTNER WORKSPACE -->
+    <div id="practiceTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #0284C7 0%, #2563EB 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(2,132,199,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">Real-Time AI Tutor</span>
+                <span id="userXpBadge" style="font-size:11px; opacity:0.9; font-weight:700;">⭐ 100 XP</span>
+            </div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">🤖 AI Spoken Partner Studio</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">24/7 Spoken practice with instant feedback, accents, & translation</p>
+        </div>
+
+        <!-- Dropdown Control Bar -->
+        <div class="menu-bar">
+            <!-- 💬 Topic & BD Career Dropdown -->
+            <select id="topicDropdown" class="select-dropdown" onchange="changeTopicDropdown(this)">
+                <option value="General Spoken Practice">💬 Daily Practice</option>
+                <option value="Bank and IT Job Interview">💼 Bank & IT Job Interview</option>
+                <option value="Corporate Office English">🏢 Corporate Office English</option>
+                <option value="IELTS Speaking Cue Card Test">✈️ IELTS Cue Card Test</option>
+                <option value="BCS and Govt Viva Exam">🏛️ BCS & Govt Viva Exam</option>
+                <option value="Ordering Food at Restaurant">🍕 London Restaurant Ordering</option>
+                <option value="Immigration Check in Airport">✈️ Dubai Airport Immigration</option>
+            </select>
+
+            <!-- 🇺🇸 🇬🇧 US / UK Accent Dropdown -->
+            <select id="accentSelect" class="select-dropdown" onchange="changeAccent(this)">
+                <option value="en-US" selected>🇺🇸 US Accent (American)</option>
+                <option value="en-GB">🇬🇧 UK Accent (British)</option>
+            </select>
+
+            <!-- ⚙️ Audio Speed Dropdown -->
+            <select id="voiceSpeedSelect" class="select-dropdown" onchange="changeVoiceSpeed()">
+                <option value="0.85">🐢 Easy (0.85x)</option>
+                <option value="0.95" selected>⚡ Normal (0.95x)</option>
+                <option value="1.1">🚀 Fast (1.1x)</option>
+            </select>
+        </div>
+
+        <!-- 🎯 1-Day Trial Status Goal Bar -->
+        <div class="goal-card">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <span id="streakBadge">🔥 1-Day Streak</span>
+                <span>• Trial: <strong style="color:#D97706;" id="trialStatusText">24 Hours 100% Free</strong></span>
+            </div>
+            <div class="goal-progress-bg">
+                <div class="goal-progress-fill" id="goalProgressBar" style="width: 100%;"></div>
+            </div>
+        </div>
+
+        <!-- Feature 3: IELTS / Viva Band Score Estimator Pill & Feature 5: Fast Talk Challenge -->
+        <div style="display:flex; gap:8px; margin-bottom:10px;">
+            <div style="flex:1; background:#EFF6FF; border:1.5px solid #BFDBFE; border-radius:12px; padding:6px 10px; font-size:11px; color:#1E40AF; font-weight:800;" id="bandScorePill">
+                🎓 Est. IELTS Band: <strong>6.5 (Competent)</strong>
+            </div>
+            <button onclick="startFastTalkChallenge()" style="background:#F59E0B; color:white; border:none; border-radius:12px; padding:6px 12px; font-size:11px; font-weight:800; cursor:pointer;">
+                ⚡ 30-Sec Fast Talk
+            </button>
+        </div>
+
+        <!-- 💡 Smart Sentence Starter Hints -->
+        <div class="starter-hints-bar">
+            <span style="font-size:11px; color:#64748B; font-weight:700; align-self:center;">💡 Mind blank? Tap:</span>
+            <button class="starter-hint-chip" onclick="useStarterHint('In my opinion, ')">"In my opinion..." 🔊</button>
+            <button class="starter-hint-chip" onclick="useStarterHint('I believe that ')">"I believe that..." 🔊</button>
+            <button class="starter-hint-chip" onclick="useStarterHint('Could you tell me more about ')">"Could you tell me..." 🔊</button>
+        </div>
+
+        <button class="mic-btn" id="startBtn" onclick="toggleSpeech()">🎙️ Tap to Speak</button>
+        <div class="status" id="statusText">বাটনে ট্যাপ করে কথা বলা শুরু করুন...</div>
+        
+        <div class="chat-box" id="chatBox">
+            <div class="msg-ai">
+                <strong>🤖 SpeakUP AI:</strong><br>
+                Hello! Welcome to SpeakUP. I am your real-time AI spoken partner. Ask me anything or tell me about your day!
+                <br><button class="translate-btn" onclick="toggleBanglaTranslation(this, 'Hello! Welcome to SpeakUP. I am your real-time AI spoken partner. Ask me anything or tell me about your day!')">🇧🇩 Translate to Bangla</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 👥 2. REAL PARTNER LIVE WEBRTC CALL WORKSPACE -->
+    <div id="realPartnerTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #D97706 0%, #F59E0B 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(217,119,6,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:#10B981; color:white; font-weight:900; padding:4px 12px; border-radius:12px; letter-spacing:0.5px;">🟢 WebRTC Live Stream</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">1-on-1 Voice Call</span>
+            </div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">👥 Real Spoken Partner Studio</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Practice 1-on-1 Live Voice Calls with Friends & Global Community Members</p>
+        </div>
+
+        <div style="background:#FFFFFF; border:1.5px solid #FDE68A; border-radius:20px; padding:20px; text-align:center; margin-bottom:16px; box-shadow:0 10px 30px rgba(0,0,0,0.04);">
+            <div style="font-size:40px; margin-bottom:8px;">🎙️</div>
+            <strong style="font-size:16px; color:#0F172A; display:block; margin-bottom:4px;">Join or Host Live Voice Room</strong>
+            <p style="font-size:12px; color:#64748B; margin:0 0 16px 0;">Share your 4-digit room code with a friend to start talking live!</p>
+
+            <div style="max-width:320px; margin:0 auto;">
+                <input type="text" id="peerRoomInput" placeholder="Enter 4-Digit Code (e.g. 5821)" style="width:100%; box-sizing:border-box; padding:12px; border:2px solid #F59E0B; border-radius:12px; text-align:center; font-weight:800; font-size:16px; letter-spacing:2px; margin-bottom:12px; outline:none;">
+                <div style="display:flex; gap:10px; justify-content:center;">
+                    <button onclick="startPeerCall()" style="flex:1; background:#D97706; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer; box-shadow:0 4px 12px rgba(217,119,6,0.3);">📞 Connect Live Call</button>
+                    <button onclick="generateRandomRoomCode()" style="background:#F1F5F9; color:#475569; border:none; padding:12px 16px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">🎲 New Code</button>
+                </div>
+                <button onclick="shareWhatsAppInvite()" style="width:100%; margin-top:10px; background:#25D366; color:white; border:none; padding:10px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px;">
+                    📲 Invite Friend on WhatsApp
+                </button>
+            </div>
+        </div>
+
+        <div id="peerStatusCard" style="display:none; background:#ECFDF5; border:1.5px solid #6EE7B7; border-radius:16px; padding:14px; text-align:center; color:#065F46; font-weight:800; font-size:13px;">
+            🟢 Connected to Partner! Speak now into your microphone...
+        </div>
+    </div>
+
+
+    <!-- ✈️ 3. IELTS BAND 8.0 SPEAKING STUDIO WORKSPACE -->
     <div id="ieltsWorkspaceTab" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(30,64,175,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
@@ -549,7 +662,7 @@
     </div>
 
 
-    <!-- 🏛️ BCS CADRE VIVA PORTAL WORKSPACE -->
+    <!-- 🏛️ 4. BCS CADRE VIVA PORTAL WORKSPACE -->
     <div id="bcsWorkspaceTab" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #059669 0%, #047857 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(5,150,105,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
@@ -582,7 +695,7 @@
     </div>
 
 
-    <!-- 💼 BANK & OTHER JOB VIVA SUITE WORKSPACE -->
+    <!-- 💼 5. BANK & OTHER JOB VIVA SUITE WORKSPACE -->
     <div id="jobWorkspaceTab" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #6D28D9 0%, #7C3AED 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(109,40,217,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
@@ -616,179 +729,34 @@
         </div>
     </div>
 
-id="practiceTab" class="tab-content-page" style="display:none;">
-<div class="top-header">
-        <div class="brand-group">
-            <img src="data:image/png;base64,""" + b64 + """" class="logo" onclick="logoClickAdminToggle()" title="Triple-click for Admin Dashboard">
-            <div>
-                <h1 class="brand-title">Speak UP AI</h1>
-                <p class="brand-sub">ঘরে বসেই AI Tutor-এর সাথে ইংরেজি প্র্যাকটিস</p>
-            </div>
-        </div>
-        <button class="user-profile-btn" onclick="openLoginModal()">
-            <div class="user-avatar-sm" id="userAvatar">G</div>
-            <span id="userNameNav">Guest</span>
-        </button>
-    </div>
 
-    <!-- Dropdown Control Bar -->
-    <div class="menu-bar">
-        <!-- 💬 Topic & BD Career Dropdown -->
-        <select id="topicDropdown" class="select-dropdown" onchange="changeTopicDropdown(this)">
-            <option value="General Spoken Practice">💬 Daily Practice</option>
-            <option value="Bank and IT Job Interview">💼 Bank & IT Job Interview</option>
-            <option value="Corporate Office English">🏢 Corporate Office English</option>
-            <option value="IELTS Speaking Cue Card Test">✈️ IELTS Cue Card Test</option>
-            <option value="BCS and Govt Viva Exam">🏛️ BCS & Govt Viva Exam</option>
-            <option value="Ordering Food at Restaurant">🍕 London Restaurant Ordering</option>
-            <option value="Immigration Check in Airport">✈️ Dubai Airport Immigration</option>
-        </select>
-
-        <!-- 🇺🇸 🇬🇧 US / UK Accent Dropdown -->
-        <select id="accentSelect" class="select-dropdown" onchange="changeAccent(this)">
-            <option value="en-US" selected>🇺🇸 US Accent (American)</option>
-            <option value="en-GB">🇬🇧 UK Accent (British)</option>
-        </select>
-
-        <!-- ⚙️ Audio Speed Dropdown -->
-        <select id="voiceSpeedSelect" class="select-dropdown" onchange="changeVoiceSpeed()">
-            <option value="0.85">🐢 Easy (0.85x)</option>
-            <option value="0.95" selected>⚡ Normal (0.95x)</option>
-            <option value="1.1">🚀 Fast (1.1x)</option>
-        </select>
-    </div>
-
-    <!-- 🎯 1-Day Trial Status Goal Bar -->
-    <div class="goal-card">
-        <div style="display:flex; align-items:center; gap:6px;">
-            <span id="streakBadge">🔥 1-Day Streak</span>
-            <span>• Trial: <strong style="color:#D97706;" id="trialStatusText">24 Hours 100% Free</strong></span>
-        </div>
-        <div class="goal-progress-bg">
-            <div class="goal-progress-fill" id="goalProgressBar" style="width: 100%;"></div>
-        </div>
-    </div>
-
-    <!-- TAB 1: AI PRACTICE ROOM -->
-    <div 
-
-        <!-- Feature 3: IELTS / Viva Band Score Estimator Pill & Feature 5: Fast Talk Challenge -->
-        <div style="display:flex; gap:8px; margin-bottom:10px;">
-            <div style="flex:1; background:#EFF6FF; border:1.5px solid #BFDBFE; border-radius:12px; padding:6px 10px; font-size:11px; color:#1E40AF; font-weight:800;" id="bandScorePill">
-                🎓 Est. IELTS Band: <strong>6.5 (Competent)</strong>
-            </div>
-            <button onclick="startFastTalkChallenge()" style="background:#F59E0B; color:white; border:none; border-radius:12px; padding:6px 12px; font-size:11px; font-weight:800; cursor:pointer;">
-                ⚡ 30-Sec Fast Talk
-            </button>
-        </div>
-
-        <!-- 💡 Smart Sentence Starter Hints -->
-        <div class="starter-hints-bar">
-            <span style="font-size:11px; color:#64748B; font-weight:700; align-self:center;">💡 Mind blank? Tap:</span>
-            <button class="starter-hint-chip" onclick="useStarterHint('In my opinion, ')">"In my opinion..." 🔊</button>
-            <button class="starter-hint-chip" onclick="useStarterHint('I believe that ')">"I believe that..." 🔊</button>
-            <button class="starter-hint-chip" onclick="useStarterHint('Could you tell me more about ')">"Could you tell me..." 🔊</button>
-        </div>
-
-        <button class="mic-btn" id="startBtn" onclick="toggleSpeech()">🎙️ Tap to Speak</button>
-        <div class="status" id="statusText">বাটনে ট্যাপ করে কথা বলা শুরু করুন...</div>
-        
-        <div class="chat-box" id="chatBox">
-            <div class="msg-ai">
-                <strong>🤖 SpeakUP AI:</strong><br>
-                Hello! Welcome to SpeakUP. I am your real-time AI spoken partner. Ask me anything or tell me about your day!
-                <br><button class="translate-btn" onclick="toggleBanglaTranslation(this, 'Hello! Welcome to SpeakUP. I am your real-time AI spoken partner. Ask me anything or tell me about your day!')">🇧🇩 Translate to Bangla</button>
-            </div>
-
-    <!-- 👥 REAL PARTNER LIVE WEBRTC CALL WORKSPACE -->
-    
-    <!-- 👥 REAL PARTNER LIVE WEBRTC CALL WORKSPACE -->
-    <div id="realPartnerTab" class="tab-content-page" style="display:none;">
-        <div style="background:linear-gradient(135deg, #D97706 0%, #F59E0B 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(217,119,6,0.25);">
+    <!-- 🎙️ 6. 44 IPA PHONETICS LAB WORKSPACE -->
+    <div id="ipaTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #DC2626 0%, #EF4444 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(220,38,38,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                <span style="font-size:11px; background:#10B981; color:white; font-weight:900; padding:4px 12px; border-radius:12px; letter-spacing:0.5px;">🟢 WebRTC Live Stream</span>
-                <span style="font-size:11px; opacity:0.9; font-weight:700;">1-on-1 Voice Call</span>
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">44 Sounds Audio Engine</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">BBC Standard English</span>
             </div>
-            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">👥 Real Spoken Partner Studio</h3>
-            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Practice 1-on-1 Live Voice Calls with Friends & Global Community Members</p>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">🎙️ 44 IPA Phonetics Sound Lab</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Master native British & American pronunciation with shadow voice feedback</p>
         </div>
 
-        <div style="background:#FFFFFF; border:1.5px solid #FDE68A; border-radius:20px; padding:20px; text-align:center; margin-bottom:16px; box-shadow:0 10px 30px rgba(0,0,0,0.04);">
-            <div style="font-size:40px; margin-bottom:8px;">🎙️</div>
-            <strong style="font-size:16px; color:#0F172A; display:block; margin-bottom:4px;">Join or Host Live Voice Room</strong>
-            <p style="font-size:12px; color:#64748B; margin:0 0 16px 0;">Share your 4-digit room code with a friend to start talking live!</p>
-
-            <div style="max-width:320px; margin:0 auto;">
-                <input type="text" id="peerRoomInput" placeholder="Enter 4-Digit Code (e.g. 5821)" style="width:100%; box-sizing:border-box; padding:12px; border:2px solid #F59E0B; border-radius:12px; text-align:center; font-weight:800; font-size:16px; letter-spacing:2px; margin-bottom:12px; outline:none;">
-                <div style="display:flex; gap:10px; justify-content:center;">
-                    <button onclick="startPeerCall()" style="flex:1; background:#D97706; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer; box-shadow:0 4px 12px rgba(217,119,6,0.3);">📞 Connect Live Call</button>
-                    <button onclick="generateRandomRoomCode()" style="background:#F1F5F9; color:#475569; border:none; padding:12px 16px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">🎲 New Code</button>
-                </div>
-                <button onclick="shareWhatsAppInvite()" style="width:100%; margin-top:10px; background:#25D366; color:white; border:none; padding:10px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px;">
-                    📲 Invite Friend on WhatsApp
-                </button>
-            </div>
+        <!-- Filter Category Pills -->
+        <div style="display:flex; gap:8px; overflow-x:auto; padding-bottom:10px; margin-bottom:14px;">
+            <button onclick="renderIpaSoundList('all')" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">All 44 Sounds</button>
+            <button onclick="renderIpaSoundList('vowel')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Vowels (12)</button>
+            <button onclick="renderIpaSoundList('diphthong')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Diphthongs (8)</button>
+            <button onclick="renderIpaSoundList('consonant')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Consonants (24)</button>
         </div>
 
-        <div id="peerStatusCard" style="display:none; background:#ECFDF5; border:1.5px solid #6EE7B7; border-radius:16px; padding:14px; text-align:center; color:#065F46; font-weight:800; font-size:13px;">
-            🟢 Connected to Partner! Speak now into your microphone...
-        </div>
-    </div>
-
+        <!-- Dynamic IPA Sound Container -->
+        <div id="ipaListContainer" style="min-height:300px;">
+            <!-- Populated via JS renderIpaSoundList() -->
         </div>
     </div>
 
 
-        </div>
-    </div>
-
-    <!-- TAB 2: OVERALL PERFORMANCE & METRICS HUB -->
-    <div id="dashboardTab" class="tab-content">
-        <!-- Feature 9: PWA App Install Banner -->
-        <div style="background:#DCFCE7; border:1.5px solid #22C55E; border-radius:14px; padding:8px 12px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
-            <div style="font-size:11px; color:#15803D; font-weight:800; text-align:left;">
-                📱 <strong>Install SpeakUP App on Home Screen!</strong><br>1-tap shortcut on your phone.
-            </div>
-            <button onclick="installPWAApp()" style="background:#22C55E; color:white; border:none; padding:5px 10px; border-radius:8px; font-weight:800; font-size:10px; cursor:pointer;">Install</button>
-        </div>
-
-        <div class="metrics-grid">
-            <div class="metric-card">
-                <div class="metric-num" id="metricSentences">0</div>
-                <div class="metric-label">Sentences Spoken</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-num" id="metricMinutes">0.0</div>
-                <div class="metric-label">Practice Minutes</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-num" id="metricScore">85%</div>
-                <div class="metric-label">Fluency Score</div>
-            </div>
-        </div>
-
-        <div style="display:flex; gap:6px; margin-bottom:12px; flex-wrap:wrap;">
-            <button onclick="downloadCertificate()" style="flex:1; min-width:100px; background:#22C55E; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">📜 Certificate</button>
-            <button onclick="downloadDailySummarySheet()" style="flex:1; min-width:100px; background:#0284C7; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">📄 Study Sheet</button>
-            <!-- Feature 4: WhatsApp Challenge Link -->
-            <button onclick="challengeFriendWA()" style="flex:1; min-width:120px; background:#25D366; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">💬 Challenge WA</button>
-        </div>
-
-        <!-- Feature 10: Push Reminders Toggle -->
-        <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-radius:12px; padding:8px 12px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
-            <span style="font-size:11px; color:#475569; font-weight:700;">🔔 Daily 8:00 PM Practice Push Notifications:</span>
-            <button onclick="togglePushReminders(this)" style="background:#0284C7; color:white; border:none; padding:4px 10px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">Enable Alerts</button>
-        </div>
-
-        <div style="text-align: left; font-weight: 700; margin-bottom: 8px; font-size: 14px; color: #0284C7;">📜 Spoken Pronunciation & Audio History Log</div>
-        <div class="data-list" id="historyList">
-            <div style="color: #64748B; text-align: center; padding: 20px;">No practice history recorded yet. Start speaking in Practice Room!</div>
-        </div>
-    </div>
-
-    <!-- TAB 3: DEDICATED QUIZ & LISTENING LAB -->
-    
-    <!-- ❓ SPOKEN QUIZ ENGINE WORKSPACE -->
+    <!-- ❓ 7. SPOKEN QUIZ ENGINE WORKSPACE -->
     <div id="quizTab" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #0284C7 0%, #2563EB 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(2,132,199,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
@@ -821,15 +789,8 @@ id="practiceTab" class="tab-content-page" style="display:none;">
             
             <button id="nextQuizBtn" onclick="nextQuizQuestion()" style="display:none; width:100%; margin-top:14px; background:#0284C7; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">Next Question ➔</button>
         </div>
-    </div>
 
-            <div style="display:flex; flex-direction:column; gap:6px; margin-top:8px;" id="quizOptionsContainer">
-                <button onclick="submitQuizAnswer(true, this)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; padding:8px; border-radius:8px; font-weight:700; font-size:11px; cursor:pointer; text-align:left;">A. "I agree with your point." ✓</button>
-                <button onclick="submitQuizAnswer(false, this)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; padding:8px; border-radius:8px; font-weight:700; font-size:11px; cursor:pointer; text-align:left;">B. "I am agree with you."</button>
-            </div>
-        </div>
-
-        <!-- Feature 2: Personalized Mistakes Bank -->
+        <!-- Personalized Mistakes Bank -->
         <div style="text-align:left; font-weight:800; color:#D97706; font-size:14px; margin:15px 0 6px 0;">📝 My Personalized Mistakes Bank</div>
         <div class="data-list" id="mistakesBankList" style="max-height:120px;">
             <div class="data-item">
@@ -839,38 +800,8 @@ id="practiceTab" class="tab-content-page" style="display:none;">
         </div>
     </div>
 
-    <!-- TAB 4: DEDICATED SEPARATE 44 IPA & VOICE SHADOWING LAB -->
-    
-    <!-- 🎙️ 44 IPA PHONETICS LAB WORKSPACE -->
-    <div id="ipaTab" class="tab-content-page" style="display:none;">
-        <div style="background:linear-gradient(135deg, #DC2626 0%, #EF4444 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(220,38,38,0.25);">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">44 Sounds Audio Engine</span>
-                <span style="font-size:11px; opacity:0.9; font-weight:700;">BBC Standard English</span>
-            </div>
-            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">🎙️ 44 IPA Phonetics Sound Lab</h3>
-            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Master native British & American pronunciation with shadow voice feedback</p>
-        </div>
 
-        <!-- Filter Category Pills -->
-        <div style="display:flex; gap:8px; overflow-x:auto; padding-bottom:10px; margin-bottom:14px;">
-            <button onclick="renderIpaSoundList('all')" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">All 44 Sounds</button>
-            <button onclick="renderIpaSoundList('vowel')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Vowels (12)</button>
-            <button onclick="renderIpaSoundList('diphthong')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Diphthongs (8)</button>
-            <button onclick="renderIpaSoundList('consonant')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Consonants (24)</button>
-        </div>
-
-        <!-- Dynamic IPA Sound Container -->
-        <div id="ipaListContainer" style="min-height:300px;">
-            <!-- Populated via JS renderIpaSoundList() -->
-        </div>
-    </div>
-
-    </div>
-
-    <!-- TAB 5: HIGH-YIELD VOCABULARY & CULTURAL IDIOMS BANK -->
-    
-    <!-- 📖 DYNAMIC VOCABULARY DICTIONARY WORKSPACE -->
+    <!-- 📖 8. DYNAMIC VOCABULARY DICTIONARY WORKSPACE -->
     <div id="vocabTab" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #059669 0%, #10B981 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(5,150,105,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
@@ -892,24 +823,51 @@ id="practiceTab" class="tab-content-page" style="display:none;">
         </div>
     </div>
 
-                <div style="color:#B45309; font-size:12px; font-weight:700; margin-top:2px;">🇧🇩 বাংলা অর্থ: সহনশীল / স্থিতিস্থাপক</div>
-                <div style="color:#64748B; font-size:11px; margin-top:4px;">💬 Example: "Bangladeshi youth are hardworking and resilient."</div>
-            </div>
 
-            <div class="vocab-card-pro">
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <strong style="color:#0284C7; font-size:15px;">Fluency <span class="ipa-badge">/ˈfluː.ən.si/</span></strong>
-                    <button onclick="speakOut('Fluency')" style="background:#0284C7; color:white; border:none; padding:2px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Audio</button>
-                </div>
-                <div style="color:#B45309; font-size:12px; font-weight:700; margin-top:2px;">🇧🇩 বাংলা অর্থ: সাবলীলভাবে কথা বলার ক্ষমতা</div>
-                <div style="color:#64748B; font-size:11px; margin-top:4px;">💬 Example: "Daily voice practice increases spoken fluency."</div>
+    <!-- 📊 9. PERFORMANCE & METRICS HUB -->
+    <div id="dashboardTab" class="tab-content" style="display:none;">
+        <div style="background:#DCFCE7; border:1.5px solid #22C55E; border-radius:14px; padding:8px 12px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
+            <div style="font-size:11px; color:#15803D; font-weight:800; text-align:left;">
+                📱 <strong>Install SpeakUP App on Home Screen!</strong><br>1-tap shortcut on your phone.
             </div>
+            <button onclick="installPWAApp()" style="background:#22C55E; color:white; border:none; padding:5px 10px; border-radius:8px; font-weight:800; font-size:10px; cursor:pointer;">Install</button>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-num" id="metricSentences">0</div>
+                <div class="metric-label">Sentences Spoken</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-num" id="metricMinutes">0.0</div>
+                <div class="metric-label">Practice Minutes</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-num" id="metricScore">85%</div>
+                <div class="metric-label">Fluency Score</div>
+            </div>
+        </div>
+
+        <div style="display:flex; gap:6px; margin-bottom:12px; flex-wrap:wrap;">
+            <button onclick="downloadCertificate()" style="flex:1; min-width:100px; background:#22C55E; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">📜 Certificate</button>
+            <button onclick="downloadDailySummarySheet()" style="flex:1; min-width:100px; background:#0284C7; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">📄 Study Sheet</button>
+            <button onclick="challengeFriendWA()" style="flex:1; min-width:120px; background:#25D366; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">💬 Challenge WA</button>
+        </div>
+
+        <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-radius:12px; padding:8px 12px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:11px; color:#475569; font-weight:700;">🔔 Daily 8:00 PM Practice Push Notifications:</span>
+            <button onclick="togglePushReminders(this)" style="background:#0284C7; color:white; border:none; padding:4px 10px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">Enable Alerts</button>
+        </div>
+
+        <div style="text-align: left; font-weight: 700; margin-bottom: 8px; font-size: 14px; color: #0284C7;">📜 Spoken Pronunciation & Audio History Log</div>
+        <div class="data-list" id="historyList">
+            <div style="color: #64748B; text-align: center; padding: 20px;">No practice history recorded yet. Start speaking in Practice Room!</div>
         </div>
     </div>
 
-    <!-- TAB 6: LEADERBOARD & DUOLINGO STREAK CHESTS -->
-    <div id="leaderboardTab" class="tab-content">
-        <!-- Feature 8: Duolingo Streak Shields & Reward Chests -->
+
+    <!-- 🏆 10. LEADERBOARD & STREAK CHESTS -->
+    <div id="leaderboardTab" class="tab-content" style="display:none;">
         <div style="background:#F0FDF4; border:1.5px solid #86EFAC; border-radius:14px; padding:10px 14px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
             <div style="text-align:left;">
                 <strong style="color:#166534; font-size:12px;">🛡️ Streak Shield Active</strong>
