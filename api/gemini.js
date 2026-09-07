@@ -1,0 +1,44 @@
+// Vercel Serverless Function: Secure Gemini API Proxy
+// Keeps API Keys 100% hidden on server side
+
+export default async function handler(req, res) {
+    if (req.method !== 'POST') {
+        return res.status(405).json({ error: 'Method Not Allowed' });
+    }
+
+    try {
+        const { contents, systemInstruction } = req.body;
+        const apiKey = process.env.GEMINI_API_KEY || "AQ.Ab8RN6JEp5Ew6snucSDMw0FhGxqKinqE1ncmMrsVT0UE0O8vVQ";
+
+        const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${apiKey}`;
+
+        const payload = {
+            contents: contents || [],
+            generationConfig: {
+                temperature: 0.7,
+                maxOutputTokens: 800
+            }
+        };
+
+        if (systemInstruction) {
+            payload.systemInstruction = systemInstruction;
+        }
+
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) {
+            const errText = await response.text();
+            return res.status(response.status).json({ error: errText });
+        }
+
+        const data = await response.json();
+        return res.status(200).json(data);
+    } catch (error) {
+        console.error("Serverless Proxy Error:", error);
+        return res.status(500).json({ error: error.message });
+    }
+}
