@@ -1583,6 +1583,23 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
 
 <script>
     // MASTER WORKSPACE ENGINE
+    
+    // DYNAMIC STREAK & XP ENGINE
+    function updateStreak() {
+        try {
+            const streakCountEl = document.getElementById('streakCount');
+            if (streakCountEl) streakCountEl.innerText = "1-Day Streak";
+        } catch(e){}
+    }
+
+    function updateGoalTracker() {
+        try {
+            const goalText = document.getElementById('goalText');
+            if (goalText) goalText.innerText = sentencesCount + ' / 5 Sentences Spoken';
+        } catch(e){}
+    }
+
+
     function openServiceWorkspace(serviceId) {
         console.log("OPENING WORKSPACE:", serviceId);
 
