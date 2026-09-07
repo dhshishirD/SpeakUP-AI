@@ -501,7 +501,122 @@
 
 
     <!-- AI SPOKEN PARTNER WORKSPACE -->
-    <div id="practiceTab" class="tab-content-page" style="display:none;">
+    <div 
+    <!-- ✈️ IELTS BAND 8.0 SPEAKING STUDIO WORKSPACE -->
+    <div id="ieltsWorkspaceTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(30,64,175,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">Official Examiner Criteria</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">Band 5.0 ➔ 9.0 Rating</span>
+            </div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">✈️ IELTS Band 8.0 Speaking Studio</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Practice Part 1 Warmup, Part 2 Cue Cards with 1-min timer, & Part 3 Deep Discussion</p>
+        </div>
+
+        <!-- IELTS Stage Selector Pills -->
+        <div style="display:flex; gap:8px; margin-bottom:16px;">
+            <button onclick="switchIeltsPart(1, this)" class="ielts-part-btn active" style="flex:1; background:#1E40AF; color:white; border:none; padding:10px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer;">Part 1: Warmup</button>
+            <button onclick="switchIeltsPart(2, this)" class="ielts-part-btn" style="flex:1; background:#F1F5F9; color:#475569; border:none; padding:10px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer;">Part 2: Cue Card</button>
+            <button onclick="switchIeltsPart(3, this)" class="ielts-part-btn" style="flex:1; background:#F1F5F9; color:#475569; border:none; padding:10px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer;">Part 3: Discussion</button>
+        </div>
+
+        <!-- IELTS Interactive Studio Container -->
+        <div id="ieltsStudioContainer" style="background:#FFFFFF; border:1.5px solid #BFDBFE; border-radius:20px; padding:20px; margin-bottom:16px; box-shadow:0 10px 30px rgba(0,0,0,0.04);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span id="ieltsPartBadge" style="font-size:12px; font-weight:800; color:#1E40AF; background:#DBEAFE; padding:4px 10px; border-radius:8px;">Part 1: Introductory Warmup</span>
+                <span id="ieltsTimerDisplay" style="font-size:12px; font-weight:800; color:#D97706;">⏱️ 01:00 Timer Ready</span>
+            </div>
+            
+            <h4 id="ieltsQuestionTitle" style="font-size:16px; color:#0F172A; margin:0 0 12px 0; line-height:1.4;">"Describe a memorable journey you took in Bangladesh."</h4>
+            <div id="ieltsCueBullets" style="font-size:12px; color:#475569; background:#F8FAFC; padding:12px; border-radius:12px; margin-bottom:16px; line-height:1.6;">
+                • Where you went<br>
+                • Who you went with<br>
+                • What you did there<br>
+                • And explain why this journey was so memorable to you.
+            </div>
+
+            <div style="display:flex; gap:10px;">
+                <button onclick="startIeltsTimer(60)" style="flex:1; background:#D97706; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">⏱️ Start 1-Min Prep</button>
+                <button onclick="openServiceWorkspace('aiTutor')" style="flex:1; background:#1E40AF; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">🎙️ Record Monologue with AI</button>
+            </div>
+        </div>
+
+        <!-- Band Score Rating Card -->
+        <div style="background:#F0F9FF; border:1px solid #BAE6FD; border-radius:16px; padding:14px; text-align:center;">
+            <strong style="font-size:13px; color:#0369A1; display:block; margin-bottom:2px;">🏆 Target IELTS Band: 8.0+</strong>
+            <span style="font-size:11px; color:#64748B;">AI Examiner evaluates Lexical Resource, Fluency, & Grammar Accuracy</span>
+        </div>
+    </div>
+
+
+    <!-- 🏛️ BCS CADRE VIVA PORTAL WORKSPACE -->
+    <div id="bcsWorkspaceTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #059669 0%, #047857 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(5,150,105,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">PSC Viva Board Simulation</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">Cadre Pitch & History</span>
+            </div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">🏛️ BCS Cadre Viva Portal</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Master 1971 Liberation War history, Constitution, & 1st Cadre Preference in English</p>
+        </div>
+
+        <!-- BCS Topic Filter Pills -->
+        <div style="display:flex; gap:8px; margin-bottom:16px; overflow-x:auto; padding-bottom:4px;">
+            <button onclick="switchBcsTopic('history', this)" class="bcs-topic-btn active" style="background:#059669; color:white; border:none; padding:10px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">1971 Liberation War</button>
+            <button onclick="switchBcsTopic('constitution', this)" class="bcs-topic-btn" style="background:#F1F5F9; color:#475569; border:none; padding:10px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Constitution in English</button>
+            <button onclick="switchBcsTopic('cadrePitch', this)" class="bcs-topic-btn" style="background:#F1F5F9; color:#475569; border:none; padding:10px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Cadre Preference Pitch</button>
+        </div>
+
+        <!-- BCS Question Card Container -->
+        <div id="bcsQuestionContainer" style="background:#FFFFFF; border:1.5px solid #A7F3D0; border-radius:20px; padding:20px; margin-bottom:16px; box-shadow:0 10px 30px rgba(0,0,0,0.04);">
+            <span style="font-size:11px; font-weight:800; color:#059669; background:#D1FAE5; padding:4px 10px; border-radius:8px; display:inline-block; margin-bottom:8px;">Frequently Asked PSC Viva Question</span>
+            <h4 id="bcsQuestionText" style="font-size:16px; color:#0F172A; margin:0 0 10px 0; line-height:1.4;">"Why did you choose BCS Administration / Foreign Affairs as your 1st preference?"</h4>
+            
+            <div style="font-size:12px; color:#047857; background:#ECFDF5; padding:12px; border-radius:12px; margin-bottom:16px; line-height:1.5;">
+                💡 <strong>Model Spoken Response:</strong><br>
+                "Honorable Board, I chose BCS Administration because it provides a direct platform to serve citizens at the grassroots level, implement government policies, and lead public administration effectively..."
+            </div>
+
+            <button onclick="openServiceWorkspace('aiTutor')" style="width:100%; background:#059669; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">🎙️ Practice Answer with PSC AI Member</button>
+        </div>
+    </div>
+
+
+    <!-- 💼 BANK & OTHER JOB VIVA SUITE WORKSPACE -->
+    <div id="jobWorkspaceTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #6D28D9 0%, #7C3AED 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(109,40,217,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">Corporate & Banking Suite</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">STAR Method & Salary</span>
+            </div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">💼 Bank & Other Job Viva Suite</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Master self-introductions, technical behavioral pitches, & salary negotiation</p>
+        </div>
+
+        <!-- Job Track Selector Pills -->
+        <div style="display:flex; gap:8px; margin-bottom:16px; overflow-x:auto; padding-bottom:4px;">
+            <button onclick="switchJobTrack('star', this)" class="job-track-btn active" style="background:#6D28D9; color:white; border:none; padding:10px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">STAR Framework</button>
+            <button onclick="switchJobTrack('intro', this)" class="job-track-btn" style="background:#F1F5F9; color:#475569; border:none; padding:10px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">60-Sec Self Intro</button>
+            <button onclick="switchJobTrack('salary', this)" class="job-track-btn" style="background:#F1F5F9; color:#475569; border:none; padding:10px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Salary Negotiation</button>
+        </div>
+
+        <!-- STAR Framework Question Card -->
+        <div id="jobQuestionContainer" style="background:#FFFFFF; border:1.5px solid #DDD6FE; border-radius:20px; padding:20px; margin-bottom:16px; box-shadow:0 10px 30px rgba(0,0,0,0.04);">
+            <span style="font-size:11px; font-weight:800; color:#6D28D9; background:#EDE9FE; padding:4px 10px; border-radius:8px; display:inline-block; margin-bottom:8px;">STAR Behavioral Interview Question</span>
+            <h4 id="jobQuestionText" style="font-size:16px; color:#0F172A; margin:0 0 10px 0; line-height:1.4;">"Tell me about a time you solved a complex problem under tight deadline."</h4>
+            
+            <div style="font-size:12px; color:#5B21B6; background:#F5F3FF; padding:12px; border-radius:12px; margin-bottom:16px; line-height:1.6;">
+                <strong>S (Situation):</strong> Context of the project.<br>
+                <strong>T (Task):</strong> What needed to be achieved.<br>
+                <strong>A (Action):</strong> Your specific leadership step.<br>
+                <strong>R (Result):</strong> Quantitative outcome (e.g. +25% efficiency).
+            </div>
+
+            <button onclick="openServiceWorkspace('aiTutor')" style="width:100%; background:#6D28D9; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">🎙️ Practice Pitch with Corporate AI Interviewer</button>
+        </div>
+    </div>
+
+id="practiceTab" class="tab-content-page" style="display:none;">
 <div class="top-header">
         <div class="brand-group">
             <img src="data:image/png;base64,""" + b64 + """" class="logo" onclick="logoClickAdminToggle()" title="Triple-click for Admin Dashboard">
@@ -1210,10 +1325,10 @@
         document.getElementById('adminModal').style.display = 'flex';
     }
 
-    function renderAdminUserList(usersToRender) {
+        function renderAdminUserList(usersToRender) {
         const listContainer = document.getElementById('adminUserList');
+        if (!listContainer) return;
         const paidCount = usersToRender.filter(u => u.isPaid).length;
-        
         document.getElementById('adminTotalLearners').innerText = usersToRender.length;
         document.getElementById('adminPaidUsers').innerText = paidCount;
         document.getElementById('adminTotalRevenue').innerText = (paidCount * 50) + " BDT";
@@ -1221,28 +1336,23 @@
         if (usersToRender.length === 0) {
             listContainer.innerHTML = '<div style="color:#64748B; text-align:center; padding:15px;">No learners found.</div>';
         } else {
-            listContainer.innerHTML = usersToRender.map((u, i) => `
-                <div class="data-item">
-                    <div style="display:flex; justify-content:space-between; align-items:center;">
-                        <div style="color:#0284C7; font-weight:800;">#${i + 1} 👤 ${u.name}</div>
-                        <span style="font-size:10px; font-weight:800; padding:2px 6px; border-radius:4px; background:${u.isPaid ? '#22C55E' : '#EF4444'}; color:white;">${u.isPaid ? 'PAID ACTIVE' : 'FREE TRIAL'}</span>
-                    </div>
-                    <div style="font-size:11px; color:#64748B; margin-top:2px;">📍 Location: <strong>${u.location || 'Dhaka, Bangladesh'}</strong> • 📧 ${u.email}</div>
-                    <div style="font-size:11px; color:#64748B;">🗣️ Practice: ${u.sentences || 0} Sentences • Signup: ${u.date || '2026-08-25'}</div>
-                    ${u.trxId ? `<div style="color:#D97706; font-size:12px; font-weight:700; margin-top:2px;">💳 bKash TrxID: ${u.trxId}</div>` : ''}
-                    ';
-        } else {
-            historyList.innerHTML = historyData.map((h, i) => `
-                <div class="data-item">
-                    <div class="data-date">📅 ${h.date} [${h.topic}] - Pronunciation Score: ${h.score}%</div>
-                    <div style="color: #D97706;">🗣️ <strong>You Spoke:</strong> ${h.userText}</div>
-                    <div style="color: #0284C7;">🤖 <strong>SpeakUP AI:</strong> ${h.aiReply}</div>
-                    <button class="translate-btn" onclick="toggleBanglaTranslation(this, '${h.aiReply.replace(/'/g, "\\'")}')">🇧🇩 Translate to Bangla</button>
-                    <button class="play-audio-btn" data-text="${encodeURIComponent(h.aiReply)}" onclick="playHistoryAudio(this)">🔊 Re-listen Audio</button>
-                </div>
-            `).join('');
+            let html = '';
+            usersToRender.forEach((u, i) => {
+                const statusBg = u.isPaid ? '#22C55E' : '#EF4444';
+                const statusTxt = u.isPaid ? 'PAID ACTIVE' : 'FREE TRIAL';
+                html += '<div class="data-item" style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:10px; padding:10px; margin-bottom:8px;">';
+                html += '<div style="display:flex; justify-content:space-between; align-items:center;">';
+                html += '<div style="color:#0284C7; font-weight:800;">#' + (i + 1) + ' 👤 ' + u.name + '</div>';
+                html += '<span style="font-size:10px; font-weight:800; padding:2px 6px; border-radius:4px; background:' + statusBg + '; color:white;">' + statusTxt + '</span>';
+                html += '</div>';
+                html += '<div style="font-size:11px; color:#64748B; margin-top:2px;">📍 Location: <strong>' + (u.location || 'Dhaka, Bangladesh') + '</strong> • 📧 ' + u.email + '</div>';
+                html += '<div style="font-size:11px; color:#64748B;">🗣️ Practice: ' + (u.sentences || 0) + ' Sentences</div>';
+                html += '</div>';
+            });
+            listContainer.innerHTML = html;
         }
     }
+
 
     function downloadDailySummarySheet() {
         const name = currentUser ? currentUser.name : "Learner";
@@ -1510,15 +1620,15 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
             targetId = 'realPartnerTab';
             labelText = '👥 REAL PARTNER LIVE WEBRTC CALL';
         } else if (serviceId === 'ieltsStudio') {
-            targetId = 'practiceTab';
+            targetId = 'ieltsWorkspaceTab';
             labelText = '✈️ IELTS BAND 8.0 SPEAKING STUDIO';
             if (typeof selectTopicByName === 'function') selectTopicByName('1-Month IELTS Speaking & AI Mock Test');
         } else if (serviceId === 'bcsViva') {
-            targetId = 'practiceTab';
+            targetId = 'bcsWorkspaceTab';
             labelText = '🏛️ BCS CADRE VIVA PORTAL';
             if (typeof selectTopicByName === 'function') selectTopicByName('BCS and Govt Viva Exam');
         } else if (serviceId === 'jobViva') {
-            targetId = 'practiceTab';
+            targetId = 'jobWorkspaceTab';
             labelText = '💼 BANK & JOB VIVA SUITE';
             if (typeof selectTopicByName === 'function') selectTopicByName('Bank and IT Job Interview');
         } else if (serviceId === 'ipaLab') {
