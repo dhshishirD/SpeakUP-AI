@@ -2067,8 +2067,8 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         }
 
         // 2. Direct Client fallback if custom key exists
-        if (userSavedKey && userSavedKey.startsWith("AIzaSy")) {
-            const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash-exp", "gemini-2.5-flash"];
+        if (userSavedKey && userSavedKey.length > 15) {
+            const modelsToTry = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest", "gemini-1.5-flash"];
             for (let model of modelsToTry) {
                 try {
                     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${userSavedKey}`;
@@ -2411,7 +2411,7 @@ Return only the spoken script formatted cleanly.`;
         const label = document.getElementById('apiKeyStatusLabel');
         const key = localStorage.getItem('speakup_user_api_key');
         if (label) {
-            if (key && key.startsWith("AIzaSy")) {
+            if (key && key.length > 15) {
                 label.innerText = "Gemini AI Active 🟢";
             } else {
                 label.innerText = "Free Engine";

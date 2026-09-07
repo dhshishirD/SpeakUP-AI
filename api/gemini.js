@@ -1,5 +1,5 @@
 // Vercel Serverless Function: World-Class Gemini AI Proxy
-// Secure API Key Handling via Environment Variables & User Input (Zero Hardcoded Keys)
+// Priority: gemini-3.6-flash + Multi-Model Fallback
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
@@ -21,10 +21,11 @@ export default async function handler(req, res) {
         }
 
         const modelsToTry = [
+            "gemini-3.6-flash",
+            "gemini-3.5-flash",
+            "gemini-flash-latest",
             "gemini-1.5-flash",
-            "gemini-2.0-flash-exp",
-            "gemini-2.5-flash",
-            "gemini-1.5-pro"
+            "gemini-2.5-flash"
         ];
 
         let lastError = null;
