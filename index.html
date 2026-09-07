@@ -1586,6 +1586,22 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
     }
 
 
+    
+    function updateUserUI() {
+        try {
+            const userAvatar = document.getElementById('userAvatar');
+            const userNameNav = document.getElementById('userNameNav');
+            if (currentUser) {
+                if (userAvatar) userAvatar.innerText = currentUser.name.charAt(0).toUpperCase();
+                if (userNameNav) userNameNav.innerText = currentUser.name;
+            } else {
+                if (userAvatar) userAvatar.innerText = "G";
+                if (userNameNav) userNameNav.innerText = "Guest";
+            }
+        } catch(e){}
+    }
+
+
     function openServiceWorkspace(serviceId) {
         console.log("OPENING WORKSPACE:", serviceId);
 
