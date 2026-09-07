@@ -948,21 +948,24 @@
     <div id="vocabTab" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #059669 0%, #10B981 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(5,150,105,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">500+ Academic Words</span>
-                <span style="font-size:11px; opacity:0.9; font-weight:700;">Bangla Meaning & Audio</span>
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">3,978+ Spoken & Viva Words</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">Bangla Meaning & IPA Audio</span>
             </div>
             <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">📖 Dynamic Vocab Bank Dictionary</h3>
-            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Boost your IELTS, BCS & Interview vocabulary with instant audio pronunciation</p>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Boost your IELTS, BCS Viva & Interview vocabulary with instant audio pronunciation</p>
         </div>
+
+        <!-- Category Filter Pills Bar -->
+        <div id="vocabCategoryPills" style="display:flex; gap:6px; overflow-x:auto; padding-bottom:8px; margin-bottom:12px;"></div>
 
         <!-- Live Search Bar -->
         <div style="position:relative; margin-bottom:14px;">
-            <input type="text" id="vocabSearchInput" onkeyup="searchAndAddVocabCard(this.value)" placeholder="🔍 Search or Add New Spoken Word (e.g. Eloquent)..." style="width:100%; box-sizing:border-box; padding:14px 16px; border:1.5px solid #CBD5E1; border-radius:16px; font-size:13px; font-weight:700; outline:none; background:#FFFFFF; box-shadow:0 4px 12px rgba(0,0,0,0.03);">
+            <input type="text" id="vocabSearchInput" onkeyup="searchAndAddVocabCard(this.value)" placeholder="🔍 Search across 3,978 words (e.g. Abrogate, বিচারক, লায়ার)..." style="width:100%; box-sizing:border-box; padding:14px 16px; border:1.5px solid #CBD5E1; border-radius:16px; font-size:13px; font-weight:700; outline:none; background:#FFFFFF; box-shadow:0 4px 12px rgba(0,0,0,0.03);">
         </div>
 
         <!-- Dynamic Vocab Container -->
         <div id="vocabList" style="min-height:300px;">
-            <!-- Populated via JS renderVocabCards() -->
+            <!-- Populated via JS VocabEngine -->
         </div>
     </div>
 
@@ -2427,6 +2430,6 @@ Return only the spoken script formatted cleanly.`;
         drawPitchCanvas();
     });
 </script>
-
+<script src="js/vocab_engine.js"></script>
 </body>
 </html>

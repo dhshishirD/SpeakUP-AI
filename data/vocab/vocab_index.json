@@ -1,0 +1,71 @@
+{
+  "total_vocab_count": 3978,
+  "categories": [
+    {
+      "id": "bcs",
+      "name": "Govt Viva & BCS Cadre",
+      "word_count": 1406,
+      "file": "vocab_bcs.json",
+      "sub_categories": [
+        "1971 Liberation War & Constitution",
+        "Cadre Choice Pitch",
+        "Public Administration"
+      ]
+    },
+    {
+      "id": "law",
+      "name": "Law & Judiciary",
+      "word_count": 332,
+      "file": "vocab_law.json",
+      "sub_categories": [
+        "Courtroom & Trial Terms",
+        "Penal Code & Criminal Law",
+        "Writs & Rights"
+      ]
+    },
+    {
+      "id": "travel",
+      "name": "Travel & Hospitality",
+      "word_count": 243,
+      "file": "vocab_travel.json",
+      "sub_categories": [
+        "Airport & Immigration",
+        "Hotel & Reservation",
+        "Sightseeing & Emergency"
+      ]
+    },
+    {
+      "id": "personality",
+      "name": "Personality & Character",
+      "word_count": 1194,
+      "file": "vocab_personality.json",
+      "sub_categories": [
+        "Positive Qualities",
+        "Behavioral Flaws",
+        "Emotional Expressions"
+      ]
+    },
+    {
+      "id": "national",
+      "name": "National & State Affairs",
+      "word_count": 633,
+      "file": "vocab_national.json",
+      "sub_categories": [
+        "Mourning & Tributes",
+        "Diplomatic Protocol",
+        "Media & Press"
+      ]
+    },
+    {
+      "id": "corporate",
+      "name": "Corporate & IELTS Academic",
+      "word_count": 170,
+      "file": "vocab_corporate.json",
+      "sub_categories": [
+        "IELTS Band 8+ Academic",
+        "Business & Salary",
+        "Tech & Innovation"
+      ]
+    }
+  ]
+}
