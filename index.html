@@ -294,6 +294,118 @@
     }
 </style>
 
+
+    <!-- SUPER PREMIUM GOOGLE FONTS & STYLES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        /* SUPER PREMIUM SILICON VALLEY LUXURY DESIGN SYSTEM */
+        :root {
+            --brand-gradient: linear-gradient(135deg, #0284C7 0%, #2563EB 50%, #7C3AED 100%);
+            --card-glass: rgba(255, 255, 255, 0.92);
+            --card-border: rgba(226, 232, 240, 0.8);
+            --shadow-luxury: 0 20px 40px -12px rgba(15, 23, 42, 0.08);
+            --shadow-glow: 0 20px 40px -10px rgba(2, 132, 199, 0.3);
+        }
+
+        body {
+            background: #F8FAFC !important;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(2, 132, 199, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(124, 58, 237, 0.08) 0px, transparent 50%) !important;
+            font-family: 'Plus Jakarta Sans', sans-serif !important;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .main-app-container {
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        .super-premium-badge {
+            background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+            border: 1px solid #FCD34D;
+            color: #B45309;
+            font-size: 10px;
+            font-weight: 900;
+            letter-spacing: 0.8px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            box-shadow: 0 2px 8px rgba(217, 119, 6, 0.15);
+        }
+
+        .grid-card-premium {
+            background: var(--card-glass);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1.5px solid var(--card-border);
+            border-radius: 22px;
+            padding: 16px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+            box-shadow: var(--shadow-luxury);
+            position: relative;
+        }
+
+        .grid-card-premium:hover {
+            border-color: #0284C7;
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .grid-card-premium:active {
+            transform: translateY(-1px) scale(0.99);
+        }
+
+        .icon-box-3d {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+
+        /* Animated Mic Orb */
+        .mic-orb-pro {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: var(--brand-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            color: white;
+            font-size: 32px;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(2, 132, 199, 0.4);
+            transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .mic-orb-pro.recording {
+            animation: orb-pulse 1.4s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+            background: linear-gradient(135deg, #DC2626 0%, #EF4444 100%);
+            box-shadow: 0 10px 35px rgba(220, 38, 38, 0.55);
+        }
+
+        @keyframes orb-pulse {
+            0% { transform: scale(0.98); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); }
+            70% { transform: scale(1.08); box-shadow: 0 0 0 20px rgba(220, 38, 38, 0); }
+            100% { transform: scale(0.98); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+        }
+    </style>
+
 </head>
 <body>
 
@@ -1094,7 +1206,7 @@
         renderAdminUserList(filtered);
     }
 
-        function exportAdminCSV() {
+            function exportAdminCSV() {
         let csvContent = "data:text/csv;charset=utf-8,Number,Name,Email,Location,Status,Sentences,bKash_TrxID,Date\n";
         registeredUsers.forEach((u, i) => {
             csvContent += (i + 1) + ',"' + u.name + '","' + u.email + '","' + (u.location || 'Dhaka, Bangladesh') + '","' + (u.isPaid ? 'PAID' : 'FREE') + '",' + (u.sentences || 0) + ',"' + (u.trxId || '') + '","' + (u.date || '2026-08-25') + '"\n';
