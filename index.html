@@ -587,26 +587,40 @@
             </div>
 
     <!-- 👥 REAL PARTNER LIVE WEBRTC CALL WORKSPACE -->
+    
+    <!-- 👥 REAL PARTNER LIVE WEBRTC CALL WORKSPACE -->
     <div id="realPartnerTab" class="tab-content-page" style="display:none;">
-        <div style="background:linear-gradient(135deg, #D97706 0%, #F59E0B 100%); color:white; border-radius:18px; padding:16px; margin-bottom:14px; text-align:left; box-shadow:0 8px 24px rgba(217,119,6,0.2);">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-                <span style="font-size:11px; background:#10B981; color:white; font-weight:900; padding:3px 10px; border-radius:10px;">WebRTC Live Stream</span>
-                <span style="font-size:11px; opacity:0.9;">1-on-1 Voice Call</span>
+        <div style="background:linear-gradient(135deg, #D97706 0%, #F59E0B 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(217,119,6,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:#10B981; color:white; font-weight:900; padding:4px 12px; border-radius:12px; letter-spacing:0.5px;">🟢 WebRTC Live Stream</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">1-on-1 Voice Call</span>
             </div>
-            <h3 style="margin:0; font-size:18px; font-family:'Montserrat',sans-serif;">👥 Real Spoken Partner Studio</h3>
-            <p style="font-size:11px; opacity:0.9; margin:4px 0 0 0;">Practice 1-on-1 Live Voice Call with Friends & Community Members</p>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">👥 Real Spoken Partner Studio</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Practice 1-on-1 Live Voice Calls with Friends & Global Community Members</p>
         </div>
 
-        <div style="background:#FFFFFF; border:1.5px solid #FDE68A; border-radius:16px; padding:16px; text-align:center; margin-bottom:14px;">
-            <div style="font-size:32px; margin-bottom:6px;">🎙️</div>
-            <strong style="font-size:15px; color:#0F172A; display:block; margin-bottom:4px;">Join or Host Live Voice Room</strong>
-            <p style="font-size:11px; color:#64748B; margin:0 0 12px 0;">Share your 4-digit room code with a friend to start talking live!</p>
+        <div style="background:#FFFFFF; border:1.5px solid #FDE68A; border-radius:20px; padding:20px; text-align:center; margin-bottom:16px; box-shadow:0 10px 30px rgba(0,0,0,0.04);">
+            <div style="font-size:40px; margin-bottom:8px;">🎙️</div>
+            <strong style="font-size:16px; color:#0F172A; display:block; margin-bottom:4px;">Join or Host Live Voice Room</strong>
+            <p style="font-size:12px; color:#64748B; margin:0 0 16px 0;">Share your 4-digit room code with a friend to start talking live!</p>
 
-            <input type="text" id="peerRoomInput" class="modal-input" placeholder="Enter 4-Digit Room Code (e.g. 5821)" style="max-width:260px; margin:0 auto 10px auto; text-align:center; font-weight:800; font-size:14px; letter-spacing:1px;">
-            <div style="display:flex; gap:8px; justify-content:center;">
-                <button onclick="startPeerCall()" style="background:#D97706; color:white; border:none; padding:10px 20px; border-radius:10px; font-weight:800; font-size:12px; cursor:pointer;">📞 Connect Live Call</button>
-                <button onclick="generateRandomRoomCode()" style="background:#F1F5F9; color:#475569; border:none; padding:10px 14px; border-radius:10px; font-weight:800; font-size:12px; cursor:pointer;">🎲 New Code</button>
+            <div style="max-width:320px; margin:0 auto;">
+                <input type="text" id="peerRoomInput" placeholder="Enter 4-Digit Code (e.g. 5821)" style="width:100%; box-sizing:border-box; padding:12px; border:2px solid #F59E0B; border-radius:12px; text-align:center; font-weight:800; font-size:16px; letter-spacing:2px; margin-bottom:12px; outline:none;">
+                <div style="display:flex; gap:10px; justify-content:center;">
+                    <button onclick="startPeerCall()" style="flex:1; background:#D97706; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer; box-shadow:0 4px 12px rgba(217,119,6,0.3);">📞 Connect Live Call</button>
+                    <button onclick="generateRandomRoomCode()" style="background:#F1F5F9; color:#475569; border:none; padding:12px 16px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">🎲 New Code</button>
+                </div>
+                <button onclick="shareWhatsAppInvite()" style="width:100%; margin-top:10px; background:#25D366; color:white; border:none; padding:10px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px;">
+                    📲 Invite Friend on WhatsApp
+                </button>
             </div>
+        </div>
+
+        <div id="peerStatusCard" style="display:none; background:#ECFDF5; border:1.5px solid #6EE7B7; border-radius:16px; padding:14px; text-align:center; color:#065F46; font-weight:800; font-size:13px;">
+            🟢 Connected to Partner! Speak now into your microphone...
+        </div>
+    </div>
+
         </div>
     </div>
 
@@ -659,24 +673,42 @@
     </div>
 
     <!-- TAB 3: DEDICATED QUIZ & LISTENING LAB -->
-    <div id="quizTab" class="tab-content">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-            <div style="text-align:left; font-weight:800; color:#0284C7; font-size:14px;">📖 Spoken Quiz & Audio Story Lab</div>
-            <span style="background:#FEF3C7; color:#D97706; font-size:11px; font-weight:800; padding:2px 8px; border-radius:8px;" id="userXpBadge">⭐ 100 XP</span>
-        </div>
-
-        <!-- Feature 6: 1-Minute Audio Story Listening Lab -->
-        <div style="background:#F0F9FF; border:1.5px solid #BAE6FD; border-radius:14px; padding:12px; margin-bottom:12px; text-align:left;">
-            <div style="display:flex; justify-content:space-between; align-items:center;">
-                <strong style="color:#0369A1; font-size:13px;">🎧 1-Min Audio Story: "A Day in London"</strong>
-                <button onclick="playAudioStory()" style="background:#0284C7; color:white; border:none; padding:3px 10px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">▶️ Play Story</button>
+    
+    <!-- ❓ SPOKEN QUIZ ENGINE WORKSPACE -->
+    <div id="quizTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #0284C7 0%, #2563EB 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(2,132,199,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">Interactive Quiz</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">+100 XP Challenge</span>
             </div>
-            <p style="font-size:11px; color:#64748B; margin:4px 0 0 0;">Listen to the short story and test your listening comprehension below!</p>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">❓ Spoken Quizzes Engine</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Test your grammar, idioms, and listening comprehension in real-time</p>
         </div>
 
-        <!-- Dynamic Quiz Card -->
-        <div class="wod-banner" id="quizContainer">
-            <div style="font-weight:800; color:#0284C7; font-size:13px;" id="quizQuestionText">❓ Question 1: What is the correct way to express agreement in English?</div>
+        <!-- Quiz Progress Card -->
+        <div style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:20px; padding:18px; margin-bottom:16px; box-shadow:0 10px 30px rgba(0,0,0,0.04);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span id="quizQuestionNum" style="font-size:12px; font-weight:800; color:#0284C7;">Question 1 of 10</span>
+                <span id="quizScoreText" style="font-size:12px; font-weight:800; color:#059669;">Score: 0 XP</span>
+            </div>
+            
+            <h4 id="quizQuestionText" style="font-size:15px; color:#0F172A; margin:0 0 16px 0; line-height:1.4;">Select the correct response: "How are you doing today?"</h4>
+
+            <!-- Options Grid -->
+            <div id="quizOptionsContainer" style="display:grid; grid-template-columns:1fr; gap:10px;">
+                <button onclick="checkQuizAnswer(0, this)" style="background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:12px; padding:12px; text-align:left; font-weight:700; font-size:13px; color:#334155; cursor:pointer;">A. "I am doing well, thank you!"</button>
+                <button onclick="checkQuizAnswer(1, this)" style="background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:12px; padding:12px; text-align:left; font-weight:700; font-size:13px; color:#334155; cursor:pointer;">B. "Yes, I am do."</button>
+                <button onclick="checkQuizAnswer(2, this)" style="background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:12px; padding:12px; text-align:left; font-weight:700; font-size:13px; color:#334155; cursor:pointer;">C. "I am go to market."</button>
+                <button onclick="checkQuizAnswer(3, this)" style="background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:12px; padding:12px; text-align:left; font-weight:700; font-size:13px; color:#334155; cursor:pointer;">D. "Yesterday was rain."</button>
+            </div>
+
+            <!-- Quiz Feedback Banner -->
+            <div id="quizFeedbackBanner" style="display:none; margin-top:14px; padding:12px; border-radius:12px; text-align:center; font-weight:800; font-size:13px;"></div>
+            
+            <button id="nextQuizBtn" onclick="nextQuizQuestion()" style="display:none; width:100%; margin-top:14px; background:#0284C7; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer;">Next Question ➔</button>
+        </div>
+    </div>
+
             <div style="display:flex; flex-direction:column; gap:6px; margin-top:8px;" id="quizOptionsContainer">
                 <button onclick="submitQuizAnswer(true, this)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; padding:8px; border-radius:8px; font-weight:700; font-size:11px; cursor:pointer; text-align:left;">A. "I agree with your point." ✓</button>
                 <button onclick="submitQuizAnswer(false, this)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; padding:8px; border-radius:8px; font-weight:700; font-size:11px; cursor:pointer; text-align:left;">B. "I am agree with you."</button>
@@ -694,41 +726,58 @@
     </div>
 
     <!-- TAB 4: DEDICATED SEPARATE 44 IPA & VOICE SHADOWING LAB -->
-    <div id="ipaTab" class="tab-content">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-            <div style="text-align:left; font-weight:800; color:#15803D; font-size:14px;">🎙️ Full 44 IPA & Voice Shadowing (ELSA Style)</div>
-            <select id="ipaCategoryFilter" onchange="filterIpaList(this.value)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; border-radius:8px; padding:3px 8px; font-size:11px; font-weight:700;">
-                <option value="all">All 44 Sounds</option>
-                <option value="consonants">24 Consonants</option>
-                <option value="vowels">12 Vowels</option>
-                <option value="diphthongs">8 Diphthongs</option>
-            </select>
+    
+    <!-- 🎙️ 44 IPA PHONETICS LAB WORKSPACE -->
+    <div id="ipaTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #DC2626 0%, #EF4444 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(220,38,38,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">44 Sounds Audio Engine</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">BBC Standard English</span>
+            </div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">🎙️ 44 IPA Phonetics Sound Lab</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Master native British & American pronunciation with shadow voice feedback</p>
         </div>
 
-        <div class="data-list" id="ipaListContainer" style="max-height:260px;">
-            <!-- Loaded dynamically with all 44 sounds, pitch wave, and live mic testing -->
+        <!-- Filter Category Pills -->
+        <div style="display:flex; gap:8px; overflow-x:auto; padding-bottom:10px; margin-bottom:14px;">
+            <button onclick="renderIpaSoundList('all')" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">All 44 Sounds</button>
+            <button onclick="renderIpaSoundList('vowel')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Vowels (12)</button>
+            <button onclick="renderIpaSoundList('diphthong')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Diphthongs (8)</button>
+            <button onclick="renderIpaSoundList('consonant')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Consonants (24)</button>
+        </div>
+
+        <!-- Dynamic IPA Sound Container -->
+        <div id="ipaListContainer" style="min-height:300px;">
+            <!-- Populated via JS renderIpaSoundList() -->
         </div>
     </div>
 
+    </div>
+
     <!-- TAB 5: HIGH-YIELD VOCABULARY & CULTURAL IDIOMS BANK -->
-    <div id="vocabTab" class="tab-content">
-        <!-- Feature 7: Cultural Idiom & Slang of the Day Banner -->
-        <div style="background:#FEF3C7; border:1.5px solid #FCD34D; border-radius:14px; padding:10px 14px; margin-bottom:12px; text-align:left;">
-            <div style="display:flex; justify-content:space-between; align-items:center;">
-                <strong style="color:#78350F; font-size:13px;">💡 Idiom of the Day: "Break a leg"</strong>
-                <button onclick="speakOut('Break a leg')" style="background:#D97706; color:white; border:none; padding:2px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Audio</button>
+    
+    <!-- 📖 DYNAMIC VOCABULARY DICTIONARY WORKSPACE -->
+    <div id="vocabTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #059669 0%, #10B981 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(5,150,105,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">500+ Academic Words</span>
+                <span style="font-size:11px; opacity:0.9; font-weight:700;">Bangla Meaning & Audio</span>
             </div>
-            <div style="color:#B45309; font-size:12px; font-weight:700; margin-top:2px;">🇧🇩 অর্থ: শুভকামনা (Good luck!)</div>
-            <div style="color:#78350F; font-size:11px; margin-top:3px;">💬 Example: "Break a leg in your BCS job interview today!"</div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">📖 Dynamic Vocab Bank Dictionary</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Boost your IELTS, BCS & Interview vocabulary with instant audio pronunciation</p>
         </div>
 
-        <div style="text-align: left; font-weight: 800; margin-bottom: 8px; font-size: 14px; color: #15803D;">📚 High-Yield Spoken Vocabulary Bank</div>
-        <div class="data-list" id="vocabListPro">
-            <div class="vocab-card-pro">
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <strong style="color:#0284C7; font-size:15px;">Resilient <span class="ipa-badge">/rɪˈzɪl.jənt/</span></strong>
-                    <button onclick="speakOut('Resilient')" style="background:#0284C7; color:white; border:none; padding:2px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Audio</button>
-                </div>
+        <!-- Live Search Bar -->
+        <div style="position:relative; margin-bottom:14px;">
+            <input type="text" id="vocabSearchInput" onkeyup="searchAndAddVocabCard(this.value)" placeholder="🔍 Search or Add New Spoken Word (e.g. Eloquent)..." style="width:100%; box-sizing:border-box; padding:14px 16px; border:1.5px solid #CBD5E1; border-radius:16px; font-size:13px; font-weight:700; outline:none; background:#FFFFFF; box-shadow:0 4px 12px rgba(0,0,0,0.03);">
+        </div>
+
+        <!-- Dynamic Vocab Container -->
+        <div id="vocabList" style="min-height:300px;">
+            <!-- Populated via JS renderVocabCards() -->
+        </div>
+    </div>
+
                 <div style="color:#B45309; font-size:12px; font-weight:700; margin-top:2px;">🇧🇩 বাংলা অর্থ: সহনশীল / স্থিতিস্থাপক</div>
                 <div style="color:#64748B; font-size:11px; margin-top:4px;">💬 Example: "Bangladeshi youth are hardworking and resilient."</div>
             </div>
