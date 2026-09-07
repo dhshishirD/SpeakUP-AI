@@ -465,10 +465,13 @@
     <!-- TIER 1: MAIN SERVICE GRID CATALOG HUB -->
     <div id="serviceGridHub" class="tab-content-page active" style="display:block;">
         
-        <!-- Header Utility Bar (Theme Toggle & Level Placement Diagnostic Trigger) -->
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+        <!-- Header Utility Bar (Theme Toggle, AI Key, & Level Placement Diagnostic Trigger) -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:6px;">
             <button onclick="toggleDarkMode()" class="theme-toggle-btn">
                 <span id="themeToggleIcon">🌙</span> <span id="themeToggleText">Dark Mode</span>
+            </button>
+            <button onclick="openApiKeyModal()" style="background:#FEF3C7; border:1px solid #FCD34D; color:#92400E; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
+                🔑 AI Key (<span id="apiKeyStatusLabel">Free Engine</span>)
             </button>
             <button onclick="openOnboardingModal()" style="background:#F0F9FF; border:1px solid #BAE6FD; color:#0369A1; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
                 🎯 Level Diagnostic (<span id="userLevelBadge">CEFR B1</span>)
@@ -1242,6 +1245,27 @@
         <div style="display:flex; gap:10px;">
             <button onclick="generateStarPitchAnswer()" style="flex:1; padding:12px; background:#6D28D9; color:white; border:none; border-radius:12px; font-weight:800; cursor:pointer;">✨ Generate AI Pitch</button>
             <button onclick="closeStarBuilderModal()" style="padding:12px 16px; background:#64748B; color:white; border:none; border-radius:12px; font-weight:700; cursor:pointer;">Close</button>
+    </div>
+</div>
+
+<!-- 🔑 Custom AI Key Modal -->
+<div class="modal-overlay" id="apiKeyModal">
+    <div class="modal-box" style="max-width:460px;">
+        <h3 style="margin-top:0; color:#D97706; font-size:20px;">🔑 Google Gemini AI Key Setup</h3>
+        <p style="font-size:12px; color:#64748B; margin-bottom:12px;">Enter your free Google AI Studio API key for unlimited live Gemini AI model generation.</p>
+        
+        <input type="text" id="userGeminiKeyInput" class="modal-input" placeholder="Paste Gemini API Key (e.g. AIzaSy...)" style="margin-bottom:10px;">
+        
+        <div style="font-size:11px; color:#475569; background:#FEF3C7; border:1px solid #FDE68A; padding:10px; border-radius:10px; text-align:left; margin-bottom:14px;">
+            💡 <strong>How to get 100% Free Key in 30 Seconds:</strong><br>
+            1. Open <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:#D97706; font-weight:800;">Google AI Studio</a>.<br>
+            2. Click <strong>"Create API Key"</strong>.<br>
+            3. Paste your key above and click Save.
+        </div>
+
+        <div style="display:flex; gap:10px;">
+            <button onclick="saveUserApiKey()" style="flex:1; padding:12px; background:#D97706; color:white; border:none; border-radius:12px; font-weight:800; cursor:pointer;">Save API Key ➔</button>
+            <button onclick="closeApiKeyModal()" style="padding:12px 16px; background:#64748B; color:white; border:none; border-radius:12px; font-weight:700; cursor:pointer;">Close</button>
         </div>
     </div>
 </div>
@@ -1692,38 +1716,79 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
     }
 
     function getDynamicIntelligentDialogue(input) {
-        const lower = input.toLowerCase();
-
-        if (lower.includes("five points") || lower.includes("5 points")) {
-            return "Here are 5 key practice tips: 1. Speak out loud daily. 2. Record your voice. 3. Practice real-life scenarios. 4. Focus on phrases, not individual grammar rules. 5. Speak with SpeakUP AI regularly! What tip will you start with?";
-        }
-        if (lower.includes("how are you") || lower.includes("how r u")) {
-            return "I am doing fantastic, thank you for asking! Speaking with eager learners like you makes my day productive. How is your learning journey going today?";
-        }
-        if (lower.includes("productively") || lower.includes("how to practice")) {
-            return "To practice productively, pick a scenario like Job Interview or IELTS Speaking above, answer in complete sentences, and listen carefully to the speech feedback. What topic shall we try next?";
-        }
-        if (lower.includes("hello") || lower.includes("hi")) {
-            return "Hello there! It is wonderful to talk to you. What exciting topic or experience would you like to discuss today?";
-        }
-
+        const rawInput = (input || "").trim();
+        const lower = rawInput.toLowerCase();
+        
+        // 1. Detect common grammar errors & form corrections
+        let grammarCorrection = "";
         if (lower.includes("i am agree") || lower.includes("i'm agree")) {
-            return "Quick grammar tip: Say 'I agree' instead of 'I am agree'. What is your opinion on this topic?";
-        }
-        if (lower.includes("me too also")) {
-            return "Small correction: You can say 'Me as well' or 'I agree too'. Tell me more about what you mean!";
+            grammarCorrection = "💡 Quick grammar tip: Say 'I agree' instead of 'I am agree'. ";
+        } else if (lower.includes("me too also")) {
+            grammarCorrection = "💡 Small tip: Say 'Me as well' or 'I agree too'. ";
+        } else if (lower.includes("she do not") || lower.includes("he do not")) {
+            grammarCorrection = "💡 Grammar tip: Use 'does not' for he/she (e.g. 'She does not'). ";
+        } else if (lower.includes("yesterday i go")) {
+            grammarCorrection = "💡 Past tense tip: Say 'Yesterday I went'. ";
+        } else if (lower.includes("more better")) {
+            grammarCorrection = "💡 Tip: Say 'much better' or simply 'better'. ";
         }
 
-        const dynamicOpeners = [
-            `That is a very interesting point about "${input.slice(0, 30)}..."! How did you first get interested in this?`,
-            `I love how clearly you expressed that. Could you elaborate a bit more on what inspired your thought?`,
-            `Very well spoken! Speaking regularly like this will rapidly increase your fluency. What else is on your mind today?`,
-            `Great vocabulary choice! How do your friends or colleagues usually react when you share ideas like this?`,
-            `That sounds exciting! What is the next goal you are planning to achieve this week?`
-        ];
+        // 2. Extract key subject / noun phrases from input
+        const stopWords = new Set(["i", "me", "my", "we", "our", "you", "your", "he", "she", "it", "they", "am", "is", "are", "was", "were", "be", "been", "have", "has", "had", "do", "does", "did", "a", "an", "the", "and", "but", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "can", "will", "just", "should", "now", "want", "like", "talk", "speak", "think", "discuss", "discussing", "talking", "speaking"]);
 
-        const index = Math.abs(input.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0)) % dynamicOpeners.length;
-        return dynamicOpeners[index];
+        const words = rawInput.replace(/[^a-zA-Z0-9\s]/g, '').split(/\s+/).filter(w => w.length > 2);
+        const keywords = words.filter(w => !stopWords.has(w.toLowerCase()));
+
+        let mainSubject = keywords.length > 0 ? keywords.join(' ') : (words.length > 0 ? words[0] : 'your thoughts');
+
+        // 3. Match Active Persona
+        const personaKey = (typeof currentPersona !== 'undefined' ? currentPersona : 'sarah');
+        const persona = (typeof PERSONA_CONFIGS !== 'undefined' && PERSONA_CONFIGS[personaKey]) ? PERSONA_CONFIGS[personaKey] : { name: 'Sarah', role: 'Corporate HR' };
+
+        // 4. Generate dynamic response according to persona and detected subject
+        let responseText = "";
+
+        if (personaKey === 'sarah') {
+            if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
+                responseText = `Hello! Welcome to our interview preparation session. Tell me about yourself and what career path you are aiming for!`;
+            } else {
+                responseText = `${grammarCorrection}That is a valuable point regarding ${mainSubject}. In professional corporate settings, effectively communicating your experience with ${mainSubject} makes a great impression. How do you usually handle challenges in this area?`;
+            }
+        } else if (personaKey === 'david') {
+            if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
+                responseText = `Good day! Welcome to IELTS Speaking practice. Let us begin Part 1. Could you describe your hometown or your daily routine?`;
+            } else {
+                responseText = `${grammarCorrection}That is a well-articulated response about ${mainSubject}. To achieve Band 7.5+ in IELTS Speaking, try expanding on why ${mainSubject} is significant to you. Could you elaborate on its impact?`;
+            }
+        } else if (personaKey === 'rahim') {
+            if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
+                responseText = `Welcome candidate. As a prospective Cadre officer, express your thoughts clearly in English. What is your 1st cadre preference?`;
+            } else {
+                responseText = `${grammarCorrection}Honorable candidate, your perspective on ${mainSubject} is noted. In public administration, how would your understanding of ${mainSubject} help serve the citizens of Bangladesh effectively?`;
+            }
+        } else if (personaKey === 'maya') {
+            if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
+                responseText = `Hey there! Great to chat with you today! What fun topic or hobby are you excited to talk about right now?`;
+            } else {
+                responseText = `${grammarCorrection}Oh, I love talking about ${mainSubject}! That sounds so interesting. What got you into ${mainSubject} in the first place? Tell me more!`;
+            }
+        } else if (personaKey === 'james') {
+            if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
+                responseText = `Hello! I am James, your Phonetics coach. Pay close attention to word stress and vowel sounds as we speak!`;
+            } else {
+                responseText = `${grammarCorrection}Great articulation on '${mainSubject}'! Make sure to keep your vowel duration clear and maintain steady sentence stress. What other sound or word would you like to practice?`;
+            }
+        } else if (personaKey === 'zara') {
+            if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
+                responseText = `Welcome to the Bank Viva session! Are you ready to demonstrate your STAR behavioral interview skills today?`;
+            } else {
+                responseText = `${grammarCorrection}That is a relevant situation regarding ${mainSubject}. In bank officer vivas, framing this using the STAR method (Situation, Task, Action, Result) will impress the board. What specific action did you take?`;
+            }
+        } else {
+            responseText = `${grammarCorrection}That is a very insightful point about ${mainSubject}. Speaking regularly about topics like ${mainSubject} builds high spoken fluency. What else would you like to add to this discussion?`;
+        }
+
+        return responseText;
     }
 
     function saveUserData(userText, aiReply, score) {
@@ -1977,40 +2042,60 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
 
     // SECURE VERCEL SERVERLESS PROXY FETCH WITH CLIENT FALLBACK
     async function fetchGeminiAiResponse(contents, systemInstruction) {
+        const userSavedKey = localStorage.getItem('speakup_user_api_key');
+
         try {
             // 1. Try Vercel Serverless Function proxy (/api/gemini)
             const proxyRes = await fetch('/api/gemini', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ contents, systemInstruction, persona: typeof currentPersona !== 'undefined' ? currentPersona : 'sarah' })
+                body: JSON.stringify({
+                    contents,
+                    systemInstruction,
+                    persona: typeof currentPersona !== 'undefined' ? currentPersona : 'sarah',
+                    userApiKey: userSavedKey || undefined
+                })
             });
 
             if (proxyRes.ok) {
                 const proxyData = await proxyRes.json();
-                if (proxyData.candidates && proxyData.candidates[0].content.parts[0].text) {
+                if (proxyData.candidates && proxyData.candidates[0]?.content?.parts?.[0]?.text) {
                     return proxyData.candidates[0].content.parts[0].text;
                 }
             }
         } catch (e) {
-            console.log("Serverless proxy fallback to client direct API key:", e);
+            console.log("Serverless proxy fallback:", e);
         }
 
-        // 2. Client fallback
-        const clientKey = "AQ.Ab8RN6JEp5Ew6snucSDMw0FhGxqKinqE1ncmMrsVT0UE0O8vVQ";
-        const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=' + clientKey;
-        const payload = {
-            contents: contents,
-            systemInstruction: systemInstruction ? { parts: [{ text: systemInstruction }] } : undefined
-        };
+        // 2. Direct Client fallback if custom key exists
+        if (userSavedKey && userSavedKey.startsWith("AIzaSy")) {
+            const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash-exp", "gemini-2.5-flash"];
+            for (let model of modelsToTry) {
+                try {
+                    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${userSavedKey}`;
+                    const sysText = typeof systemInstruction === 'string' ? systemInstruction : (systemInstruction?.parts?.[0]?.text || '');
+                    const payload = {
+                        contents: contents,
+                        systemInstruction: sysText ? { parts: [{ text: sysText }] } : undefined
+                    };
 
-        const res = await fetch(url, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload)
-        });
+                    const res = await fetch(url, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
 
-        const data = await res.json();
-        return data.candidates[0].content.parts[0].text;
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data.candidates && data.candidates[0]?.content?.parts?.[0]?.text) {
+                            return data.candidates[0].content.parts[0].text;
+                        }
+                    }
+                } catch(e) {}
+            }
+        }
+
+        throw new Error("Using Generative NLP engine fallback.");
     }
 </script>
 
@@ -2298,10 +2383,48 @@ Return only the spoken script formatted cleanly.`;
         render();
     }
 
+    function openApiKeyModal() {
+        const modal = document.getElementById('apiKeyModal');
+        if (modal) modal.style.display = 'flex';
+        const input = document.getElementById('userGeminiKeyInput');
+        if (input) input.value = localStorage.getItem('speakup_user_api_key') || '';
+    }
+
+    function closeApiKeyModal() {
+        const modal = document.getElementById('apiKeyModal');
+        if (modal) modal.style.display = 'none';
+    }
+
+    function saveUserApiKey() {
+        const key = document.getElementById('userGeminiKeyInput').value.trim();
+        if (key) {
+            localStorage.setItem('speakup_user_api_key', key);
+            alert("🔑 Gemini API Key Saved Successfully! Live Gemini AI model activated.");
+        } else {
+            localStorage.removeItem('speakup_user_api_key');
+            alert("Default Generative NLP Engine active.");
+        }
+        updateApiKeyStatusLabel();
+        closeApiKeyModal();
+    }
+
+    function updateApiKeyStatusLabel() {
+        const label = document.getElementById('apiKeyStatusLabel');
+        const key = localStorage.getItem('speakup_user_api_key');
+        if (label) {
+            if (key && key.startsWith("AIzaSy")) {
+                label.innerText = "Gemini AI Active 🟢";
+            } else {
+                label.innerText = "Free Engine";
+            }
+        }
+    }
+
     // Auto-initialize theme & canvas on load
     document.addEventListener('DOMContentLoaded', () => {
         applyTheme();
         updateProfileUI();
+        updateApiKeyStatusLabel();
         drawPitchCanvas();
     });
 </script>

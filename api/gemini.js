@@ -1,5 +1,5 @@
 // Vercel Serverless Function: World-Class Gemini AI Proxy
-// Hidden API Key + Multi-Model Fallback + Persona Conditioning + Ultra-Low Latency
+// Supports Custom User Key + Server Key + Multi-Model Fallback
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
@@ -7,19 +7,19 @@ export default async function handler(req, res) {
     }
 
     try {
-        const { contents, systemInstruction, persona } = req.body;
-        const apiKey = process.env.GEMINI_API_KEY || "AQ.Ab8RN6JEp5Ew6snucSDMw0FhGxqKinqE1ncmMrsVT0UE0O8vVQ";
+        const { contents, systemInstruction, persona, userApiKey } = req.body;
+        const apiKey = userApiKey || process.env.GEMINI_API_KEY || "AQ.Ab8RN6JEp5Ew6snucSDMw0FhGxqKinqE1ncmMrsVT0UE0O8vVQ";
 
-        let sysText = systemInstruction?.parts?.[0]?.text || typeof systemInstruction === 'string' ? systemInstruction : "You are SpeakUP AI, a world-class intelligent Spoken English tutor for Bangladeshi learners.";
+        let sysText = typeof systemInstruction === 'string' ? systemInstruction : (systemInstruction?.parts?.[0]?.text || "You are SpeakUP AI, a world-class intelligent Spoken English tutor for Bangladeshi learners.");
         
         if (persona && typeof persona === 'object') {
             sysText = `[Active Persona: ${persona.name} (${persona.role})]. ${persona.instructions}\n` + sysText;
         }
 
         const modelsToTry = [
-            "gemini-2.5-flash",
             "gemini-1.5-flash",
-            "gemini-2.0-flash",
+            "gemini-2.0-flash-exp",
+            "gemini-2.5-flash",
             "gemini-1.5-pro"
         ];
 
@@ -33,7 +33,7 @@ export default async function handler(req, res) {
                     contents: contents || [],
                     systemInstruction: { parts: [{ text: sysText }] },
                     generationConfig: {
-                        temperature: 0.7,
+                        temperature: 0.75,
                         maxOutputTokens: 600
                     }
                 };
