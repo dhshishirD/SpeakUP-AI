@@ -1,5 +1,5 @@
 // Vercel Serverless Function: World-Class Gemini AI Proxy
-// Supports Custom User Key + Server Key + Multi-Model Fallback
+// Secure API Key Handling via Environment Variables & User Input (Zero Hardcoded Keys)
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
@@ -8,7 +8,11 @@ export default async function handler(req, res) {
 
     try {
         const { contents, systemInstruction, persona, userApiKey } = req.body;
-        const apiKey = userApiKey || process.env.GEMINI_API_KEY || "AQ.Ab8RN6JEp5Ew6snucSDMw0FhGxqKinqE1ncmMrsVT0UE0O8vVQ";
+        const apiKey = userApiKey || process.env.GEMINI_API_KEY;
+
+        if (!apiKey) {
+            return res.status(401).json({ error: 'No GEMINI_API_KEY environment variable or user key provided.' });
+        }
 
         let sysText = typeof systemInstruction === 'string' ? systemInstruction : (systemInstruction?.parts?.[0]?.text || "You are SpeakUP AI, a world-class intelligent Spoken English tutor for Bangladeshi learners.");
         
