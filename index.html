@@ -1094,12 +1094,10 @@
         renderAdminUserList(filtered);
     }
 
-    function exportAdminCSV() {
-        let csvContent = "data:text/csv;charset=utf-8,Number,Name,Email,Location,Status,Sentences,bKash_TrxID,Date\\
-";
+        function exportAdminCSV() {
+        let csvContent = "data:text/csv;charset=utf-8,Number,Name,Email,Location,Status,Sentences,bKash_TrxID,Date\n";
         registeredUsers.forEach((u, i) => {
-            csvContent += `${i + 1},"${u.name}","${u.email}","${u.location || 'Dhaka, Bangladesh'}","${u.isPaid ? 'PAID' : 'FREE'}",${u.sentences || 0},"${u.trxId || ''}","${u.date || '2026-08-25'}"\\
-`;
+            csvContent += (i + 1) + ',"' + u.name + '","' + u.email + '","' + (u.location || 'Dhaka, Bangladesh') + '","' + (u.isPaid ? 'PAID' : 'FREE') + '",' + (u.sentences || 0) + ',"' + (u.trxId || '') + '","' + (u.date || '2026-08-25') + '"\n';
         });
         const encodedUri = encodeURI(csvContent);
         const link = document.createElement("a");
@@ -1109,6 +1107,7 @@
         link.click();
         document.body.removeChild(link);
     }
+
 
     function adminApproveUser(email) {
         registeredUsers = registeredUsers.map(u => u.email === email ? { ...u, isPaid: true } : u);
