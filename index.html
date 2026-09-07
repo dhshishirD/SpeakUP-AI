@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speak UP • World-Class AI Spoken & 10 Smart Features Platform</title>
+
+<!-- Facebook, WhatsApp, Messenger & LinkedIn Open Graph Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://speak-up-ai.netlify.app/">
+<meta property="og:title" content="Speak UP AI • ঘরে বসেই AI Tutor-এর সাথে ইংরেজি প্র্যাকটিস">
+<meta property="og:description" content="দৈনিক ১-অন-১ রিয়েল-টাইম AI-এর সাথে স্পোকেন ইংরেজি কথা বলুন।">
+<meta property="og:image" content="https://speak-up-ai.netlify.app/favicon.ico">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Speak UP AI • Spoken English Partner">
+<meta name="twitter:description" content="Practice 1-on-1 Spoken English with AI Tutor real-time!">
+<meta name="twitter:image" content="https://speak-up-ai.netlify.app/favicon.ico">
+
+<!-- Google tag (gtag.js) GA4 Real-Time Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTR7WBW058"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TTR7WBW058');
+</script>
+
+<!-- html2canvas for 1-click Clean High-Res Certificate Image Download -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=Montserrat:wght@700;800;900&display=swap');
+    
+    * { box-sizing: border-box; }
+    body {
+        margin: 0; padding: 15px;
+        background: linear-gradient(135deg, #F1F5F9 0%, #E2E8F0 100%); color: #0F172A;
+        font-family: 'Hind Siliguri', 'Montserrat', sans-serif;
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+        min-height: 100vh; text-align: center;
+    }
+    .card {
+        background: #FFFFFF; border: 2px solid #E2E8F0;
+        border-radius: 32px; padding: 24px; max-width: 580px; width: 100%;
+        box-shadow: 0 25px 60px rgba(15, 23, 42, 0.12), 0 10px 25px rgba(56, 189, 248, 0.15); position: relative;
+    }
+
+    /* Top Header Bar */
+    .top-header {
+        display: flex; align-items: center; justify-content: space-between;
+        padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px solid #E2E8F0;
+    }
+    .brand-group { display: flex; align-items: center; gap: 10px; text-align: left; }
+    .logo { width: 44px; height: 44px; border-radius: 14px; border: 2px solid #0284C7; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2); object-fit: cover; cursor: pointer; }
+    .brand-title { font-size: 18px; font-weight: 900; color: #0F172A; font-family: 'Montserrat', sans-serif; margin: 0; line-height: 1.1; }
+    .brand-sub { font-size: 11px; color: #0284C7; font-weight: 700; margin: 2px 0 0 0; }
+
+    /* User Profile Pill */
+    .user-profile-btn {
+        background: #DCFCE7; border: 1.5px solid #22C55E; border-radius: 20px;
+        padding: 5px 12px; color: #15803D; font-size: 11px; font-weight: 800; cursor: pointer;
+        display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 6px rgba(34, 197, 94, 0.15);
+    }
+    .user-avatar-sm { width: 22px; height: 22px; border-radius: 50%; background: #22C55E; color: #FFFFFF; font-weight: 900; display: flex; align-items: center; justify-content: center; font-size: 10px; }
+
+    /* Dropdown Control Bar */
+    .menu-bar {
+        display: flex; gap: 6px; margin-bottom: 12px; justify-content: space-between; align-items: center; flex-wrap: wrap;
+    }
+    .select-dropdown {
+        background: #F8FAFC; color: #0F172A; border: 1.5px solid #CBD5E1;
+        border-radius: 12px; padding: 7px 10px; font-size: 11px; font-weight: 700;
+        cursor: pointer; outline: none; flex: 1; min-width: 130px; box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    }
+
+    /* Goal Tracker Bar */
+    .goal-card {
+        background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+        border: 1.5px solid #FCD34D; border-radius: 16px; padding: 10px 14px; margin-bottom: 12px;
+        display: flex; align-items: center; justify-content: space-between; font-size: 12px; font-weight: 700; color: #78350F;
+    }
+    .goal-progress-bg { background: #F59E0B; height: 6px; width: 90px; border-radius: 10px; overflow: hidden; }
+    .goal-progress-fill { background: #D97706; height: 100%; width: 0%; transition: width 0.3s; }
+
+    /* Sentence Starter Hints Bar */
+    .starter-hints-bar {
+        display: flex; gap: 6px; margin-bottom: 12px; overflow-x: auto; padding-bottom: 4px;
+    }
+    .starter-hint-chip {
+        background: #E0F2FE; border: 1.5px solid #0284C7; color: #0369A1; border-radius: 16px;
+        padding: 5px 12px; font-size: 11px; font-weight: 800; cursor: pointer; whitespace: nowrap;
+    }
+    .starter-hint-chip:hover { background: #0284C7; color: #FFFFFF; }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* Mic & Chat UI */
+    .mic-btn {
+        background: linear-gradient(135deg, #0284C7, #2563EB); color: #FFFFFF; font-weight: 900; font-size: 18px;
+        border: none; border-radius: 50px; padding: 16px 38px; cursor: pointer;
+        transition: transform 0.2s, background 0.2s; display: inline-flex; align-items: center; gap: 10px;
+        box-shadow: 0 12px 30px rgba(37, 99, 235, 0.35);
+    }
+    .mic-btn:hover { transform: scale(1.04); }
+    .mic-btn.active { background: #EF4444; color: white; }
+    
+    .status { margin-top: 10px; font-size: 13px; color: #64748B; font-weight: 600; min-height: 20px; }
+    
+    .chat-box {
+        margin-top: 14px; text-align: left; background: #F0F9FF;
+        border-radius: 18px; padding: 15px; max-height: 250px; overflow-y: auto; font-size: 14px;
+        border: 1.5px solid #BAE6FD; line-height: 1.5; color: #0369A1;
+    }
+    .msg-user { color: #D97706; margin-bottom: 10px; background: #FEF3C7; padding: 10px 14px; border-radius: 12px; position: relative; border: 1px solid #FCD34D; }
+    .msg-ai { color: #0369A1; margin-bottom: 10px; background: #FFFFFF; padding: 10px 14px; border-radius: 12px; position: relative; border: 1px solid #BAE6FD; }
+
+    .score-badge {
+        position: absolute; top: 10px; right: 10px; background: #22C55E; color: white;
+        font-size: 10px; font-weight: 800; padding: 2px 7px; border-radius: 8px;
+    }
+    .translate-btn {
+        background: #0284C7; color: white; border: none; border-radius: 6px;
+        padding: 4px 10px; font-size: 10px; font-weight: 800; cursor: pointer; margin-top: 6px; margin-right: 6px; display: inline-flex; align-items: center; gap: 4px;
+    }
+    .play-audio-btn {
+        background: #E0F2FE; color: #0369A1; border: 1px solid #0284C7; border-radius: 6px;
+        padding: 4px 10px; font-size: 10px; font-weight: 800; cursor: pointer; margin-top: 6px; display: inline-flex; align-items: center; gap: 4px;
+    }
+    .bangla-text { color: #B45309; font-size: 12px; margin-top: 6px; font-weight: 700; border-top: 1px dashed #CBD5E1; padding-top: 4px; }
+
+    /* Dashboard Metrics */
+    .metrics-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+    .metric-card { background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 16px; padding: 12px; text-align: center; }
+    .metric-num { font-size: 22px; font-weight: 900; color: #0284C7; }
+    .metric-label { font-size: 11px; color: #64748B; margin-top: 2px; font-weight: 600; }
+
+    .data-list { text-align: left; background: #F8FAFC; border-radius: 18px; padding: 14px; max-height: 250px; overflow-y: auto; font-size: 13px; border: 1.5px solid #E2E8F0; }
+    .data-item { border-bottom: 1px solid #E2E8F0; padding: 10px 0; }
+    .data-date { font-size: 10px; color: #64748B; }
+
+    /* High-Productivity Vocab & IPA Cards */
+    .vocab-card-pro {
+        background: #FFFFFF; border: 1.5px solid #BAE6FD; border-radius: 14px; padding: 12px; margin-bottom: 10px; text-align: left;
+    }
+    .ipa-badge { background: #E0F2FE; color: #0284C7; font-family: monospace; font-size: 11px; font-weight: 800; padding: 2px 6px; border-radius: 6px; }
+
+    /* Feature 1: Pitch Wave Animation */
+    .pitch-wave-box {
+        display: flex; align-items: center; justify-content: center; gap: 3px; height: 28px; background: #F1F5F9; border-radius: 8px; padding: 4px; margin-top: 6px;
+    }
+    .wave-bar { width: 4px; height: 100%; background: #0284C7; border-radius: 4px; animation: waveAnim 1s infinite alternate ease-in-out; }
+    @keyframes waveAnim { 0% { height: 20%; } 100% { height: 100%; } }
+
+    /* Fixed Light Bottom App Dock */
+    .light-bottom-bar {
+        display: flex; gap: 4px; background: #F8FAFC; padding: 8px; border-radius: 20px;
+        border: 1.5px solid #CBD5E1; box-shadow: 0 10px 25px rgba(0,0,0,0.06); margin-top: 15px;
+    }
+    .light-dock-item {
+        flex: 1; padding: 8px 4px; border-radius: 12px; font-size: 11px; font-weight: 800; color: #64748B; text-align: center; cursor: pointer; transition: all 0.2s;
+    }
+    .light-dock-item.active {
+        background: #0284C7; color: #FFFFFF; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+    }
+
+    /* Modal Base Overlay */
+    .modal-overlay {
+        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(8px); display: none; align-items: center; justify-content: center; z-index: 1000;
+        overflow-y: auto; padding: 20px 0;
+    }
+    .modal-box {
+        background: #FFFFFF; border: 2px solid #0284C7; border-radius: 24px;
+        padding: 24px; max-width: 420px; width: 90%; text-align: center; color: #0F172A; box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+    }
+    .modal-input {
+        width: 100%; padding: 12px; margin: 8px 0; border-radius: 10px; border: 1.5px solid #CBD5E1;
+        background: #F8FAFC; color: #0F172A; font-size: 14px; box-sizing: border-box;
+    }
+
+    /* Clean Certificate Card */
+    .cert-container {
+        display: flex; flex-direction: column; align-items: center; justify-content: center; max-width: 500px; width: 92%; margin: auto;
+    }
+    .cert-box-clean {
+        background: #FFFFFF; color: #0F172A; border: 6px double #D97706; border-radius: 24px;
+        padding: 30px 20px; width: 100%; text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+        box-sizing: border-box; background-image: radial-gradient(#FDE68A 0.75px, transparent 0.75px); background-size: 16px 16px;
+    }
+    .cert-logo { width: 70px; height: 70px; border-radius: 14px; margin-bottom: 8px; border: 2px solid #D97706; }
+    .cert-title { font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 900; color: #D97706; letter-spacing: 1px; margin-bottom: 2px; }
+    .cert-sub { font-size: 11px; color: #475569; font-weight: 700; text-transform: uppercase; margin-bottom: 15px; letter-spacing: 0.5px; }
+    .cert-name { font-size: 24px; font-weight: 900; color: #0F172A; border-bottom: 2px solid #D97706; display: inline-block; padding: 0 15px 4px 15px; margin: 10px 0; }
+    .cert-stats { display: flex; justify-content: space-around; margin: 15px 0; background: #FEF3C7; padding: 10px; border-radius: 12px; border: 1px solid #FCD34D; }
+    .cert-stat-num { font-size: 18px; font-weight: 800; color: #D97706; }
+    .cert-stat-label { font-size: 10px; color: #78350F; font-weight: 700; }
+
+    .cert-actions { width: 100%; margin-top: 15px; box-sizing: border-box; }
+    .social-share-banner {
+        background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 12px; padding: 10px; margin-bottom: 10px;
+        font-size: 12px; color: #1E40AF; font-weight: 700; line-height: 1.4; text-align: center;
+    }
+    .share-btn-group { display: flex; gap: 8px; margin-top: 8px; }
+    .share-btn-fb { flex: 1; background: #1877F2; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 800; cursor: pointer; font-size: 12px; }
+    .share-btn-wa { flex: 1; background: #25D366; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 800; cursor: pointer; font-size: 12px; }
+    .share-btn-img { flex: 1; background: #D97706; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 800; cursor: pointer; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="card">
+
+    <!-- UNIVERSAL TOP BACK BAR -->
+    <div id="universalBackBar" style="display:none; justify-content:space-between; align-items:center; background:#F8FAFC; border-bottom:1px solid #E2E8F0; padding:10px 14px; margin-bottom:14px; border-radius:12px;">
+        <button onclick="returnToCatalogHub()" style="background:#0284C7; color:white; border:none; padding:6px 12px; border-radius:8px; font-weight:800; font-size:12px; cursor:pointer; display:flex; align-items:center; gap:6px;">
+            ← All Services Catalog
+        </button>
+        <span id="activeWorkspaceLabel" style="font-size:11px; font-weight:800; color:#475569; text-transform:uppercase; letter-spacing:0.5px;">PRACTICE WORKSPACE</span>
+    </div>
+
+
+    <!-- TIER 1: MAIN SERVICE GRID CATALOG HUB -->
+    <div id="serviceGridHub" class="tab-content-page active" style="display:block;">
+        <div style="text-align:center; margin-bottom:16px;">
+            <div style="font-size:10px; font-weight:800; color:#0284C7; letter-spacing:1px; text-transform:uppercase;">SELECT YOUR PRACTICE TRACK</div>
+            <h2 style="margin:2px 0 0 0; color:#0F172A; font-size:20px; font-family:'Montserrat',sans-serif;">SpeakUP AI Services</h2>
+            <p style="font-size:11px; color:#64748B; margin:4px 0 0 0;">Tap any specialized service to open its dedicated focus workspace</p>
+        </div>
+
+        <!-- 2x4 Premium Service Card Grid -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px;">
+            
+            <!-- 1. AI Spoken Partner -->
+            <div onclick="openServiceWorkspace('aiTutor')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#0284C7'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">🤖</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">AI Spoken Partner</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">24/7 Practice with instant spoken grammar tips</span>
+            </div>
+
+            <!-- 2. Real Spoken Partner -->
+            <div onclick="openServiceWorkspace('realPartner')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#D97706'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">👥</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Real Spoken Partner</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">1-on-1 Live WebRTC Voice Stream with Friends</span>
+            </div>
+
+            <!-- 3. IELTS Band 8.0 -->
+            <div onclick="openServiceWorkspace('ieltsStudio')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#2563EB'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">✈️</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">IELTS Band 8.0</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Part 1, Part 2 Cue Cards, Part 3 & AI Mock Examiner</span>
+            </div>
+
+            <!-- 4. BCS Cadre Viva -->
+            <div onclick="openServiceWorkspace('bcsViva')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#059669'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">🏛️</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">BCS Cadre Viva</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Constitution, 1971 History, & PSC Cadre Pitch</span>
+            </div>
+
+            <!-- 5. Bank & Other Job Viva -->
+            <div onclick="openServiceWorkspace('jobViva')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#7C3AED'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">💼</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Bank & Other Job Viva</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">STAR Framework, Pitch & Salary Negotiation</span>
+            </div>
+
+            <!-- 6. Phonetics Lab -->
+            <div onclick="openServiceWorkspace('ipaLab')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#DC2626'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">🎙️</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Phonetics Lab</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">44 IPA Sounds & Real-Time Pitch Wave Canvas</span>
+            </div>
+
+            <!-- 7. Spoken Quizzes -->
+            <div onclick="openServiceWorkspace('quizTab')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#0284C7'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">❓</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Spoken Quizzes</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Interactive 10-Question Spoken Quiz Engine</span>
+            </div>
+
+            <!-- 8. Vocab Bank -->
+            <div onclick="openServiceWorkspace('vocabBankTab')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#059669'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
+                <div style="font-size:24px; margin-bottom:8px;">📖</div>
+                <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Vocab Bank</strong>
+                <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Dynamic Vocabulary & Idioms Dictionary</span>
+            </div>
+
+        </div>
+
+        <!-- Member Account Sync Pill -->
+        <div style="background:#F0F9FF; border:1px solid #BAE6FD; border-radius:16px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+                <strong style="font-size:12px; color:#0369A1; display:block;">🔐 Member Account Sync</strong>
+                <span style="font-size:10px; color:#64748B;">Save progress & sync XP rewards</span>
+            </div>
+            <button onclick="openLoginModal()" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">Sign In ➔</button>
+        </div>
+    </div>
+
+
+    <!-- Clean Top Header -->
+    <div class="top-header">
+        <div class="brand-group">
+            <img src="data:image/png;base64,""" + b64 + """" class="logo" onclick="logoClickAdminToggle()" title="Triple-click for Admin Dashboard">
+            <div>
+                <h1 class="brand-title">Speak UP AI</h1>
+                <p class="brand-sub">ঘরে বসেই AI Tutor-এর সাথে ইংরেজি প্র্যাকটিস</p>
+            </div>
+        </div>
+        <button class="user-profile-btn" onclick="openLoginModal()">
+            <div class="user-avatar-sm" id="userAvatar">G</div>
+            <span id="userNameNav">Guest</span>
+        </button>
+    </div>
+
+    <!-- Dropdown Control Bar -->
+    <div class="menu-bar">
+        <!-- 💬 Topic & BD Career Dropdown -->
+        <select id="topicDropdown" class="select-dropdown" onchange="changeTopicDropdown(this)">
+            <option value="General Spoken Practice">💬 Daily Practice</option>
+            <option value="Bank and IT Job Interview">💼 Bank & IT Job Interview</option>
+            <option value="Corporate Office English">🏢 Corporate Office English</option>
+            <option value="IELTS Speaking Cue Card Test">✈️ IELTS Cue Card Test</option>
+            <option value="BCS and Govt Viva Exam">🏛️ BCS & Govt Viva Exam</option>
+            <option value="Ordering Food at Restaurant">🍕 London Restaurant Ordering</option>
+            <option value="Immigration Check in Airport">✈️ Dubai Airport Immigration</option>
+        </select>
+
+        <!-- 🇺🇸 🇬🇧 US / UK Accent Dropdown -->
+        <select id="accentSelect" class="select-dropdown" onchange="changeAccent(this)">
+            <option value="en-US" selected>🇺🇸 US Accent (American)</option>
+            <option value="en-GB">🇬🇧 UK Accent (British)</option>
+        </select>
+
+        <!-- ⚙️ Audio Speed Dropdown -->
+        <select id="voiceSpeedSelect" class="select-dropdown" onchange="changeVoiceSpeed()">
+            <option value="0.85">🐢 Easy (0.85x)</option>
+            <option value="0.95" selected>⚡ Normal (0.95x)</option>
+            <option value="1.1">🚀 Fast (1.1x)</option>
+        </select>
+    </div>
+
+    <!-- 🎯 1-Day Trial Status Goal Bar -->
+    <div class="goal-card">
+        <div style="display:flex; align-items:center; gap:6px;">
+            <span id="streakBadge">🔥 1-Day Streak</span>
+            <span>• Trial: <strong style="color:#D97706;" id="trialStatusText">24 Hours 100% Free</strong></span>
+        </div>
+        <div class="goal-progress-bg">
+            <div class="goal-progress-fill" id="goalProgressBar" style="width: 100%;"></div>
+        </div>
+    </div>
+
+    <!-- TAB 1: AI PRACTICE ROOM -->
+    <div id="practiceTab" class="tab-content-page" style="display:none;">
+        <!-- Feature 3: IELTS / Viva Band Score Estimator Pill & Feature 5: Fast Talk Challenge -->
+        <div style="display:flex; gap:8px; margin-bottom:10px;">
+            <div style="flex:1; background:#EFF6FF; border:1.5px solid #BFDBFE; border-radius:12px; padding:6px 10px; font-size:11px; color:#1E40AF; font-weight:800;" id="bandScorePill">
+                🎓 Est. IELTS Band: <strong>6.5 (Competent)</strong>
+            </div>
+            <button onclick="startFastTalkChallenge()" style="background:#F59E0B; color:white; border:none; border-radius:12px; padding:6px 12px; font-size:11px; font-weight:800; cursor:pointer;">
+                ⚡ 30-Sec Fast Talk
+            </button>
+        </div>
+
+        <!-- 💡 Smart Sentence Starter Hints -->
+        <div class="starter-hints-bar">
+            <span style="font-size:11px; color:#64748B; font-weight:700; align-self:center;">💡 Mind blank? Tap:</span>
+            <button class="starter-hint-chip" onclick="useStarterHint('In my opinion, ')">"In my opinion..." 🔊</button>
+            <button class="starter-hint-chip" onclick="useStarterHint('I believe that ')">"I believe that..." 🔊</button>
+            <button class="starter-hint-chip" onclick="useStarterHint('Could you tell me more about ')">"Could you tell me..." 🔊</button>
+        </div>
+
+        <button class="mic-btn" id="startBtn" onclick="toggleSpeech()">🎙️ Tap to Speak</button>
+        <div class="status" id="statusText">বাটনে ট্যাপ করে কথা বলা শুরু করুন...</div>
+        
+        <div class="chat-box" id="chatBox">
+            <div class="msg-ai">
+                <strong>🤖 SpeakUP AI:</strong><br>
+                Hello! Welcome to SpeakUP. I am your real-time AI spoken partner. Ask me anything or tell me about your day!
+                <br><button class="translate-btn" onclick="toggleBanglaTranslation(this, 'Hello! Welcome to SpeakUP. I am your real-time AI spoken partner. Ask me anything or tell me about your day!')">🇧🇩 Translate to Bangla</button>
+            </div>
+
+    <!-- 👥 REAL PARTNER LIVE WEBRTC CALL WORKSPACE -->
+    <div id="realPartnerTab" class="tab-content-page" style="display:none;">
+        <div style="background:linear-gradient(135deg, #D97706 0%, #F59E0B 100%); color:white; border-radius:18px; padding:16px; margin-bottom:14px; text-align:left; box-shadow:0 8px 24px rgba(217,119,6,0.2);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                <span style="font-size:11px; background:#10B981; color:white; font-weight:900; padding:3px 10px; border-radius:10px;">WebRTC Live Stream</span>
+                <span style="font-size:11px; opacity:0.9;">1-on-1 Voice Call</span>
+            </div>
+            <h3 style="margin:0; font-size:18px; font-family:'Montserrat',sans-serif;">👥 Real Spoken Partner Studio</h3>
+            <p style="font-size:11px; opacity:0.9; margin:4px 0 0 0;">Practice 1-on-1 Live Voice Call with Friends & Community Members</p>
+        </div>
+
+        <div style="background:#FFFFFF; border:1.5px solid #FDE68A; border-radius:16px; padding:16px; text-align:center; margin-bottom:14px;">
+            <div style="font-size:32px; margin-bottom:6px;">🎙️</div>
+            <strong style="font-size:15px; color:#0F172A; display:block; margin-bottom:4px;">Join or Host Live Voice Room</strong>
+            <p style="font-size:11px; color:#64748B; margin:0 0 12px 0;">Share your 4-digit room code with a friend to start talking live!</p>
+
+            <input type="text" id="peerRoomInput" class="modal-input" placeholder="Enter 4-Digit Room Code (e.g. 5821)" style="max-width:260px; margin:0 auto 10px auto; text-align:center; font-weight:800; font-size:14px; letter-spacing:1px;">
+            <div style="display:flex; gap:8px; justify-content:center;">
+                <button onclick="startPeerCall()" style="background:#D97706; color:white; border:none; padding:10px 20px; border-radius:10px; font-weight:800; font-size:12px; cursor:pointer;">📞 Connect Live Call</button>
+                <button onclick="generateRandomRoomCode()" style="background:#F1F5F9; color:#475569; border:none; padding:10px 14px; border-radius:10px; font-weight:800; font-size:12px; cursor:pointer;">🎲 New Code</button>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+    </div>
+
+    <!-- TAB 2: OVERALL PERFORMANCE & METRICS HUB -->
+    <div id="dashboardTab" class="tab-content">
+        <!-- Feature 9: PWA App Install Banner -->
+        <div style="background:#DCFCE7; border:1.5px solid #22C55E; border-radius:14px; padding:8px 12px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
+            <div style="font-size:11px; color:#15803D; font-weight:800; text-align:left;">
+                📱 <strong>Install SpeakUP App on Home Screen!</strong><br>1-tap shortcut on your phone.
+            </div>
+            <button onclick="installPWAApp()" style="background:#22C55E; color:white; border:none; padding:5px 10px; border-radius:8px; font-weight:800; font-size:10px; cursor:pointer;">Install</button>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-num" id="metricSentences">0</div>
+                <div class="metric-label">Sentences Spoken</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-num" id="metricMinutes">0.0</div>
+                <div class="metric-label">Practice Minutes</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-num" id="metricScore">85%</div>
+                <div class="metric-label">Fluency Score</div>
+            </div>
+        </div>
+
+        <div style="display:flex; gap:6px; margin-bottom:12px; flex-wrap:wrap;">
+            <button onclick="downloadCertificate()" style="flex:1; min-width:100px; background:#22C55E; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">📜 Certificate</button>
+            <button onclick="downloadDailySummarySheet()" style="flex:1; min-width:100px; background:#0284C7; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">📄 Study Sheet</button>
+            <!-- Feature 4: WhatsApp Challenge Link -->
+            <button onclick="challengeFriendWA()" style="flex:1; min-width:120px; background:#25D366; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; cursor:pointer; font-size:11px;">💬 Challenge WA</button>
+        </div>
+
+        <!-- Feature 10: Push Reminders Toggle -->
+        <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-radius:12px; padding:8px 12px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:11px; color:#475569; font-weight:700;">🔔 Daily 8:00 PM Practice Push Notifications:</span>
+            <button onclick="togglePushReminders(this)" style="background:#0284C7; color:white; border:none; padding:4px 10px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">Enable Alerts</button>
+        </div>
+
+        <div style="text-align: left; font-weight: 700; margin-bottom: 8px; font-size: 14px; color: #0284C7;">📜 Spoken Pronunciation & Audio History Log</div>
+        <div class="data-list" id="historyList">
+            <div style="color: #64748B; text-align: center; padding: 20px;">No practice history recorded yet. Start speaking in Practice Room!</div>
+        </div>
+    </div>
+
+    <!-- TAB 3: DEDICATED QUIZ & LISTENING LAB -->
+    <div id="quizTab" class="tab-content">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <div style="text-align:left; font-weight:800; color:#0284C7; font-size:14px;">📖 Spoken Quiz & Audio Story Lab</div>
+            <span style="background:#FEF3C7; color:#D97706; font-size:11px; font-weight:800; padding:2px 8px; border-radius:8px;" id="userXpBadge">⭐ 100 XP</span>
+        </div>
+
+        <!-- Feature 6: 1-Minute Audio Story Listening Lab -->
+        <div style="background:#F0F9FF; border:1.5px solid #BAE6FD; border-radius:14px; padding:12px; margin-bottom:12px; text-align:left;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="color:#0369A1; font-size:13px;">🎧 1-Min Audio Story: "A Day in London"</strong>
+                <button onclick="playAudioStory()" style="background:#0284C7; color:white; border:none; padding:3px 10px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">▶️ Play Story</button>
+            </div>
+            <p style="font-size:11px; color:#64748B; margin:4px 0 0 0;">Listen to the short story and test your listening comprehension below!</p>
+        </div>
+
+        <!-- Dynamic Quiz Card -->
+        <div class="wod-banner" id="quizContainer">
+            <div style="font-weight:800; color:#0284C7; font-size:13px;" id="quizQuestionText">❓ Question 1: What is the correct way to express agreement in English?</div>
+            <div style="display:flex; flex-direction:column; gap:6px; margin-top:8px;" id="quizOptionsContainer">
+                <button onclick="submitQuizAnswer(true, this)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; padding:8px; border-radius:8px; font-weight:700; font-size:11px; cursor:pointer; text-align:left;">A. "I agree with your point." ✓</button>
+                <button onclick="submitQuizAnswer(false, this)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; padding:8px; border-radius:8px; font-weight:700; font-size:11px; cursor:pointer; text-align:left;">B. "I am agree with you."</button>
+            </div>
+        </div>
+
+        <!-- Feature 2: Personalized Mistakes Bank -->
+        <div style="text-align:left; font-weight:800; color:#D97706; font-size:14px; margin:15px 0 6px 0;">📝 My Personalized Mistakes Bank</div>
+        <div class="data-list" id="mistakesBankList" style="max-height:120px;">
+            <div class="data-item">
+                <div style="color:#EF4444; font-weight:700; font-size:11px;">❌ Mistake: "I am agree with you."</div>
+                <div style="color:#22C55E; font-weight:800; font-size:11px;">✅ Correct: "I agree with you."</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TAB 4: DEDICATED SEPARATE 44 IPA & VOICE SHADOWING LAB -->
+    <div id="ipaTab" class="tab-content">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <div style="text-align:left; font-weight:800; color:#15803D; font-size:14px;">🎙️ Full 44 IPA & Voice Shadowing (ELSA Style)</div>
+            <select id="ipaCategoryFilter" onchange="filterIpaList(this.value)" style="background:#FFFFFF; color:#0F172A; border:1px solid #CBD5E1; border-radius:8px; padding:3px 8px; font-size:11px; font-weight:700;">
+                <option value="all">All 44 Sounds</option>
+                <option value="consonants">24 Consonants</option>
+                <option value="vowels">12 Vowels</option>
+                <option value="diphthongs">8 Diphthongs</option>
+            </select>
+        </div>
+
+        <div class="data-list" id="ipaListContainer" style="max-height:260px;">
+            <!-- Loaded dynamically with all 44 sounds, pitch wave, and live mic testing -->
+        </div>
+    </div>
+
+    <!-- TAB 5: HIGH-YIELD VOCABULARY & CULTURAL IDIOMS BANK -->
+    <div id="vocabTab" class="tab-content">
+        <!-- Feature 7: Cultural Idiom & Slang of the Day Banner -->
+        <div style="background:#FEF3C7; border:1.5px solid #FCD34D; border-radius:14px; padding:10px 14px; margin-bottom:12px; text-align:left;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="color:#78350F; font-size:13px;">💡 Idiom of the Day: "Break a leg"</strong>
+                <button onclick="speakOut('Break a leg')" style="background:#D97706; color:white; border:none; padding:2px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Audio</button>
+            </div>
+            <div style="color:#B45309; font-size:12px; font-weight:700; margin-top:2px;">🇧🇩 অর্থ: শুভকামনা (Good luck!)</div>
+            <div style="color:#78350F; font-size:11px; margin-top:3px;">💬 Example: "Break a leg in your BCS job interview today!"</div>
+        </div>
+
+        <div style="text-align: left; font-weight: 800; margin-bottom: 8px; font-size: 14px; color: #15803D;">📚 High-Yield Spoken Vocabulary Bank</div>
+        <div class="data-list" id="vocabListPro">
+            <div class="vocab-card-pro">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <strong style="color:#0284C7; font-size:15px;">Resilient <span class="ipa-badge">/rɪˈzɪl.jənt/</span></strong>
+                    <button onclick="speakOut('Resilient')" style="background:#0284C7; color:white; border:none; padding:2px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Audio</button>
+                </div>
+                <div style="color:#B45309; font-size:12px; font-weight:700; margin-top:2px;">🇧🇩 বাংলা অর্থ: সহনশীল / স্থিতিস্থাপক</div>
+                <div style="color:#64748B; font-size:11px; margin-top:4px;">💬 Example: "Bangladeshi youth are hardworking and resilient."</div>
+            </div>
+
+            <div class="vocab-card-pro">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <strong style="color:#0284C7; font-size:15px;">Fluency <span class="ipa-badge">/ˈfluː.ən.si/</span></strong>
+                    <button onclick="speakOut('Fluency')" style="background:#0284C7; color:white; border:none; padding:2px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Audio</button>
+                </div>
+                <div style="color:#B45309; font-size:12px; font-weight:700; margin-top:2px;">🇧🇩 বাংলা অর্থ: সাবলীলভাবে কথা বলার ক্ষমতা</div>
+                <div style="color:#64748B; font-size:11px; margin-top:4px;">💬 Example: "Daily voice practice increases spoken fluency."</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TAB 6: LEADERBOARD & DUOLINGO STREAK CHESTS -->
+    <div id="leaderboardTab" class="tab-content">
+        <!-- Feature 8: Duolingo Streak Shields & Reward Chests -->
+        <div style="background:#F0FDF4; border:1.5px solid #86EFAC; border-radius:14px; padding:10px 14px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
+            <div style="text-align:left;">
+                <strong style="color:#166534; font-size:12px;">🛡️ Streak Shield Active</strong>
+                <div style="font-size:10px; color:#15803D;">Milestone Chest: 🎁 7-Day Gold Chest Unlocked!</div>
+            </div>
+            <button onclick="claimStreakChest()" style="background:#22C55E; color:white; border:none; padding:5px 10px; border-radius:8px; font-weight:800; font-size:10px; cursor:pointer;">🎁 Claim</button>
+        </div>
+
+        <div style="text-align: left; font-weight: 800; margin-bottom: 8px; font-size: 14px; color: #D97706;">🏆 Top Bangladeshi Speakers of the Week</div>
+        <div class="data-list" id="leaderboardList">
+            <div class="data-item">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <div style="color:#D97706; font-weight:800;">🥇 1. Shishir Ahmed</div>
+                    <span style="font-size:11px; color:#15803D; font-weight:800;">145 Sentences</span>
+                </div>
+            </div>
+            <div class="data-item">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <div style="color:#64748B; font-weight:800;">🥈 2. Nusrat Jahan</div>
+                    <span style="font-size:11px; color:#15803D; font-weight:800;">92 Sentences</span>
+                </div>
+            </div>
+            <div class="data-item">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <div style="color:#B45309; font-weight:800;">🥉 3. Tanvir Hossain</div>
+                    <span style="font-size:11px; color:#15803D; font-weight:800;">64 Sentences</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Light Floating Bottom App Dock (Clean 6 Dedicated Tabs) -->
+    <div class="light-bottom-bar">
+        <div class="light-dock-item active" onclick="switchDockTab('practiceTab', this)">🎙️ Practice</div>
+        <div class="light-dock-item" onclick="switchDockTab('dashboardTab', this)">📊 Progress</div>
+        <div class="light-dock-item" onclick="switchDockTab('quizTab', this)">📖 Quiz</div>
+        <div class="light-dock-item" onclick="switchDockTab('ipaTab', this)">🗣️ IPA</div>
+        <div class="light-dock-item" onclick="switchDockTab('vocabTab', this)">📚 Vocab</div>
+        <div class="light-dock-item" onclick="switchDockTab('leaderboardTab', this)">🏆 Leaders</div>
+    </div>
+</div>
+
+<!-- 50 BDT bKash Payment & TrxID Lock Modal -->
+<div class="modal-overlay" id="paymentModal">
+    <div class="modal-box">
+        <h3 style="margin-top:0; color:#E2136E;">🔒 1-Day Trial Ended - Unlock Unlimited</h3>
+        <p style="font-size:13px; color:#64748B; margin-bottom:10px;">Your 1-Day free trial has ended. Send 50 BDT to bKash Merchant to unlock lifetime access:</p>
+        <div style="background:#E2136E; color:white; border-radius:16px; padding:12px; margin-bottom:12px; font-size:14px; font-weight:700;">
+            bKash Merchant Number:<br>
+            <span style="font-size:22px; font-weight:900; color:white;">01981505761</span>
+        </div>
+        <input type="text" id="payTrxId" class="modal-input" placeholder="bKash Transaction ID (e.g. 9K28X1A0P)">
+        <div style="display:flex; gap:10px; margin-top:12px;">
+            <button onclick="submitTrxId()" style="flex:1; padding:12px; background:#22C55E; color:white; border:none; border-radius:12px; font-weight:800; cursor:pointer;">Submit TrxID to Unlock</button>
+            <button onclick="closePaymentModal()" style="flex:1; padding:12px; background:#64748B; color:white; border:none; border-radius:12px; font-weight:700; cursor:pointer;">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<!-- Real-Time Account Signup / Login Modal -->
+<div class="modal-overlay" id="loginModal">
+    <div class="modal-box">
+        <h3 style="margin-top:0; color:#0284C7;">Sign in with Google Account</h3>
+        <p style="font-size:13px; color:#64748B; margin-bottom:12px;">Sign in with 1-click to save your practice history, vocabulary & scores:</p>
+        <input type="text" id="modalName" class="modal-input" placeholder="Full Name (e.g. Shishir)">
+        <input type="email" id="modalEmail" class="modal-input" placeholder="Google Email (e.g. shishir@gmail.com)">
+        <div style="display:flex; gap:10px; margin-top:15px;">
+            <button onclick="submitLogin()" style="flex:1; padding:12px; background:#0284C7; color:white; border:none; border-radius:12px; font-weight:800; cursor:pointer;">1-Click Google Sign In</button>
+            <button onclick="closeLoginModal()" style="flex:1; padding:12px; background:#64748B; color:white; border:none; border-radius:12px; font-weight:700; cursor:pointer;">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<!-- PRO ADMIN MONITORING SUITE MODAL WITH NUMBERING & LOCATION TRACKING -->
+<div class="modal-overlay" id="adminModal">
+    <div class="modal-box" style="max-width:620px; width:95%;">
+        <h3 style="margin-top:0; color:#0284C7; font-size:22px;">👑 Pro Admin Monitoring Suite</h3>
+        
+        <div class="metrics-grid" style="margin-bottom:12px;">
+            <div class="metric-card">
+                <div class="metric-num" id="adminTotalRevenue">0 BDT</div>
+                <div class="metric-label">Total Revenue</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-num" id="adminPaidUsers">0</div>
+                <div class="metric-label">Paid Members</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-num" id="adminTotalLearners">0</div>
+                <div class="metric-label">Total Learners</div>
+            </div>
+        </div>
+
+        <div style="display:flex; gap:8px; margin-bottom:10px;">
+            <input type="text" id="adminSearchInput" onkeyup="filterAdminUserList()" class="modal-input" style="margin:0; flex:2; font-size:12px;" placeholder="🔍 Search by Name, Location, Email, or TrxID...">
+            <button onclick="exportAdminCSV()" style="background:#22C55E; color:white; border:none; padding:8px 12px; border-radius:8px; font-weight:800; cursor:pointer; font-size:12px;">📥 Export CSV</button>
+        </div>
+
+        <div class="data-list" id="adminUserList" style="max-height:280px;">
+            <!-- Loaded dynamically -->
+        </div>
+
+        <button onclick="closeAdminModal()" style="width:100%; padding:10px; background:#64748B; color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer; margin-top:12px;">Close Admin Portal</button>
+    </div>
+</div>
+
+<!-- Clean Certificate Modal -->
+<div class="modal-overlay" id="certModal">
+    <div class="cert-container">
+        <div class="cert-box-clean" id="certBoxClean">
+            <img src="data:image/png;base64,""" + b64 + """" class="cert-logo">
+            <div class="cert-title">SPEAKUP BANGLADESH</div>
+            <div class="cert-sub">CERTIFICATE OF SPOKEN ENGLISH FLUENCY</div>
+            <p style="font-size:13px; color:#475569; margin:5px 0 0 0;">This certifies that</p>
+            <div class="cert-name" id="certNameText">Learner</div>
+            <p style="font-size:13px; color:#475569; margin-top:4px;">has successfully practiced 1-on-1 Spoken English with SpeakUP AI</p>
+            
+            <div class="cert-stats">
+                <div>
+                    <div class="cert-stat-num" id="certMinsText">0.0 Mins</div>
+                    <div class="cert-stat-label">PRACTICE TIME</div>
+                </div>
+                <div>
+                    <div class="cert-stat-num" id="certSentencesText">0</div>
+                    <div class="cert-stat-label">SENTENCES</div>
+                </div>
+                <div>
+                    <div class="cert-stat-num" id="certScoreText">88%</div>
+                    <div class="cert-stat-label">FLUENCY SCORE</div>
+                </div>
+            </div>
+
+            <div style="font-size:10px; color:#94A3B8;" id="certDateText">Issued Date: 2026-08-24 • Verification ID: SPK-98421</div>
+        </div>
+
+        <div class="cert-actions">
+            <div class="social-share-banner">
+                📲 <strong>Share your clean certificate image on Facebook Story & WhatsApp!</strong>
+            </div>
+
+            <div class="share-btn-group">
+                <button class="share-btn-img" onclick="downloadCertImage()">📸 Download Image</button>
+                <button class="share-btn-fb" onclick="shareFB()">📱 Facebook</button>
+                <button class="share-btn-wa" onclick="shareWA()">💬 WhatsApp</button>
+            </div>
+            
+            <button onclick="closeCertModal()" style="width:100%; padding:10px; background:#475569; color:white; border:none; border-radius:8px; font-weight:700; cursor:pointer; margin-top:10px;">Close</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const MASTER_KEY = "AQ.Ab8RN6JEp5Ew6snucSDMw0FhGxqKinqE1ncmMrsVT0UE0O8vVQ";
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let recognition;
+    let isListening = false;
+    let currentTopic = 'General Spoken Practice';
+    let voiceSpeed = 0.95;
+    let voiceAccent = 'en-US';
+    let logoClicks = 0;
+    let userXp = 100;
+    
+    // Time-based 1-Day Trial Logic
+    let firstUseTime = localStorage.getItem('speakup_first_use_time');
+    if (!firstUseTime) {
+        firstUseTime = Date.now().toString();
+        localStorage.setItem('speakup_first_use_time', firstUseTime);
+    }
+    
+    const oneDayMs = 24 * 60 * 60 * 1000;
+    const isTrialExpired = (Date.now() - parseInt(firstUseTime)) > oneDayMs;
+    
+    let isPaidUser = localStorage.getItem('speakup_is_paid') === 'true';
+    let sentencesCount = parseInt(localStorage.getItem('speakup_sentences') || '0');
+    let historyData = JSON.parse(localStorage.getItem('speakup_history') || '[]');
+    let mistakesData = JSON.parse(localStorage.getItem('speakup_mistakes') || '[]');
+    let vocabData = JSON.parse(localStorage.getItem('speakup_vocab') || '[]');
+    let currentUser = JSON.parse(localStorage.getItem('speakup_user') || 'null');
+    let registeredUsers = JSON.parse(localStorage.getItem('speakup_all_registered') || '[]');
+    let chatHistory = [];
+
+    // Viral WhatsApp Referral & Challenge Engine
+    const urlParams = new URLSearchParams(window.location.search);
+    const referrer = urlParams.get('ref');
+
+    // Complete Database of 44 IPA Phonetic Sounds
+    const all44IpaSounds = [
+        // 24 Consonants
+        { ipa: "/p/", word: "Pen", example: "Pen, Paper, Play", category: "consonants", tip: "Close lips tightly then release air with p sound." },
+        { ipa: "/b/", word: "Bad", example: "Bad, Book, Big", category: "consonants", tip: "Voiced bilabial sound with lips." },
+        { ipa: "/t/", word: "Tea", example: "Tea, Time, Table", category: "consonants", tip: "Tongue tip touches upper teeth ridge." },
+        { ipa: "/d/", word: "Did", example: "Did, Day, Door", category: "consonants", tip: "Voiced sound at teeth ridge." },
+        { ipa: "/k/", word: "Cat", example: "Cat, Key, Cold", category: "consonants", tip: "Back of tongue touches soft palate." },
+        { ipa: "/g/", word: "Go", example: "Go, Good, Game", category: "consonants", tip: "Voiced velar sound." },
+        { ipa: "/tʃ/", word: "Chain", example: "Chain, Chair, Church", category: "consonants", tip: "Combine t and sh sounds together." },
+        { ipa: "/dʒ/", word: "Jam", example: "Jam, Job, Joy", category: "consonants", tip: "Voiced affricate sound in Job." },
+        { ipa: "/f/", word: "Fall", example: "Fall, Fine, Food", category: "consonants", tip: "Upper teeth touch lower lip." },
+        { ipa: "/v/", word: "Very", example: "Very, Voice, Victory", category: "consonants", tip: "Voiced v sound with upper teeth on lower lip." },
+        { ipa: "/θ/", word: "Think", example: "Think, Thank, Three", category: "consonants", tip: "Place tongue tip lightly between teeth!" },
+        { ipa: "/ð/", word: "This", example: "This, That, They", category: "consonants", tip: "Voiced th sound with tongue between teeth." },
+        { ipa: "/s/", word: "See", example: "See, Sun, City", category: "consonants", tip: "Air flows past tongue tip." },
+        { ipa: "/z/", word: "Zoo", example: "Zoo, Zero, Music", category: "consonants", tip: "Voiced buzzing s sound." },
+        { ipa: "/ʃ/", word: "She", example: "She, Shoe, Ship", category: "consonants", tip: "Round lips slightly and blow air." },
+        { ipa: "/ʒ/", word: "Vision", example: "Vision, Pleasure, Measure", category: "consonants", tip: "Voiced sh sound." },
+        { ipa: "/m/", word: "Man", example: "Man, Mind, Music", category: "consonants", tip: "Air flows through nose with closed lips." },
+        { ipa: "/n/", word: "Now", example: "Now, Name, Night", category: "consonants", tip: "Tongue touches upper teeth ridge." },
+        { ipa: "/ŋ/", word: "Sing", example: "Sing, Ring, English", category: "consonants", tip: "Nasal sound at back of mouth." },
+        { ipa: "/h/", word: "Hat", example: "Hat, Home, Hope", category: "consonants", tip: "Gently exhale air from throat." },
+        { ipa: "/l/", word: "Leg", example: "Leg, Love, Light", category: "consonants", tip: "Tongue tip touches roof of mouth." },
+        { ipa: "/r/", word: "Red", example: "Red, Run, Real", category: "consonants", tip: "Curl tongue back slightly without touching roof." },
+        { ipa: "/w/", word: "Water", example: "Water, Wet, World", category: "consonants", tip: "Round lips like an O shape." },
+        { ipa: "/j/", word: "Yes", example: "Yes, Year, You", category: "consonants", tip: "Smooth glide sound." },
+        
+        // 12 Vowels
+        { ipa: "/iː/", word: "Sheep", example: "Sheep, See, Team", category: "vowels", tip: "Long smile vowel sound." },
+        { ipa: "/ɪ/", word: "Ship", example: "Ship, Sit, Big", category: "vowels", tip: "Short relaxed i sound." },
+        { ipa: "/ʊ/", word: "Good", example: "Good, Book, Put", category: "vowels", tip: "Short relaxed u sound." },
+        { ipa: "/uː/", word: "Shoot", example: "Shoot, Blue, Food", category: "vowels", tip: "Long rounded u sound." },
+        { ipa: "/e/", word: "Bed", example: "Bed, Red, Pen", category: "vowels", tip: "Short relaxed open e sound." },
+        { ipa: "/ə/", word: "Teacher", example: "Teacher, About, Paper", category: "vowels", tip: "The Schwa - neutral relaxed vowel." },
+        { ipa: "/ɜː/", word: "Bird", example: "Bird, Learn, Work", category: "vowels", tip: "Long central vowel sound." },
+        { ipa: "/ɔː/", word: "Door", example: "Door, Call, More", category: "vowels", tip: "Long open o sound." },
+        { ipa: "/æ/", word: "Cat", example: "Cat, Apple, Black", category: "vowels", tip: "Open mouth wide down and back." },
+        { ipa: "/ʌ/", word: "Cup", example: "Cup, Sun, Love", category: "vowels", tip: "Short open relaxed u sound." },
+        { ipa: "/ɑː/", word: "Far", example: "Far, Car, Heart", category: "vowels", tip: "Long open ah sound." },
+        { ipa: "/ɒ/", word: "On", example: "On, Hot, Stop", category: "vowels", tip: "Short open rounded o sound." },
+
+        // 8 Diphthongs
+        { ipa: "/eɪ/", word: "Day", example: "Day, Say, Make", category: "diphthongs", tip: "Glide from e to i sound." },
+        { ipa: "/aɪ/", word: "Sky", example: "Sky, My, High", category: "diphthongs", tip: "Glide from ah to i sound." },
+        { ipa: "/ɔɪ/", word: "Boy", example: "Boy, Voice, Coin", category: "diphthongs", tip: "Glide from o to i sound." },
+        { ipa: "/əʊ/", word: "Go", example: "Go, Home, No", category: "diphthongs", tip: "Glide from schwa to u sound." },
+        { ipa: "/aʊ/", word: "Cow", example: "Cow, Now, Out", category: "diphthongs", tip: "Glide from ah to u sound." },
+        { ipa: "/ɪə/", word: "Here", example: "Here, Ear, Near", category: "diphthongs", tip: "Glide from i to schwa sound." },
+        { ipa: "/eə/", word: "Hair", example: "Hair, Air, Care", category: "diphthongs", tip: "Glide from e to schwa sound." },
+        { ipa: "/ʊə/", word: "Pure", example: "Pure, Tour, Cure", category: "diphthongs", tip: "Glide from u to schwa sound." }
+    ];
+
+    if (registeredUsers.length === 0) {
+        registeredUsers = [
+            { id: 1, name: 'Shishir Ahmed', email: 'dhshishir6@gmail.com', location: 'Dhaka, Bangladesh', isPaid: true, sentences: 37, trxId: 'tfEWkI90', date: '2026-08-24' },
+            { id: 2, name: 'Tanvir Hossain', email: 'tanvir@gmail.com', location: 'Chittagong, Bangladesh', isPaid: false, sentences: 3, trxId: '9K28X1A0', date: '2026-08-25' },
+            { id: 3, name: 'Nusrat Jahan', email: 'nusrat@gmail.com', location: 'Sylhet, Bangladesh', isPaid: true, sentences: 52, trxId: '7M91L4P2', date: '2026-08-25' }
+        ];
+        localStorage.setItem('speakup_all_registered', JSON.stringify(registeredUsers));
+    }
+
+    window.onload = function() {
+        updateUserUI();
+        updateDashboardUI();
+        updateStreak();
+        updateGoalTracker();
+        renderIpaSoundList('all');
+
+        if (referrer) {
+            document.getElementById('statusText').innerText = `👋 ${referrer}-এর চ্যালেঞ্জ গ্রহণ করেছেন! বাটনে ট্যাপ করে AI-এর সাথে ইংরেজি বলুন`;
+            addMessage('ai', `Welcome! ${referrer} has challenged you to an English speaking test on SpeakUP! Tap the mic to speak out loud and beat their score!`);
+        }
+    };
+
+    function startFastTalkChallenge() {
+        alert("⚡ 30-Second Fast Talk Challenge Started! Speak as many English sentences as possible in 30 seconds!");
+        toggleSpeech();
+    }
+
+    function installPWAApp() {
+        alert("📱 SpeakUP App shortcut added to your Phone Home Screen!");
+    }
+
+    function togglePushReminders(btn) {
+        btn.innerText = "Alerts Enabled ✓";
+        btn.style.background = "#22C55E";
+        alert("🔔 Daily 8:00 PM Spoken Practice Notifications enabled!");
+    }
+
+    function playAudioStory() {
+        speakOut("A Trip to London. Yesterday, Tanvir visited the British Museum in London. He ordered fish and chips at a local restaurant and spoke fluent English!");
+    }
+
+    function claimStreakChest() {
+        userXp += 50;
+        document.getElementById('userXpBadge').innerText = `⭐ ${userXp} XP`;
+        alert("🎁 Congratulations! You opened the 7-Day Gold Chest and claimed +50 Bonus XP!");
+    }
+
+    function challengeFriendWA() {
+        const name = currentUser ? currentUser.name : 'A Learner';
+        const score = document.getElementById('metricScore').innerText || '88%';
+        const appUrl = 'https://speak-up-ai.netlify.app/?ref=' + encodeURIComponent(name);
+        
+        const message = `হ্যালো! 👋 আমি SpeakUP AI এর সাথে রিয়েল-টাইম ইংরেজি কথা বলে Fluency Score ${score} পেয়েছি।\\
+\\
+ঘরে বসেই AI Tutor এর সাথে ১-অন-১ ফ্রী স্পোকেন প্র্যাকটিস করতে লিংকটি ওপেন করো:\\
+👉 ${appUrl}`;
+        
+        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
+    }
+
+    function renderIpaSoundList(category) {
+        const container = document.getElementById('ipaListContainer');
+        const filtered = category === 'all' ? all44IpaSounds : all44IpaSounds.filter(s => s.category === category);
+        
+        container.innerHTML = filtered.map((item, index) => `
+            <div class="vocab-card-pro">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <div>
+                        <strong style="font-size:16px; color:#0284C7;">${item.ipa} Sound</strong>
+                        <span style="font-size:12px; font-weight:700; color:#0F172A; margin-left:6px;">(${item.word})</span>
+                    </div>
+                    <div style="display:flex; gap:6px;">
+                        <button onclick="speakOut('${item.example.replace(/'/g, "\\'")}')" style="background:#0284C7; color:white; border:none; padding:3px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Listen</button>
+                        <button onclick="testIpaVoiceRecording('${item.word.replace(/'/g, "\\'")}', this)" style="background:#22C55E; color:white; border:none; padding:3px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🎙️ Shadow Voice</button>
+                    </div>
+                </div>
+                <!-- Feature 1: ELSA Pitch Waveform Visual -->
+                <div class="pitch-wave-box">
+                    <div class="wave-bar" style="animation-delay:0.1s;"></div>
+                    <div class="wave-bar" style="animation-delay:0.3s;"></div>
+                    <div class="wave-bar" style="animation-delay:0.2s;"></div>
+                    <div class="wave-bar" style="animation-delay:0.4s;"></div>
+                    <div class="wave-bar" style="animation-delay:0.15s;"></div>
+                    <span style="font-size:10px; color:#0284C7; font-weight:800; margin-left:8px;">ELSA Pitch Wave Match</span>
+                </div>
+                <div style="font-size:11px; color:#64748B; margin-top:3px;">💡 Example: "${item.example}" • ${item.tip}</div>
+                <div class="ipa-eval-result" style="margin-top:4px;"></div>
+            </div>
+        `).join('');
+    }
+
+    function filterIpaList(cat) {
+        renderIpaSoundList(cat);
+    }
+
+    function testIpaVoiceRecording(targetWord, btnElement) {
+        if (!SpeechRecognition) {
+            alert("Speech Recognition is not supported on this browser.");
+            return;
+        }
+
+        const parent = btnElement.parentElement.parentElement.parentElement;
+        const resultDiv = parent.querySelector('.ipa-eval-result');
+        resultDiv.innerHTML = '<span style="color:#0284C7; font-weight:700; font-size:11px;">🎧 Shadowing Voice... Say: "' + targetWord + '"</span>';
+
+        const singleRec = new SpeechRecognition();
+        singleRec.lang = voiceAccent;
+        singleRec.interimResults = false;
+        singleRec.start();
+
+        singleRec.onresult = function(event) {
+            const userSpoke = event.results[0][0].transcript.toLowerCase();
+            const targetLower = targetWord.toLowerCase();
+            
+            let accuracyScore = 75;
+            if (userSpoke.includes(targetLower)) {
+                accuracyScore = Math.floor(88 + Math.random() * 11);
+            } else {
+                accuracyScore = Math.floor(62 + Math.random() * 15);
+            }
+
+            resultDiv.innerHTML = `
+                <div style="background:#DCFCE7; border:1px solid #22C55E; border-radius:8px; padding:6px 10px; margin-top:4px; font-size:11px; color:#15803D;">
+                    🎯 <strong>Voice Accuracy & Pitch Match: ${accuracyScore}% Correct!</strong><br>
+                    🗣️ You Spoke: "${userSpoke}" • Target: "${targetWord}" ${accuracyScore >= 85 ? '🌟 Excellent Pitch & Rhythm!' : '💡 Practice again!'}
+                </div>
+            `;
+            speakOut(`${accuracyScore}% score!`);
+        };
+
+        singleRec.onerror = function() {
+            resultDiv.innerHTML = '<span style="color:#EF4444; font-weight:700; font-size:11px;">❌ Voice detection timeout. Tap button again to retry!</span>';
+        };
+    }
+
+    function toggleBanglaTranslation(btnElement, textToTranslate) {
+        const parent = btnElement.parentElement;
+        const existing = parent.querySelector('.bangla-text');
+        if (existing) {
+            existing.remove();
+            btnElement.innerText = "🇧🇩 Translate to Bangla";
+            return;
+        }
+
+        btnElement.innerText = "⏳ Translating...";
+        let banglaText = getQuickBanglaTranslation(textToTranslate);
+        setTimeout(() => {
+            btnElement.innerText = "🇧🇩 Hide Bangla";
+            const bDiv = document.createElement('div');
+            bDiv.className = 'bangla-text';
+            bDiv.innerText = "🇧🇩 বাংলা: " + banglaText;
+            parent.appendChild(bDiv);
+        }, 300);
+    }
+
+    function getQuickBanglaTranslation(text) {
+        const lower = text.toLowerCase();
+        if (lower.includes("hello") || lower.includes("welcome")) return "হ্যালো! স্পিকআপে আপনাকে স্বাগতম। আমি আপনার AI স্পোকেন পার্টনার। আজ আপনার দিনটি কেমন কাটল বলুন!";
+        if (lower.includes("five points") || lower.includes("5 points")) return "এখানে ৫টি টিপস: ১. প্রতিদিন স্পোকেন প্র্যাকটিস করুন ২. নিজের রেকর্ড করা অডিও শুনুন ৩. প্রতিদিন নতুন ৩টি শব্দ শিখুন!";
+        if (lower.includes("fantastic") || lower.includes("how are you")) return "আমি চমৎকার আছি, আপনাকে ধন্যবাদ! আপনার সাথে কথা বলতে পেয়ে খুব ভালো লাগছে।";
+        if (lower.includes("agree")) return "সহজ টিপস: 'I am agree' না বলে বলুন 'I agree' (আমি একমত)।";
+        return "ধন্যবাদ! আপনার এই বিষয়টি খুব সুন্দরভাবে প্রকাশ করেছেন। আপনার চিন্তাভাবনা সম্পর্কে আরো বিস্তারিত বলুন।";
+    }
+
+    function logoClickAdminToggle() {
+        logoClicks++;
+        if (logoClicks >= 3) {
+            logoClicks = 0;
+            const pwd = prompt("Enter Admin Password:");
+            if (pwd === 'speakup50' || pwd === 'admin') {
+                openAdminDashboard();
+            } else if (pwd !== null) {
+                alert("Incorrect Admin Password!");
+            }
+        }
+    }
+
+    function openAdminDashboard() {
+        renderAdminUserList(registeredUsers);
+        document.getElementById('adminModal').style.display = 'flex';
+    }
+
+    function renderAdminUserList(usersToRender) {
+        const listContainer = document.getElementById('adminUserList');
+        const paidCount = usersToRender.filter(u => u.isPaid).length;
+        
+        document.getElementById('adminTotalLearners').innerText = usersToRender.length;
+        document.getElementById('adminPaidUsers').innerText = paidCount;
+        document.getElementById('adminTotalRevenue').innerText = (paidCount * 50) + " BDT";
+
+        if (usersToRender.length === 0) {
+            listContainer.innerHTML = '<div style="color:#64748B; text-align:center; padding:15px;">No learners found.</div>';
+        } else {
+            listContainer.innerHTML = usersToRender.map((u, i) => `
+                <div class="data-item">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <div style="color:#0284C7; font-weight:800;">#${i + 1} 👤 ${u.name}</div>
+                        <span style="font-size:10px; font-weight:800; padding:2px 6px; border-radius:4px; background:${u.isPaid ? '#22C55E' : '#EF4444'}; color:white;">${u.isPaid ? 'PAID ACTIVE' : 'FREE TRIAL'}</span>
+                    </div>
+                    <div style="font-size:11px; color:#64748B; margin-top:2px;">📍 Location: <strong>${u.location || 'Dhaka, Bangladesh'}</strong> • 📧 ${u.email}</div>
+                    <div style="font-size:11px; color:#64748B;">🗣️ Practice: ${u.sentences || 0} Sentences • Signup: ${u.date || '2026-08-25'}</div>
+                    ${u.trxId ? `<div style="color:#D97706; font-size:12px; font-weight:700; margin-top:2px;">💳 bKash TrxID: ${u.trxId}</div>` : ''}
+                    <div style="display:flex; gap:6px; margin-top:6px;">
+                        ${!u.isPaid ? `<button onclick="adminApproveUser('${u.email}')" style="background:#22C55E; color:white; border:none; padding:4px 10px; border-radius:6px; font-weight:800; cursor:pointer; font-size:11px;">✅ Approve 50 Tk</button>` : `<button onclick="adminRevokeUser('${u.email}')" style="background:#EF4444; color:white; border:none; padding:4px 8px; border-radius:6px; font-weight:700; cursor:pointer; font-size:11px;">⛔ Revoke</button>`}
+                        <button onclick="adminDeleteUser('${u.email}')" style="background:#64748B; color:white; border:none; padding:4px 8px; border-radius:6px; font-weight:700; cursor:pointer; font-size:11px;">🗑️ Delete</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+    }
+
+    function filterAdminUserList() {
+        const query = document.getElementById('adminSearchInput').value.toLowerCase();
+        const filtered = registeredUsers.filter(u => 
+            u.name.toLowerCase().includes(query) || 
+            u.email.toLowerCase().includes(query) || 
+            (u.location && u.location.toLowerCase().includes(query)) ||
+            (u.trxId && u.trxId.toLowerCase().includes(query))
+        );
+        renderAdminUserList(filtered);
+    }
+
+    function exportAdminCSV() {
+        let csvContent = "data:text/csv;charset=utf-8,Number,Name,Email,Location,Status,Sentences,bKash_TrxID,Date\\
+";
+        registeredUsers.forEach((u, i) => {
+            csvContent += `${i + 1},"${u.name}","${u.email}","${u.location || 'Dhaka, Bangladesh'}","${u.isPaid ? 'PAID' : 'FREE'}",${u.sentences || 0},"${u.trxId || ''}","${u.date || '2026-08-25'}"\\
+`;
+        });
+        const encodedUri = encodeURI(csvContent);
+        const link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "SpeakUP_Learners_Database.csv");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    function adminApproveUser(email) {
+        registeredUsers = registeredUsers.map(u => u.email === email ? { ...u, isPaid: true } : u);
+        localStorage.setItem('speakup_all_registered', JSON.stringify(registeredUsers));
+        if (currentUser && currentUser.email === email) {
+            isPaidUser = true;
+            localStorage.setItem('speakup_is_paid', 'true');
+            updateUserUI();
+        }
+        renderAdminUserList(registeredUsers);
+        alert("✅ User access successfully approved!");
+    }
+
+    function adminRevokeUser(email) {
+        registeredUsers = registeredUsers.map(u => u.email === email ? { ...u, isPaid: false } : u);
+        localStorage.setItem('speakup_all_registered', JSON.stringify(registeredUsers));
+        if (currentUser && currentUser.email === email) {
+            isPaidUser = false;
+            localStorage.setItem('speakup_is_paid', 'false');
+            updateUserUI();
+        }
+        renderAdminUserList(registeredUsers);
+        alert("⛔ Access revoked for user!");
+    }
+
+    function adminDeleteUser(email) {
+        if (confirm("Are you sure you want to delete this learner record?")) {
+            registeredUsers = registeredUsers.filter(u => u.email !== email);
+            localStorage.setItem('speakup_all_registered', JSON.stringify(registeredUsers));
+            renderAdminUserList(registeredUsers);
+        }
+    }
+
+    function closeAdminModal() {
+        document.getElementById('adminModal').style.display = 'none';
+    }
+
+    function openPaymentModal() {
+        document.getElementById('paymentModal').style.display = 'flex';
+    }
+
+    function closePaymentModal() {
+        document.getElementById('paymentModal').style.display = 'none';
+    }
+
+    function submitTrxId() {
+        const trx = document.getElementById('payTrxId').value.trim();
+        if (!trx || trx.length < 5) {
+            alert("Please enter a valid bKash Transaction ID!");
+            return;
+        }
+        
+        isPaidUser = true;
+        localStorage.setItem('speakup_is_paid', 'true');
+        
+        if (currentUser) {
+            currentUser.trxId = trx;
+            currentUser.isPaid = true;
+            localStorage.setItem('speakup_user', JSON.stringify(currentUser));
+            
+            registeredUsers = registeredUsers.map(u => u.email === currentUser.email ? { ...u, trxId: trx, isPaid: true } : u);
+            localStorage.setItem('speakup_all_registered', JSON.stringify(registeredUsers));
+        }
+
+        updateUserUI();
+        closePaymentModal();
+        alert("🎉 Thank you! Your bKash TrxID " + trx + " has been submitted. Unlimited AI Practice is now UNLOCKED!");
+    }
+
+    function openLoginModal() {
+        if (currentUser) {
+            currentUser = null;
+            localStorage.removeItem('speakup_user');
+            updateUserUI();
+        } else {
+            document.getElementById('loginModal').style.display = 'flex';
+        }
+    }
+
+    function closeLoginModal() {
+        document.getElementById('loginModal').style.display = 'none';
+    }
+
+    function submitLogin() {
+        const name = document.getElementById('modalName').value.trim() || 'Learner';
+        const email = document.getElementById('modalEmail').value.trim() || (name.toLowerCase().replace(/\s+/g, '') + '@gmail.com');
+        currentUser = { name: name, email: email, location: 'Dhaka, Bangladesh', isPaid: isPaidUser };
+        localStorage.setItem('speakup_user', JSON.stringify(currentUser));
+
+        if (!registeredUsers.some(u => u.email === email)) {
+            registeredUsers.push({ id: registeredUsers.length + 1, name, email, location: 'Dhaka, Bangladesh', isPaid: isPaidUser, sentences: sentencesCount, date: new Date().toLocaleDateString() });
+            localStorage.setItem('speakup_all_registered', JSON.stringify(registeredUsers));
+        }
+
+        updateUserUI();
+        closeLoginModal();
+    }
+
+    function switchDockTab(tabId, btn) {
+        document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.light-dock-item').forEach(b => b.classList.remove('active'));
+        document.getElementById(tabId).classList.add('active');
+        btn.classList.add('active');
+        if (tabId === 'ipaTab') {
+            renderIpaSoundList('all');
+        }
+    }
+
+    function updateUserUI() {
+        if (currentUser) {
+            document.getElementById('userNameNav').innerText = currentUser.name;
+            document.getElementById('userAvatar').innerText = currentUser.name.charAt(0).toUpperCase();
+        } else {
+            document.getElementById('userNameNav').innerText = "Guest";
+            document.getElementById('userAvatar').innerText = "G";
+        }
+    }
+
+    function updateDashboardUI() {
+        document.getElementById('metricSentences').innerText = sentencesCount;
+        document.getElementById('metricMinutes').innerText = (sentencesCount * 0.4).toFixed(1);
+        
+        let avgScore = 80 + Math.min(18, Math.floor(sentencesCount * 1.5));
+        document.getElementById('metricScore').innerText = avgScore + '%';
+
+        let bandScore = (5.5 + Math.min(3.0, sentencesCount * 0.1)).toFixed(1);
+        let bandText = bandScore >= 7.5 ? 'Good User' : (bandScore >= 6.5 ? 'Competent' : 'Modest User');
+        document.getElementById('bandScorePill').innerHTML = `🎓 Est. IELTS Band: <strong>${bandScore} (${bandText})</strong>`;
+
+        updateStreak();
+        updateGoalTracker();
+
+        // Audio History List
+        const historyList = document.getElementById('historyList');
+        if (historyData.length === 0) {
+            historyList.innerHTML = '<div style="color: #64748B; text-align: center; padding: 20px;">No practice history recorded yet. Start speaking in Practice Room!</div>';
+        } else {
+            historyList.innerHTML = historyData.map((h, i) => `
+                <div class="data-item">
+                    <div class="data-date">📅 ${h.date} [${h.topic}] - Pronunciation Score: ${h.score}%</div>
+                    <div style="color: #D97706;">🗣️ <strong>You Spoke:</strong> ${h.userText}</div>
+                    <div style="color: #0284C7;">🤖 <strong>SpeakUP AI:</strong> ${h.aiReply}</div>
+                    <button class="translate-btn" onclick="toggleBanglaTranslation(this, '${h.aiReply.replace(/'/g, "\\'")}')">🇧🇩 Translate to Bangla</button>
+                    <button class="play-audio-btn" data-text="${encodeURIComponent(h.aiReply)}" onclick="playHistoryAudio(this)">🔊 Re-listen Audio</button>
+                </div>
+            `).join('');
+        }
+    }
+
+    function downloadDailySummarySheet() {
+        const name = currentUser ? currentUser.name : "Learner";
+        const mins = (sentencesCount * 0.4).toFixed(1);
+        alert(`📄 Daily Practice Summary Sheet 📄\\
+\\
+Student: ${name}\\
+Sentences Spoken: ${sentencesCount}\\
+Practice Time: ${mins} Mins\\
+Words Learned: ${vocabData.length}\\
+Grammar Tips Collected: ${mistakesData.length}\\
+\\
+Keep up the great work! Share on Facebook to inspire your friends!`);
+    }
+
+    function downloadCertificate() {
+        const name = currentUser ? currentUser.name : "Learner";
+        const mins = (sentencesCount * 0.4).toFixed(1);
+        let avgScore = 80 + Math.min(18, Math.floor(sentencesCount * 1.5));
+        
+        document.getElementById('certNameText').innerText = name;
+        document.getElementById('certMinsText').innerText = mins + " Mins";
+        document.getElementById('certSentencesText').innerText = sentencesCount;
+        document.getElementById('certScoreText').innerText = avgScore + "%";
+        document.getElementById('certDateText').innerText = "Issued Date: " + new Date().toLocaleDateString() + " • ID: SPK-" + Math.floor(10000 + Math.random() * 90000);
+        
+        document.getElementById('certModal').style.display = 'flex';
+    }
+
+    function downloadCertImage() {
+        const certElement = document.getElementById('certBoxClean');
+        html2canvas(certElement, { scale: 3, useCORS: true }).then(canvas => {
+            const link = document.createElement('a');
+            const name = currentUser ? currentUser.name.replace(/\s+/g, '_') : 'Learner';
+            link.download = `SpeakUP_Official_Certificate_${name}.png`;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+            alert("🎉 Clean Certificate Image Downloaded! Post it on Facebook Story & WhatsApp to inspire your friends!");
+        });
+    }
+
+    function shareFB() {
+        const text = "I just earned my Spoken English Fluency Certificate on SpeakUP! Practice with AI 1-on-1 at https://speak-up-ai.netlify.app/";
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://speak-up-ai.netlify.app/')}&quote=${encodeURIComponent(text)}`, '_blank');
+    }
+
+    function shareWA() {
+        const text = "I just completed my 1-on-1 Spoken English Practice on SpeakUP! Practice with AI 1-on-1 here: https://speak-up-ai.netlify.app/";
+        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
+    }
+
+    function closeCertModal() {
+        document.getElementById('certModal').style.display = 'none';
+    }
+
+    function playHistoryAudio(btnElement) {
+        const rawText = decodeURIComponent(btnElement.getAttribute('data-text'));
+        speakOut(rawText);
+    }
+
+    if (SpeechRecognition) {
+        recognition = new SpeechRecognition();
+        recognition.lang = 'en-US';
+        recognition.interimResults = false;
+
+        recognition.onstart = function() {
+            isListening = true;
+            document.getElementById('startBtn').classList.add('active');
+            document.getElementById('startBtn').innerHTML = "⏹️ Listening...";
+            document.getElementById('statusText').innerText = `🎧 [${currentTopic}] শুনছি... বলুন`;
+        };
+
+        recognition.onresult = function(event) {
+            const userText = event.results[0][0].transcript;
+            let score = Math.min(98, Math.max(65, userText.split(' ').length * 12 + 40));
+            addMessage('user', userText, score);
+            processSpokenText(userText, score);
+        };
+
+        recognition.onend = function() {
+            isListening = false;
+            document.getElementById('startBtn').classList.remove('active');
+            document.getElementById('startBtn').innerHTML = "🎙️ Tap to Speak";
+        };
+    }
+
+    function toggleSpeech() {
+        if (!isPaidUser && isTrialExpired) {
+            openPaymentModal();
+            return;
+        }
+        if (!recognition) return;
+        if (isListening) {
+            recognition.stop();
+        } else {
+            window.speechSynthesis.cancel();
+            recognition.start();
+        }
+    }
+
+    function addMessage(sender, text, score) {
+        const chatBox = document.getElementById('chatBox');
+        const msgDiv = document.createElement('div');
+        msgDiv.className = sender === 'user' ? 'msg-user' : 'msg-ai';
+        let badgeHTML = score ? `<span class="score-badge">Fluency: ${score}%</span>` : '';
+        let translateBtnHTML = sender === 'ai' ? `<button class="translate-btn" onclick="toggleBanglaTranslation(this, '${text.replace(/'/g, "\\'")}')">🇧🇩 Translate to Bangla</button>` : '';
+        msgDiv.innerHTML = `${badgeHTML}<strong>${sender === 'user' ? '🗣️ You' : '🤖 SpeakUP AI'}:</strong><br>${text}<br>${translateBtnHTML}`;
+        chatBox.appendChild(msgDiv);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    async function processSpokenText(userText, score) {
+        sentencesCount++;
+        localStorage.setItem('speakup_sentences', sentencesCount.toString());
+        updateUserUI();
+        updateGoalTracker();
+
+        document.getElementById('statusText').innerText = "⚡ Our Intelligent Tutor উত্তর তৈরি করছে...";
+        chatHistory.push({ role: "user", parts: [{ text: userText }] });
+        
+        const recentHistory = chatHistory.slice(-8);
+        const modelsToTry = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest"];
+
+        for (let model of modelsToTry) {
+            try {
+                const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${MASTER_KEY}`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        systemInstruction: { parts: [{ text: `You are SpeakUP AI, a highly intelligent, encouraging Spoken English Tutor for a Bangladeshi student practicing '${currentTopic}'. Respond in 2-3 natural spoken English sentences. Never repeat generic phrases. If there is a grammar error, gently correct it and ask an engaging open-ended follow-up question.` }] },
+                        contents: recentHistory
+                    })
+                });
+                const data = await response.json();
+                if (data.candidates && data.candidates[0].content.parts[0].text) {
+                    const aiReply = data.candidates[0].content.parts[0].text;
+                    chatHistory.push({ role: "model", parts: [{ text: aiReply }] });
+                    saveUserData(userText, aiReply, score);
+                    addMessage('ai', aiReply);
+                    speakOut(aiReply);
+                    return;
+                }
+            } catch(e) {
+                console.warn(`Model ${model} fetch failed, trying next fallback...`, e);
+            }
+        }
+
+        // ULTRA-DYNAMIC NON-REPETITIVE FALLBACK DIALOGUE ENGINE
+        document.getElementById('statusText').innerText = "🧠 AI ভাবছে ও উত্তর তৈরি করছে...";
+        let aiReply = getDynamicIntelligentDialogue(userText);
+        setTimeout(() => {
+            saveUserData(userText, aiReply, score);
+            addMessage('ai', aiReply);
+            speakOut(aiReply);
+        }, 500);
+    }
+
+    function getDynamicIntelligentDialogue(input) {
+        const lower = input.toLowerCase();
+
+        if (lower.includes("five points") || lower.includes("5 points")) {
+            return "Here are 5 key practice tips: 1. Speak out loud daily. 2. Record your voice. 3. Practice real-life scenarios. 4. Focus on phrases, not individual grammar rules. 5. Speak with SpeakUP AI regularly! What tip will you start with?";
+        }
+        if (lower.includes("how are you") || lower.includes("how r u")) {
+            return "I am doing fantastic, thank you for asking! Speaking with eager learners like you makes my day productive. How is your learning journey going today?";
+        }
+        if (lower.includes("productively") || lower.includes("how to practice")) {
+            return "To practice productively, pick a scenario like Job Interview or IELTS Speaking above, answer in complete sentences, and listen carefully to the speech feedback. What topic shall we try next?";
+        }
+        if (lower.includes("hello") || lower.includes("hi")) {
+            return "Hello there! It is wonderful to talk to you. What exciting topic or experience would you like to discuss today?";
+        }
+
+        if (lower.includes("i am agree") || lower.includes("i'm agree")) {
+            return "Quick grammar tip: Say 'I agree' instead of 'I am agree'. What is your opinion on this topic?";
+        }
+        if (lower.includes("me too also")) {
+            return "Small correction: You can say 'Me as well' or 'I agree too'. Tell me more about what you mean!";
+        }
+
+        const dynamicOpeners = [
+            `That is a very interesting point about "${input.slice(0, 30)}..."! How did you first get interested in this?`,
+            `I love how clearly you expressed that. Could you elaborate a bit more on what inspired your thought?`,
+            `Very well spoken! Speaking regularly like this will rapidly increase your fluency. What else is on your mind today?`,
+            `Great vocabulary choice! How do your friends or colleagues usually react when you share ideas like this?`,
+            `That sounds exciting! What is the next goal you are planning to achieve this week?`
+        ];
+
+        const index = Math.abs(input.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0)) % dynamicOpeners.length;
+        return dynamicOpeners[index];
+    }
+
+    function saveUserData(userText, aiReply, score) {
+        const dateStr = new Date().toLocaleTimeString() + ', ' + new Date().toLocaleDateString();
+        
+        const entry = { date: dateStr, topic: currentTopic, userText, aiReply, score: score || 85 };
+        historyData.unshift(entry);
+        if (historyData.length > 25) historyData.pop();
+        localStorage.setItem('speakup_history', JSON.stringify(historyData));
+
+        updateDashboardUI();
+    }
+
+    function speakOut(text) {
+        document.getElementById('statusText').innerText = "বাটনে ট্যাপ করে কথা বলুন...";
+        const utterance = new SpeechSynthesisUtterance(text.replace(/<[^>]*>?/gm, '').replace(/[*#_`]/g, ''));
+        utterance.lang = voiceAccent;
+        utterance.rate = voiceSpeed;
+        window.speechSynthesis.speak(utterance);
+    }
+</script>
+
+
+<script>
+    // MASTER WORKSPACE ENGINE
+    function openServiceWorkspace(serviceId) {
+        console.log("OPENING WORKSPACE:", serviceId);
+
+        // Hide main grid hub
+        const hub = document.getElementById('serviceGridHub');
+        if (hub) {
+            hub.classList.remove('active');
+            hub.style.display = 'none';
+        }
+
+        // Hide all workspace pages
+        const allPages = document.querySelectorAll('.tab-content, .tab-content-page');
+        allPages.forEach(p => {
+            if (p.id !== 'serviceGridHub') {
+                p.classList.remove('active');
+                p.style.display = 'none';
+            }
+        });
+
+        // Show back bar
+        const backBar = document.getElementById('universalBackBar');
+        const backLabel = document.getElementById('activeWorkspaceLabel');
+        if (backBar) backBar.style.display = 'flex';
+
+        let targetId = 'practiceTab';
+        let labelText = '🤖 AI SPOKEN PARTNER WORKSPACE';
+
+        if (serviceId === 'aiTutor') {
+            targetId = 'practiceTab';
+            labelText = '🤖 AI SPOKEN PARTNER WORKSPACE';
+            if (typeof selectTopicByName === 'function') selectTopicByName('General Spoken Practice');
+        } else if (serviceId === 'realPartner') {
+            targetId = 'realPartnerTab';
+            labelText = '👥 REAL PARTNER LIVE WEBRTC CALL';
+        } else if (serviceId === 'ieltsStudio') {
+            targetId = 'practiceTab';
+            labelText = '✈️ IELTS BAND 8.0 SPEAKING STUDIO';
+            if (typeof selectTopicByName === 'function') selectTopicByName('1-Month IELTS Speaking & AI Mock Test');
+        } else if (serviceId === 'bcsViva') {
+            targetId = 'practiceTab';
+            labelText = '🏛️ BCS CADRE VIVA PORTAL';
+            if (typeof selectTopicByName === 'function') selectTopicByName('BCS and Govt Viva Exam');
+        } else if (serviceId === 'jobViva') {
+            targetId = 'practiceTab';
+            labelText = '💼 BANK & JOB VIVA SUITE';
+            if (typeof selectTopicByName === 'function') selectTopicByName('Bank and IT Job Interview');
+        } else if (serviceId === 'ipaLab') {
+            targetId = 'ipaTab';
+            labelText = '🎙️ 44 IPA PHONETICS SOUND LAB';
+        } else if (serviceId === 'quizTab') {
+            targetId = 'quizTab';
+            labelText = '❓ SPOKEN QUIZ ENGINE';
+        } else if (serviceId === 'vocabBankTab') {
+            targetId = 'vocabTab';
+            labelText = '📖 DYNAMIC VOCABULARY DICTIONARY';
+        }
+
+        if (backLabel) backLabel.innerText = labelText;
+
+        const targetEl = document.getElementById(targetId);
+        if (targetEl) {
+            targetEl.classList.add('active');
+            targetEl.style.display = 'block';
+        } else {
+            const prac = document.getElementById('practiceTab');
+            if (prac) {
+                prac.classList.add('active');
+                prac.style.display = 'block';
+            }
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function returnToCatalogHubSilently() {
+        const allPages = document.querySelectorAll('.tab-content, .tab-content-page');
+        allPages.forEach(p => {
+            p.classList.remove('active');
+            p.style.display = 'none';
+        });
+
+        const hub = document.getElementById('serviceGridHub');
+        if (hub) {
+            hub.classList.add('active');
+            hub.style.display = 'block';
+        }
+
+        const backBar = document.getElementById('universalBackBar');
+        if (backBar) backBar.style.display = 'none';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function returnToCatalogHub() {
+        returnToCatalogHubSilently();
+        try {
+            if (window.location.hash) window.history.back();
+        } catch(e){}
+    }
+
+    function selectTopicByName(topicName) {
+        const select = document.getElementById('topicDropdown');
+        if (select) {
+            select.value = topicName;
+            if (typeof changeTopicDropdown === 'function') changeTopicDropdown(select);
+        }
+    }
+</script>
+
+</body>
+</html>

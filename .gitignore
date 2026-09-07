@@ -1,0 +1,9 @@
+# Temporary & Log files
+*.log
+*.py
+scratch/
+.system_generated/
+.env
+node_modules/
+.DS_Store
+Thumbs.db
