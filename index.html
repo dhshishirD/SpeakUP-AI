@@ -610,13 +610,16 @@
         </div>
 
         <!-- VISUAL STATE INDICATOR PILL & FINISH SESSION BUTTON -->
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:6px;">
             <div id="aiStatePill" style="display:inline-flex; align-items:center; gap:6px; background:#F1F5F9; border:1px solid #CBD5E1; padding:4px 10px; border-radius:10px; font-size:11px; font-weight:800; color:#475569;">
                 <span id="aiStateDot" style="width:8px; height:8px; border-radius:50%; background:#22C55E;"></span>
                 <span id="aiStateText">State: Ready to Listen</span>
             </div>
+            <button onclick="toggleContinuousHandsFree(this)" id="handsFreeBtn" style="background:#E0F2FE; border:1.5px solid #0284C7; color:#0369A1; padding:4px 12px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">
+                🔄 Hands-Free: ON
+            </button>
             <button onclick="finishPracticeSession()" style="background:#22C55E; color:white; border:none; padding:5px 12px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">
-                🏁 Finish Session & Claim XP
+                🏁 Finish & Claim XP
             </button>
         </div>
 
@@ -1769,7 +1772,29 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
             isListening = false;
             document.getElementById('startBtn').classList.remove('active');
             document.getElementById('startBtn').innerHTML = "🎙️ Tap to Speak";
+            // Auto-reconnect if continuous hands-free mode is active
+            if (window.isContinuousMode && !window.speechSynthesis.speaking) {
+                setTimeout(() => {
+                    try { recognition.start(); } catch(e){}
+                }, 400);
+            }
         };
+    }
+
+    window.isContinuousMode = true;
+    function toggleContinuousHandsFree(btn) {
+        window.isContinuousMode = !window.isContinuousMode;
+        if (window.isContinuousMode) {
+            btn.style.background = "#E0F2FE";
+            btn.style.borderColor = "#0284C7";
+            btn.style.color = "#0369A1";
+            btn.innerText = "🔄 Hands-Free: ON";
+        } else {
+            btn.style.background = "#F1F5F9";
+            btn.style.borderColor = "#CBD5E1";
+            btn.style.color = "#64748B";
+            btn.innerText = "🔄 Hands-Free: OFF";
+        }
     }
 
     function toggleSpeech() {
@@ -1810,7 +1835,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
             ? PERSONA_CONFIGS[currentPersona]
             : { name: 'Sarah', role: 'Corporate HR Manager', instructions: 'You are Sarah, a professional Corporate HR Manager.' };
 
-        const sysInstructionText = `[Persona: ${activePersonaConfig.name} (${activePersonaConfig.role})]. ${activePersonaConfig.instructions} You are SpeakUP AI, an encouraging Spoken English Tutor for a Bangladeshi student practicing '${currentTopic}'. Respond in 2-3 natural spoken English sentences. Never repeat generic phrases. If there is a grammar error in the student's input ("${userText}"), gently point out the correct phrasing in a constructive way, then ask an engaging open-ended follow-up question.`;
+        const sysInstructionText = `You are a world-class, spontaneous, and hyper-intelligent AI Spoken English Partner & Coach. Persona: ${activePersonaConfig.name} (${activePersonaConfig.role}) - ${activePersonaConfig.instructions}. Topic: "${currentTopic}". Guidelines: 1. Respond in a highly natural, engaging, empathetic, and spontaneous spoken tone (like ChatGPT Voice Mode / Gemini Live). 2. Keep responses to 2-3 natural spoken sentences. 3. Never sound robotic or templated. 4. If the student makes a grammar or phrasing error in ("${userText}"), gently incorporate a brief 1-line constructive tip seamlessly, then ask an open-ended question to keep the voice conversation flowing smoothly.`;
 
         const recentHistory = chatHistory.slice(-10);
 
@@ -1948,7 +1973,13 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         }
 
         utterance.onend = function() {
-            if (statusEl) statusEl.innerText = "বাটনে ট্যাপ করে কথা বলুন...";
+            if (statusEl) statusEl.innerText = "🎧 Listening... Speak now";
+            // Continuous Hands-Free Spoken Loop (Never gets disconnected)
+            if (recognition && !isListening) {
+                try {
+                    recognition.start();
+                } catch(e) {}
+            }
         };
 
         window.speechSynthesis.speak(utterance);
@@ -2365,7 +2396,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
 
         // 2. Direct Client fallback if custom key exists
         if (userSavedKey && userSavedKey.length > 15) {
-            const modelsToTry = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest", "gemini-1.5-flash"];
+            const modelsToTry = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash-lite"];
             for (let model of modelsToTry) {
                 try {
                     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${userSavedKey}`;

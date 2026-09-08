@@ -1,7 +1,19 @@
 // Vercel Serverless Function: World-Class Gemini AI Proxy
-// Priority: gemini-3.6-flash + Multi-Model Fallback
+// Priority: gemini-2.0-flash (Ultra-Fast 2026 Production Endpoint) + Multi-Model Fallback
 
 export default async function handler(req, res) {
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
+    res.setHeader(
+        'Access-Control-Allow-Headers',
+        'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
+    );
+
+    if (req.method === 'OPTIONS') {
+        return res.status(200).end();
+    }
+
     if (req.method !== 'POST') {
         return res.status(405).json({ error: 'Method Not Allowed' });
     }
@@ -20,12 +32,12 @@ export default async function handler(req, res) {
             sysText = `[Active Persona: ${persona.name} (${persona.role})]. ${persona.instructions}\n` + sysText;
         }
 
+        // Official Google Gemini API production model identifiers
         const modelsToTry = [
-            "gemini-3.6-flash",
-            "gemini-3.5-flash",
-            "gemini-flash-latest",
+            "gemini-2.0-flash",
             "gemini-1.5-flash",
-            "gemini-2.5-flash"
+            "gemini-1.5-pro",
+            "gemini-2.0-flash-lite"
         ];
 
         let lastError = null;
@@ -38,8 +50,9 @@ export default async function handler(req, res) {
                     contents: contents || [],
                     systemInstruction: { parts: [{ text: sysText }] },
                     generationConfig: {
-                        temperature: 0.75,
-                        maxOutputTokens: 600
+                        temperature: 0.8,
+                        maxOutputTokens: 1024,
+                        topP: 0.95
                     }
                 };
 
