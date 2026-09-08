@@ -470,9 +470,6 @@
             <button onclick="toggleDarkMode()" class="theme-toggle-btn">
                 <span id="themeToggleIcon">🌙</span> <span id="themeToggleText">Dark Mode</span>
             </button>
-            <button onclick="openApiKeyModal()" style="background:#FEF3C7; border:1px solid #FCD34D; color:#92400E; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
-                🔑 AI Key (<span id="apiKeyStatusLabel">Free Engine</span>)
-            </button>
             <button onclick="openOnboardingModal()" style="background:#F0F9FF; border:1px solid #BAE6FD; color:#0369A1; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
                 🎯 Level Diagnostic (<span id="userLevelBadge">CEFR B1</span>)
             </button>
@@ -1888,6 +1885,11 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
     function openServiceWorkspace(serviceId) {
         console.log("OPENING WORKSPACE:", serviceId);
 
+        // Push state for mobile hardware back button
+        try {
+            history.pushState({ workspace: serviceId }, '', '#' + serviceId);
+        } catch(e){}
+
         // Hide main grid hub
         const hub = document.getElementById('serviceGridHub');
         if (hub) {
@@ -1976,11 +1978,55 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function returnToCatalogHub() {
+    function returnToCatalogHub(isFromPopState) {
         returnToCatalogHubSilently();
-        try {
-            if (window.location.hash) window.history.back();
-        } catch(e){}
+        if (!isFromPopState && location.hash) {
+            try {
+                history.pushState(null, '', location.pathname);
+            } catch(e){}
+        }
+    }
+
+    // Hardware Mobile Back Button Event Listener
+    window.addEventListener('popstate', function(event) {
+        const hub = document.getElementById('serviceGridHub');
+        if (hub && hub.style.display !== 'block') {
+            returnToCatalogHub(true);
+        }
+    });
+
+    // Account Sign-In Modal Handlers
+    function openLoginModal() {
+        const modal = document.getElementById('loginModal');
+        if (modal) modal.style.display = 'flex';
+    }
+
+    function closeLoginModal() {
+        const modal = document.getElementById('loginModal');
+        if (modal) modal.style.display = 'none';
+    }
+
+    function submitLogin() {
+        const nameInput = document.getElementById('modalName');
+        const emailInput = document.getElementById('modalEmail');
+        const name = nameInput ? nameInput.value.trim() : '';
+        const email = emailInput ? emailInput.value.trim() : '';
+
+        if (!name || !email) {
+            alert("Please enter your name and email to sign in.");
+            return;
+        }
+
+        currentUser = { name: name, email: email, isPaid: true };
+        localStorage.setItem('speakup_user', JSON.stringify(currentUser));
+        if (typeof learnerProfile !== 'undefined') {
+            learnerProfile.name = name;
+            learnerProfile.email = email;
+            if (typeof saveLearnerProfile === 'function') saveLearnerProfile();
+        }
+        if (typeof updateUserUI === 'function') updateUserUI();
+        closeLoginModal();
+        alert(`🎉 Welcome back, ${name}! Your account progress and XP are now saved and synced!`);
     }
 
     function selectTopicByName(topicName) {
