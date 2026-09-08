@@ -1,5 +1,5 @@
 // Vercel Serverless Function: World-Class Gemini AI Proxy
-// Priority: gemini-2.0-flash (Ultra-Fast 2026 Flagship Endpoint) + Multi-Model Fallback
+// Priority: gemini-3.5-flash (Ultra-Fast 2026 Production Endpoint) + Multi-Model Fallback
 
 export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Credentials', true);
@@ -34,7 +34,7 @@ export default async function handler(req, res) {
             sysText = `[Active Persona: ${persona.name} (${persona.role})]. ${persona.instructions}\n` + sysText;
         }
 
-        // Clean & sanitize contents array for Gemini v1beta API
+        // Clean & sanitize contents array for Gemini API
         let formattedContents = [];
         if (Array.isArray(contents)) {
             for (let item of contents) {
@@ -45,7 +45,6 @@ export default async function handler(req, res) {
             }
         }
         
-        # Ensure array starts with a 'user' message
         while (formattedContents.length > 0 && formattedContents[0].role !== 'user') {
             formattedContents.shift();
         }
@@ -54,12 +53,15 @@ export default async function handler(req, res) {
             formattedContents = [{ role: 'user', parts: [{ text: 'Hello!' }] }];
         }
 
-        // Official Google Gemini API production model identifiers
+        // Official Google Gemini API production model identifiers (Priority: gemini-3.5-flash)
         const modelsToTry = [
-            "gemini-2.0-flash",
+            "gemini-3.5-flash",
+            "gemini-3.6-flash",
+            "gemini-3.7-flash",
+            "gemini-flash-latest",
+            "gemini-2.5-flash-lite",
             "gemini-1.5-flash",
-            "gemini-1.5-pro",
-            "gemini-2.0-flash-lite"
+            "gemini-2.0-flash"
         ];
 
         let lastError = null;
