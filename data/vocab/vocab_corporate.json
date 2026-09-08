@@ -10,7 +10,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Death' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মৃত্যু' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মৃত্যু' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/dɛθ/",
+    "ipa_uk": "/dɛθ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Death' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'মৃত্যু' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0004",
@@ -23,7 +39,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Grief' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গভীর দুঃখ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গভীর দুঃখ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/grif/",
+    "ipa_uk": "/grif/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Grief,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'গভীর দুঃখ' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0006",
@@ -36,7 +68,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Prayer' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/prɛr/",
+    "ipa_uk": "/prɛr/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Prayer' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'দোয়া' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0007",
@@ -49,7 +97,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Janaza' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'জানাজা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'জানাজা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/janaza/",
+    "ipa_uk": "/janaza/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Janaza' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'জানাজা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0008",
@@ -62,7 +126,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Coffin' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কফিন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কফিন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈkɔfɪn/",
+    "ipa_uk": "/ˈkɔfɪn/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Coffin' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'কফিন' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0009",
@@ -75,7 +155,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Grave' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কবর' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কবর' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/greɪv/",
+    "ipa_uk": "/greɪv/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Grave' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'কবর' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0011",
@@ -88,7 +184,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Crowd' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'জনসমাগম' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'জনসমাগম' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/kraʊd/",
+    "ipa_uk": "/kraʊd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Crowd,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'জনসমাগম' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0012",
@@ -101,7 +213,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Human Tide' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মানুষের ঢল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মানুষের ঢল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈjumən taɪd/",
+    "ipa_uk": "/ˈjumən taɪd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Human Tide' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'মানুষের ঢল' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0013",
@@ -114,7 +242,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Procession' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শোক মিছিল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শোক মিছিল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/prəˈsɛʃən/",
+    "ipa_uk": "/prəˈsɛʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Procession' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'শোক মিছিল' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0014",
@@ -127,7 +271,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Gathering' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সমাবেশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সমাবেশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈgæðərɪŋ/",
+    "ipa_uk": "/ˈgæðərɪŋ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Gathering' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'সমাবেশ' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0015",
@@ -140,7 +300,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Announcement' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ঘোষণা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ঘোষণা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/əˈnaʊnsmɛnt/",
+    "ipa_uk": "/əˈnaʊnsmɛnt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Announcement' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'ঘোষণা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0017",
@@ -153,7 +329,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Live Coverage' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সরাসরি সম্প্রচার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সরাসরি সম্প্রচার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/lɪv ˈkəvərɪʤ/",
+    "ipa_uk": "/lɪv ˈkəvərɪʤ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Live Coverage,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'সরাসরি সম্প্রচার' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0018",
@@ -166,7 +358,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Worldwide' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বিশ্বব্যাপী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বিশ্বব্যাপী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈwərldˈwaɪd/",
+    "ipa_uk": "/ˈwərldˈwaɪd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Worldwide' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'বিশ্বব্যাপী' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0020",
@@ -179,7 +387,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Global Reaction' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বৈশ্বিক প্রতিক্রিয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বৈশ্বিক প্রতিক্রিয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈgloʊbəl riˈækʃən/",
+    "ipa_uk": "/ˈgloʊbəl riˈækʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Global Reaction' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'বৈশ্বিক প্রতিক্রিয়া' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0022",
@@ -192,7 +416,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Former Prime Minister' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সাবেক প্রধানমন্ত্রী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সাবেক প্রধানমন্ত্রী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈfɔrmər praɪm ˈmɪnɪstər/",
+    "ipa_uk": "/ˈfɔrmər praɪm ˈmɪnɪstər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Former Prime Minister' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'সাবেক প্রধানমন্ত্রী' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0024",
@@ -205,7 +445,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Diplomat' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কূটনীতিক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কূটনীতিক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈdɪpləˌmæt/",
+    "ipa_uk": "/ˈdɪpləˌmæt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Diplomat' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'কূটনীতিক' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0025",
@@ -218,7 +474,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Foreign Delegate' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বিদেশি প্রতিনিধি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বিদেশি প্রতিনিধি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈfɔrən ˈdɛləˌgeɪt/",
+    "ipa_uk": "/ˈfɔrən ˈdɛləˌgeɪt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Foreign Delegate,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'বিদেশি প্রতিনিধি' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0026",
@@ -231,7 +503,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'World Leader' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বিশ্ব নেতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বিশ্ব নেতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/wərld ˈlidər/",
+    "ipa_uk": "/wərld ˈlidər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'World Leader' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'বিশ্ব নেতা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0029",
@@ -244,7 +532,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Candlelight' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মোমবাতি প্রজ্বালন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মোমবাতি প্রজ্বালন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈkændəˌllaɪt/",
+    "ipa_uk": "/ˈkændəˌllaɪt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Candlelight' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'মোমবাতি প্রজ্বালন' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0030",
@@ -257,7 +561,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Silent Prayer' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'নীরব দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'নীরব দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈsaɪlənt prɛr/",
+    "ipa_uk": "/ˈsaɪlənt prɛr/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Silent Prayer' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'নীরব দোয়া' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0033",
@@ -270,7 +590,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Half-Mast' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অর্ধনমিত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অর্ধনমিত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/half-mast/",
+    "ipa_uk": "/half-mast/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Half-Mast' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অর্ধনমিত' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0035",
@@ -283,7 +619,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Peaceful Farewell' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শান্ত বিদায়' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শান্ত বিদায়' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈpisfəl ˌfɛrˈwɛl/",
+    "ipa_uk": "/ˈpisfəl ˌfɛrˈwɛl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Peaceful Farewell,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'শান্ত বিদায়' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0036",
@@ -296,7 +648,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Saddened' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মর্মাহত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মর্মাহত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈsædənd/",
+    "ipa_uk": "/ˈsædənd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Saddened' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'মর্মাহত' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0037",
@@ -309,7 +677,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Heartbroken' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'হৃদয়ভাঙা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'হৃদয়ভাঙা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈhɑrtˌbroʊkən/",
+    "ipa_uk": "/ˈhɑrtˌbroʊkən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Heartbroken' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'হৃদয়ভাঙা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0039",
@@ -322,7 +706,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Grand Janaza' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বৃহৎ জানাজা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বৃহৎ জানাজা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/grænd janaza/",
+    "ipa_uk": "/grænd janaza/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Grand Janaza' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'বৃহৎ জানাজা' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0040",
@@ -335,7 +735,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Mass Attendance' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বিপুল উপস্থিতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বিপুল উপস্থিতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/mæs əˈtɛndəns/",
+    "ipa_uk": "/mæs əˈtɛndəns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Mass Attendance' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'বিপুল উপস্থিতি' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0041",
@@ -348,7 +764,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Media Presence' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গণমাধ্যমের উপস্থিতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গণমাধ্যমের উপস্থিতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈmidiə ˈprɛzəns/",
+    "ipa_uk": "/ˈmidiə ˈprɛzəns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Media Presence,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'গণমাধ্যমের উপস্থিতি' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0042",
@@ -361,7 +793,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Press Briefing' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সংবাদ সম্মেলন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সংবাদ সম্মেলন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/prɛs ˈbrifɪŋ/",
+    "ipa_uk": "/prɛs ˈbrifɪŋ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Press Briefing' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'সংবাদ সম্মেলন' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0043",
@@ -374,7 +822,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Security' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'নিরাপত্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'নিরাপত্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/sɪˈkjʊrəti/",
+    "ipa_uk": "/sɪˈkjʊrəti/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Security' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'নিরাপত্তা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0044",
@@ -387,7 +851,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Law Enforcement' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আইনশৃঙ্খলা বাহিনী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আইনশৃঙ্খলা বাহিনী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/lɔ ɛnˈfɔrsmənt/",
+    "ipa_uk": "/lɔ ɛnˈfɔrsmənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Law Enforcement' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'আইনশৃঙ্খলা বাহিনী' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0045",
@@ -400,7 +880,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Devotees' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ধর্মপ্রাণ মানুষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ধর্মপ্রাণ মানুষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈdɛvəˈtiz/",
+    "ipa_uk": "/ˈdɛvəˈtiz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Devotees' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'ধর্মপ্রাণ মানুষ' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0046",
@@ -413,7 +909,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Respect' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সম্মান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সম্মান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/rɪˈspɛkt/",
+    "ipa_uk": "/rɪˈspɛkt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Respect,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'সম্মান' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0047",
@@ -426,7 +938,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Dua' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/dua/",
+    "ipa_uk": "/dua/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Dua' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'দোয়া' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0048",
@@ -439,7 +967,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Final Rest' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'চিরনিদ্রা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'চিরনিদ্রা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈfaɪnəl rɛst/",
+    "ipa_uk": "/ˈfaɪnəl rɛst/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Final Rest' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'চিরনিদ্রা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0049",
@@ -452,7 +996,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Eternal Peace' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'চিরশান্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'চিরশান্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ɪˈtərnəl pis/",
+    "ipa_uk": "/ɪˈtərnəl pis/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Eternal Peace' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'চিরশান্তি' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0050",
@@ -465,7 +1025,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Last Goodbye' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শেষ বিদায়' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শেষ বিদায়' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/læst ˌgʊdˈbaɪ/",
+    "ipa_uk": "/læst ˌgʊdˈbaɪ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Last Goodbye' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'শেষ বিদায়' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0055",
@@ -478,7 +1054,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Sympathy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সহানুভূতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সহানুভূতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈsɪmpəθi/",
+    "ipa_uk": "/ˈsɪmpəθi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Sympathy,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'সহানুভূতি' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0057",
@@ -491,7 +1083,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Message Of Sorrow' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শোকবার্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শোকবার্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈmɛsɪʤ əv ˈsɑroʊ/",
+    "ipa_uk": "/ˈmɛsɪʤ əv ˈsɑroʊ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Message Of Sorrow' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'শোকবার্তা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0058",
@@ -504,7 +1112,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Obituary' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শোক সংবাদ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শোক সংবাদ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/oʊˈbɪʧuˌɛri/",
+    "ipa_uk": "/oʊˈbɪʧuˌɛri/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Obituary' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'শোক সংবাদ' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0059",
@@ -517,7 +1141,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Legacy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'উত্তরাধিকার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'উত্তরাধিকার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈlɛgəsi/",
+    "ipa_uk": "/ˈlɛgəsi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Legacy' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'উত্তরাধিকার' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0060",
@@ -530,7 +1170,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Contribution' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অবদান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অবদান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌkɑntrəˈbjuʃən/",
+    "ipa_uk": "/ˌkɑntrəˈbjuʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Contribution' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অবদান' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0061",
@@ -543,7 +1199,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Political History' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'রাজনৈতিক ইতিহাস' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'রাজনৈতিক ইতিহাস' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pəˈlɪtɪkəl ˈhɪstəri/",
+    "ipa_uk": "/pəˈlɪtɪkəl ˈhɪstəri/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Political History,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'রাজনৈতিক ইতিহাস' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0062",
@@ -556,7 +1228,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Democracy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গণতন্ত্র' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গণতন্ত্র' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/dɪˈmɑkrəsi/",
+    "ipa_uk": "/dɪˈmɑkrəsi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Democracy' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'গণতন্ত্র' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0063",
@@ -569,7 +1257,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Nation Mourns' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'জাতি শোকাহত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'জাতি শোকাহত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈneɪʃən mɔrnz/",
+    "ipa_uk": "/ˈneɪʃən mɔrnz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Nation Mourns' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'জাতি শোকাহত' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0064",
@@ -582,7 +1286,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Footsteps' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'পদাঙ্ক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'পদাঙ্ক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈfʊtˌstɛps/",
+    "ipa_uk": "/ˈfʊtˌstɛps/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Footsteps' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'পদাঙ্ক' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0065",
@@ -595,7 +1315,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Inspiration' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অনুপ্রেরণা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অনুপ্রেরণা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌɪnspərˈeɪʃən/",
+    "ipa_uk": "/ˌɪnspərˈeɪʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Inspiration' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অনুপ্রেরণা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0067",
@@ -608,7 +1344,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Floral Shower' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ফুল বর্ষণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ফুল বর্ষণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈflɔrəl ʃaʊər/",
+    "ipa_uk": "/ˈflɔrəl ʃaʊər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Floral Shower,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'ফুল বর্ষণ' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0068",
@@ -621,7 +1373,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Historic Moment' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ঐতিহাসিক মুহূর্ত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ঐতিহাসিক মুহূর্ত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/hɪˈstɔrɪk ˈmoʊmənt/",
+    "ipa_uk": "/hɪˈstɔrɪk ˈmoʊmənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Historic Moment' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'ঐতিহাসিক মুহূর্ত' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0069",
@@ -634,7 +1402,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Solemn Atmosphere' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গম্ভীর পরিবেশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গম্ভীর পরিবেশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈsɑləm ˈætməsˌfɪr/",
+    "ipa_uk": "/ˈsɑləm ˈætməsˌfɪr/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Solemn Atmosphere' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'গম্ভীর পরিবেশ' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0070",
@@ -647,7 +1431,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Heavy Heart' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ভারাক্রান্ত মন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ভারাক্রান্ত মন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈhɛvi hɑrt/",
+    "ipa_uk": "/ˈhɛvi hɑrt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Heavy Heart' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'ভারাক্রান্ত মন' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0071",
@@ -660,7 +1460,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Blessings' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আশীর্বাদ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আশীর্বাদ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈblɛsɪŋz/",
+    "ipa_uk": "/ˈblɛsɪŋz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Blessings' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'আশীর্বাদ' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0072",
@@ -673,7 +1489,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Afterlife' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'পরকাল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'পরকাল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈæftərˌlaɪf/",
+    "ipa_uk": "/ˈæftərˌlaɪf/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Afterlife,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'পরকাল' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0073",
@@ -686,7 +1518,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Religious Rites' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ধর্মীয় আচার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ধর্মীয় আচার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/rɪˈlɪʤəs raɪts/",
+    "ipa_uk": "/rɪˈlɪʤəs raɪts/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Religious Rites' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'ধর্মীয় আচার' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0074",
@@ -699,7 +1547,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Mosque Ground' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মসজিদ প্রাঙ্গণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মসজিদ প্রাঙ্গণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/mɔsk graʊnd/",
+    "ipa_uk": "/mɔsk graʊnd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Mosque Ground' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'মসজিদ প্রাঙ্গণ' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0075",
@@ -712,7 +1576,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Mourners' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শোকাহত মানুষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শোকাহত মানুষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈmɔrnərz/",
+    "ipa_uk": "/ˈmɔrnərz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Mourners' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'শোকাহত মানুষ' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0076",
@@ -725,7 +1605,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Tears' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অশ্রু' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অশ্রু' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/tɪrz/",
+    "ipa_uk": "/tɪrz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Tears' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অশ্রু' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0077",
@@ -738,7 +1634,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Final Announcement' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শেষ ঘোষণা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শেষ ঘোষণা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈfaɪnəl əˈnaʊnsmɛnt/",
+    "ipa_uk": "/ˈfaɪnəl əˈnaʊnsmɛnt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Final Announcement,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'শেষ ঘোষণা' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0078",
@@ -751,7 +1663,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Peace Be Upon Her' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'তার প্রতি শান্তি বর্ষিত হোক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'তার প্রতি শান্তি বর্ষিত হোক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pis bi əˈpɑn hər/",
+    "ipa_uk": "/pis bi əˈpɑn hər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Peace Be Upon Her' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'তার প্রতি শান্তি বর্ষিত হোক' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0079",
@@ -764,7 +1692,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Respectful Silence' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সম্মানজনক নীরবতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সম্মানজনক নীরবতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/rɪˈspɛktfəl ˈsaɪləns/",
+    "ipa_uk": "/rɪˈspɛktfəl ˈsaɪləns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Respectful Silence' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'সম্মানজনক নীরবতা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0080",
@@ -777,7 +1721,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Remembrance' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'স্মরণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'স্মরণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/riˈmɛmbrəns/",
+    "ipa_uk": "/riˈmɛmbrəns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Remembrance' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'স্মরণ' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0081",
@@ -790,7 +1750,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Historic Leader' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ঐতিহাসিক নেতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ঐতিহাসিক নেতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/hɪˈstɔrɪk ˈlidər/",
+    "ipa_uk": "/hɪˈstɔrɪk ˈlidər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Historic Leader' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'ঐতিহাসিক নেতা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0084",
@@ -803,7 +1779,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Shared Sorrow' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'যৌথ শোক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'যৌথ শোক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ʃɛrd ˈsɑroʊ/",
+    "ipa_uk": "/ʃɛrd ˈsɑroʊ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Shared Sorrow,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'যৌথ শোক' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0086",
@@ -816,7 +1808,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Chapter Ends' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'এক অধ্যায়ের সমাপ্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'এক অধ্যায়ের সমাপ্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈʧæptər ɛndz/",
+    "ipa_uk": "/ˈʧæptər ɛndz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Chapter Ends' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'এক অধ্যায়ের সমাপ্তি' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0087",
@@ -829,7 +1837,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Farewell Journey' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বিদায় যাত্রা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বিদায় যাত্রা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌfɛrˈwɛl ˈʤərni/",
+    "ipa_uk": "/ˌfɛrˈwɛl ˈʤərni/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Farewell Journey' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'বিদায় যাত্রা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0088",
@@ -842,7 +1866,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Final Prayer' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শেষ দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শেষ দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈfaɪnəl prɛr/",
+    "ipa_uk": "/ˈfaɪnəl prɛr/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Final Prayer' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'শেষ দোয়া' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0089",
@@ -855,7 +1895,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Burial' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'দাফন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'দাফন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈbɛriəl/",
+    "ipa_uk": "/ˈbɛriəl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Burial' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'দাফন' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0090",
@@ -868,7 +1924,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Rest In Peace' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শান্তিতে ঘুমান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শান্তিতে ঘুমান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/rɛst ɪn pis/",
+    "ipa_uk": "/rɛst ɪn pis/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Rest In Peace,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'শান্তিতে ঘুমান' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0091",
@@ -881,7 +1953,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Honored Memory' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সম্মানিত স্মৃতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সম্মানিত স্মৃতি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈɑnərd ˈmɛməri/",
+    "ipa_uk": "/ˈɑnərd ˈmɛməri/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Honored Memory' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'সম্মানিত স্মৃতি' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0092",
@@ -894,7 +1982,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Historic Images' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ঐতিহাসিক দৃশ্য' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ঐতিহাসিক দৃশ্য' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/hɪˈstɔrɪk ˈɪmɪʤɪz/",
+    "ipa_uk": "/hɪˈstɔrɪk ˈɪmɪʤɪz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Historic Images' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'ঐতিহাসিক দৃশ্য' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0094",
@@ -907,7 +2011,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Global Sympathy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বৈশ্বিক সহমর্মিতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বৈশ্বিক সহমর্মিতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈgloʊbəl ˈsɪmpəθi/",
+    "ipa_uk": "/ˈgloʊbəl ˈsɪmpəθi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Global Sympathy' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'বৈশ্বিক সহমর্মিতা' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0095",
@@ -920,7 +2040,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Tearful Farewell' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অশ্রুসিক্ত বিদায়' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অশ্রুসিক্ত বিদায়' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈtɪrfəl ˌfɛrˈwɛl/",
+    "ipa_uk": "/ˈtɪrfəl ˌfɛrˈwɛl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Tearful Farewell' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অশ্রুসিক্ত বিদায়' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0096",
@@ -933,7 +2069,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Sea Of People' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মানুষের সাগর' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মানুষের সাগর' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/si əv ˈpipəl/",
+    "ipa_uk": "/si əv ˈpipəl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Sea Of People,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'মানুষের সাগর' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0098",
@@ -946,7 +2098,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Collective Prayer' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সম্মিলিত দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সম্মিলিত দোয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/kəˈlɛktɪv prɛr/",
+    "ipa_uk": "/kəˈlɛktɪv prɛr/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Collective Prayer' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'সম্মিলিত দোয়া' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0099",
@@ -959,7 +2127,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Eternal Remembrance' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'চিরস্মরণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'চিরস্মরণ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ɪˈtərnəl riˈmɛmbrəns/",
+    "ipa_uk": "/ɪˈtərnəl riˈmɛmbrəns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Eternal Remembrance' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'চিরস্মরণ' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0503",
@@ -972,7 +2156,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Technology' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'প্রযুক্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'প্রযুক্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/tɛkˈnɑləʤi/",
+    "ipa_uk": "/tɛkˈnɑləʤi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Technology' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'প্রযুক্তি' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0526",
@@ -985,7 +2185,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Academic Year' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শিক্ষাবর্ষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শিক্ষাবর্ষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌækəˈdɛmɪk jɪr/",
+    "ipa_uk": "/ˌækəˈdɛmɪk jɪr/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Academic Year' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'শিক্ষাবর্ষ' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0555",
@@ -998,7 +2214,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Academic' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'শিক্ষাগত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'শিক্ষাগত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌækəˈdɛmɪk/",
+    "ipa_uk": "/ˌækəˈdɛmɪk/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Academic,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'শিক্ষাগত' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0575",
@@ -1011,7 +2243,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Career Building' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কর্মজীবন গঠন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কর্মজীবন গঠন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/kərɪr ˈbɪldɪŋ/",
+    "ipa_uk": "/kərɪr ˈbɪldɪŋ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Career Building' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'কর্মজীবন গঠন' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0642",
@@ -1024,7 +2272,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Technician' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কারিগর' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কারিগর' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/tɛkˈnɪʃən/",
+    "ipa_uk": "/tɛkˈnɪʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Technician' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'কারিগর' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_0971",
@@ -1037,7 +2301,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Business News' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বাণিজ্য সংবাদ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বাণিজ্য সংবাদ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈbɪznɪs nuz/",
+    "ipa_uk": "/ˈbɪznɪs nuz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Business News' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'বাণিজ্য সংবাদ' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_1142",
@@ -1050,7 +2330,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Strategy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কৌশল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কৌশল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈstrætəʤi/",
+    "ipa_uk": "/ˈstrætəʤi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Strategy' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'কৌশল' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_1162",
@@ -1063,7 +2359,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Negotiation' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আলোচনা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আলোচনা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/nɪˌgoʊʃiˈeɪʃən/",
+    "ipa_uk": "/nɪˌgoʊʃiˈeɪʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Negotiation,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'আলোচনা' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_1427",
@@ -1076,7 +2388,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Waste Management' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বর্জ্য ব্যবস্থাপনা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বর্জ্য ব্যবস্থাপনা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/weɪst ˈmænɪʤmənt/",
+    "ipa_uk": "/weɪst ˈmænɪʤmənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Waste Management' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'বর্জ্য ব্যবস্থাপনা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_1701",
@@ -1089,7 +2417,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Election Strategy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'নির্বাচনী কৌশল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'নির্বাচনী কৌশল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ɪˈlɛkʃən ˈstrætəʤi/",
+    "ipa_uk": "/ɪˈlɛkʃən ˈstrætəʤi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Election Strategy' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'নির্বাচনী কৌশল' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_1706",
@@ -1102,7 +2446,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Political Strategy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'রাজনৈতিক কৌশল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'রাজনৈতিক কৌশল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pəˈlɪtɪkəl ˈstrætəʤi/",
+    "ipa_uk": "/pəˈlɪtɪkəl ˈstrætəʤi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Political Strategy' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'রাজনৈতিক কৌশল' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_2026",
@@ -1115,7 +2475,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Lab Technician' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ল্যাব টেকনিশিয়ান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ল্যাব টেকনিশিয়ান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/læb tɛkˈnɪʃən/",
+    "ipa_uk": "/læb tɛkˈnɪʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Lab Technician' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'ল্যাব টেকনিশিয়ান' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_2275",
@@ -1128,7 +2504,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Anger Management Failure' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'রাগ নিয়ন্ত্রণে ব্যর্থ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'রাগ নিয়ন্ত্রণে ব্যর্থ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈæŋgər ˈmænɪʤmənt ˈfeɪljər/",
+    "ipa_uk": "/ˈæŋgər ˈmænɪʤmənt ˈfeɪljər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Anger Management Failure,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'রাগ নিয়ন্ত্রণে ব্যর্থ' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3452",
@@ -1141,7 +2533,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Intricate' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'জটিল / সূক্ষ্ম' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'জটিল / সূক্ষ্ম' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈɪntrəkət/",
+    "ipa_uk": "/ˈɪntrəkət/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Intricate' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'জটিল / সূক্ষ্ম' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3679",
@@ -1154,7 +2562,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'March' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'?????' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'?????' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/mɑrʧ/",
+    "ipa_uk": "/mɑrʧ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'March' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, '?????' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3680",
@@ -1167,7 +2591,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Movement' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আন্দোলন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আন্দোলন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈmuvmənt/",
+    "ipa_uk": "/ˈmuvmənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Movement' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'আন্দোলন' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3681",
@@ -1180,7 +2620,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Placard' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'প্ল্যাকার্ড' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'প্ল্যাকার্ড' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈplækərd/",
+    "ipa_uk": "/ˈplækərd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Placard' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'প্ল্যাকার্ড' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3682",
@@ -1193,7 +2649,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Blockade' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অবরোধ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অবরোধ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌblɑˈkeɪd/",
+    "ipa_uk": "/ˌblɑˈkeɪd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Blockade,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'অবরোধ' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3683",
@@ -1206,7 +2678,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Barricade' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ব্যারিকেড' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ব্যারিকেড' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈbɛrəˌkeɪd/",
+    "ipa_uk": "/ˈbɛrəˌkeɪd/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Barricade' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'ব্যারিকেড' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3684",
@@ -1219,7 +2707,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Obstruction' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বাধা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বাধা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/əbˈstrəkʃən/",
+    "ipa_uk": "/əbˈstrəkʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Obstruction' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'বাধা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3685",
@@ -1232,7 +2736,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Police' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'পুলিশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'পুলিশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pəˈlis/",
+    "ipa_uk": "/pəˈlis/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Police' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'পুলিশ' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3686",
@@ -1245,7 +2765,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Patrol' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'টহল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'টহল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pəˈtroʊl/",
+    "ipa_uk": "/pəˈtroʊl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Patrol' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'টহল' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3687",
@@ -1258,7 +2794,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Officer' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কর্মকর্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কর্মকর্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈɔfɪsər/",
+    "ipa_uk": "/ˈɔfɪsər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Officer,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'কর্মকর্তা' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3688",
@@ -1271,7 +2823,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Constable' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কনস্টেবল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কনস্টেবল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈkɑnstəbəl/",
+    "ipa_uk": "/ˈkɑnstəbəl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Constable' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'কনস্টেবল' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3689",
@@ -1284,7 +2852,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Riot Police' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'দাঙ্গা পুলিশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'দাঙ্গা পুলিশ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/raɪət pəˈlis/",
+    "ipa_uk": "/raɪət pəˈlis/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Riot Police' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'দাঙ্গা পুলিশ' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3690",
@@ -1297,7 +2881,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Shield' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ঢাল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ঢাল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ʃild/",
+    "ipa_uk": "/ʃild/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Shield' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'ঢাল' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3691",
@@ -1310,7 +2910,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Baton' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'লাঠি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'লাঠি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈbæˌtɑn/",
+    "ipa_uk": "/ˈbæˌtɑn/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Baton' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'লাঠি' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3692",
@@ -1323,7 +2939,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Helmet' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'হেলমেট' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'হেলমেট' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈhɛlmət/",
+    "ipa_uk": "/ˈhɛlmət/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Helmet,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'হেলমেট' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3693",
@@ -1336,7 +2968,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Scuffle' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ধস্তাধস্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ধস্তাধস্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈskəfəl/",
+    "ipa_uk": "/ˈskəfəl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Scuffle' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'ধস্তাধস্তি' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3694",
@@ -1349,7 +2997,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Confrontation' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মুখোমুখি সংঘর্ষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মুখোমুখি সংঘর্ষ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌkɑnfrənˈteɪʃən/",
+    "ipa_uk": "/ˌkɑnfrənˈteɪʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Confrontation' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'মুখোমুখি সংঘর্ষ' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3695",
@@ -1362,7 +3026,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Tension' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'উত্তেজনা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'উত্তেজনা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈtɛnʃən/",
+    "ipa_uk": "/ˈtɛnʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Tension' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'উত্তেজনা' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3696",
@@ -1375,7 +3055,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Unrest' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অস্থিরতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অস্থিরতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ənˈrɛst/",
+    "ipa_uk": "/ənˈrɛst/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Unrest' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অস্থিরতা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3697",
@@ -1388,7 +3084,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Disperse' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ছত্রভঙ্গ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ছত্রভঙ্গ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/dɪˈspərs/",
+    "ipa_uk": "/dɪˈspərs/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Disperse,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'ছত্রভঙ্গ করা' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3698",
@@ -1401,7 +3113,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Flee' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'পালিয়ে যাওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'পালিয়ে যাওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/fli/",
+    "ipa_uk": "/fli/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Flee' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'পালিয়ে যাওয়া' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3699",
@@ -1414,7 +3142,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Escape' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'পালিয়ে যাওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'পালিয়ে যাওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ɪˈskeɪp/",
+    "ipa_uk": "/ɪˈskeɪp/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Escape' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'পালিয়ে যাওয়া' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3700",
@@ -1427,7 +3171,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Stop' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'থামানো' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'থামানো' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/stɑp/",
+    "ipa_uk": "/stɑp/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Stop' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'থামানো' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3701",
@@ -1440,7 +3200,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Prevent' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'প্রতিরোধ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'প্রতিরোধ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/prɪˈvɛnt/",
+    "ipa_uk": "/prɪˈvɛnt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Prevent' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'প্রতিরোধ করা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3702",
@@ -1453,7 +3229,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Restrict' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সীমাবদ্ধ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সীমাবদ্ধ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/riˈstrɪkt/",
+    "ipa_uk": "/riˈstrɪkt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Restrict,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'সীমাবদ্ধ করা' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3703",
@@ -1466,7 +3258,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Prohibit' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'নিষিদ্ধ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'নিষিদ্ধ করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/proʊˈhɪbət/",
+    "ipa_uk": "/proʊˈhɪbət/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Prohibit' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'নিষিদ্ধ করা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3704",
@@ -1479,7 +3287,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Detain' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আটক রাখা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আটক রাখা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/dɪˈteɪn/",
+    "ipa_uk": "/dɪˈteɪn/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Detain' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'আটক রাখা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3705",
@@ -1492,7 +3316,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Push' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ধাক্কা দেওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ধাক্কা দেওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pʊʃ/",
+    "ipa_uk": "/pʊʃ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Push' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'ধাক্কা দেওয়া' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3706",
@@ -1505,7 +3345,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Shove' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'জোরে ঠেলে দেওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'জোরে ঠেলে দেওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ʃəv/",
+    "ipa_uk": "/ʃəv/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Shove' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'জোরে ঠেলে দেওয়া' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3707",
@@ -1518,7 +3374,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Punch' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ঘুষি মারা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ঘুষি মারা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pənʧ/",
+    "ipa_uk": "/pənʧ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Punch,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'ঘুষি মারা' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3708",
@@ -1531,7 +3403,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Kick' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'লাথি মারা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'লাথি মারা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/kɪk/",
+    "ipa_uk": "/kɪk/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Kick' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'লাথি মারা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3709",
@@ -1544,7 +3432,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Hit' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আঘাত করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আঘাত করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/hɪt/",
+    "ipa_uk": "/hɪt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Hit' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'আঘাত করা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3710",
@@ -1557,7 +3461,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Strike' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আঘাত করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আঘাত করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/straɪk/",
+    "ipa_uk": "/straɪk/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Strike' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'আঘাত করা' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3711",
@@ -1570,7 +3490,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Grapple' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'কুস্তির মতো ধস্তাধস্তি করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'কুস্তির মতো ধস্তাধস্তি করা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈgræpəl/",
+    "ipa_uk": "/ˈgræpəl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Grapple' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'কুস্তির মতো ধস্তাধস্তি করা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3712",
@@ -1583,7 +3519,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Grab' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'চেপে ধরা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'চেপে ধরা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/græb/",
+    "ipa_uk": "/græb/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Grab,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'চেপে ধরা' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3713",
@@ -1596,7 +3548,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Hold' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ধরে রাখা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ধরে রাখা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/hoʊld/",
+    "ipa_uk": "/hoʊld/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Hold' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'ধরে রাখা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3714",
@@ -1609,7 +3577,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Release' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ছেড়ে দেওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ছেড়ে দেওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/riˈlis/",
+    "ipa_uk": "/riˈlis/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Release' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'ছেড়ে দেওয়া' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3715",
@@ -1622,7 +3606,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Injury' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আঘাত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আঘাত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈɪnʤəri/",
+    "ipa_uk": "/ˈɪnʤəri/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Injury' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'আঘাত' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3716",
@@ -1635,7 +3635,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Bruise' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'থেঁতলানো আঘাত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'থেঁতলানো আঘাত' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/bruz/",
+    "ipa_uk": "/bruz/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Bruise' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'থেঁতলানো আঘাত' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3717",
@@ -1648,7 +3664,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Paramedic' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'জরুরি চিকিৎসাকর্মী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'জরুরি চিকিৎসাকর্মী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌpɛrəˈmɛdɪk/",
+    "ipa_uk": "/ˌpɛrəˈmɛdɪk/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Paramedic,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'জরুরি চিকিৎসাকর্মী' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3718",
@@ -1661,7 +3693,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Recover' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সুস্থ হওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সুস্থ হওয়া' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/rɪˈkəvər/",
+    "ipa_uk": "/rɪˈkəvər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Recover' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'সুস্থ হওয়া' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3719",
@@ -1674,7 +3722,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Media' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গণমাধ্যম' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গণমাধ্যম' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈmidiə/",
+    "ipa_uk": "/ˈmidiə/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Media' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'গণমাধ্যম' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3720",
@@ -1687,7 +3751,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Journalist' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সাংবাদিক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সাংবাদিক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈʤərnəlɪst/",
+    "ipa_uk": "/ˈʤərnəlɪst/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Journalist' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'সাংবাদিক' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3721",
@@ -1700,7 +3780,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Camera' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ক্যামেরা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ক্যামেরা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈkæmərə/",
+    "ipa_uk": "/ˈkæmərə/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Camera' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'ক্যামেরা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3722",
@@ -1713,7 +3809,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Rights' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অধিকার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অধিকার' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/raɪts/",
+    "ipa_uk": "/raɪts/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Rights,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'অধিকার' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3723",
@@ -1726,7 +3838,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Freedom' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'স্বাধীনতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'স্বাধীনতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈfridəm/",
+    "ipa_uk": "/ˈfridəm/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Freedom' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'স্বাধীনতা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3724",
@@ -1739,7 +3867,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Dialogue' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সংলাপ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সংলাপ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈdaɪəˌlɔg/",
+    "ipa_uk": "/ˈdaɪəˌlɔg/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Dialogue' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'সংলাপ' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3725",
@@ -1752,7 +3896,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Agreement' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'চুক্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'চুক্তি' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/əˈgrimənt/",
+    "ipa_uk": "/əˈgrimənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Agreement' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'চুক্তি' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3726",
@@ -1765,7 +3925,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Traffic' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'যান চলাচল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'যান চলাচল' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈtræfɪk/",
+    "ipa_uk": "/ˈtræfɪk/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Traffic' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'যান চলাচল' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3727",
@@ -1778,7 +3954,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Highway' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'মহাসড়ক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'মহাসড়ক' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈhaɪˌweɪ/",
+    "ipa_uk": "/ˈhaɪˌweɪ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Highway,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'মহাসড়ক' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3728",
@@ -1791,7 +3983,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Street' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'রাস্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'রাস্তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/strit/",
+    "ipa_uk": "/strit/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Street' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'রাস্তা' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3729",
@@ -1804,7 +4012,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Location' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'স্থান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'স্থান' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/loʊˈkeɪʃən/",
+    "ipa_uk": "/loʊˈkeɪʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Location' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'স্থান' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3730",
@@ -1817,7 +4041,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Area' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'এলাকা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'এলাকা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈɛriə/",
+    "ipa_uk": "/ˈɛriə/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Area' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'এলাকা' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3731",
@@ -1830,7 +4070,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Building' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ভবন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ভবন' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈbɪldɪŋ/",
+    "ipa_uk": "/ˈbɪldɪŋ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Building' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'ভবন' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3732",
@@ -1843,7 +4099,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Entrance' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'প্রবেশপথ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'প্রবেশপথ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈɛntrəns/",
+    "ipa_uk": "/ˈɛntrəns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Entrance,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'প্রবেশপথ' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3733",
@@ -1856,7 +4128,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Exit' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'প্রস্থানপথ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'প্রস্থানপথ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈɛksət/",
+    "ipa_uk": "/ˈɛksət/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Exit' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'প্রস্থানপথ' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3734",
@@ -1869,7 +4157,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Warning' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সতর্কতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সতর্কতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈwɔrnɪŋ/",
+    "ipa_uk": "/ˈwɔrnɪŋ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Warning' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'সতর্কতা' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3735",
@@ -1882,7 +4186,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Support' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সহায়তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সহায়তা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/səˈpɔrt/",
+    "ipa_uk": "/səˈpɔrt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Support' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'সহায়তা' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3736",
@@ -1895,7 +4215,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Assistance' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সহযোগিতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সহযোগিতা' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/əˈsɪstəns/",
+    "ipa_uk": "/əˈsɪstəns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Assistance' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'সহযোগিতা' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3737",
@@ -1908,7 +4244,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Supply' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সরবরাহ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সরবরাহ' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/səˈplaɪ/",
+    "ipa_uk": "/səˈplaɪ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Supply,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'সরবরাহ' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3738",
@@ -1921,7 +4273,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Participant' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অংশগ্রহণকারী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অংশগ্রহণকারী' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/pɑrˈtɪsəpənt/",
+    "ipa_uk": "/pɑrˈtɪsəpənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Participant' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'অংশগ্রহণকারী' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3957",
@@ -1934,7 +4302,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Validation' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বৈধতা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বৈধতা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌvæləˈdeɪʃən/",
+    "ipa_uk": "/ˌvæləˈdeɪʃən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Validation' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'বৈধতা।' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3958",
@@ -1947,7 +4331,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Legitimacy' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বৈধতা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বৈধতা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/lɪˈʤɪtəməsi/",
+    "ipa_uk": "/lɪˈʤɪtəməsi/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Legitimacy' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'বৈধতা।' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3959",
@@ -1960,7 +4360,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Affront' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অপমান।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অপমান।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/əˈfrənt/",
+    "ipa_uk": "/əˈfrənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Affront' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অপমান।' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3960",
@@ -1973,7 +4389,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Mandate' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গণসমর্থন।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গণসমর্থন।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈmænˌdeɪt/",
+    "ipa_uk": "/ˈmænˌdeɪt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Mandate,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'গণসমর্থন।' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3961",
@@ -1986,7 +4418,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Prioritise' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অগ্রাধিকার দেওয়া।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অগ্রাধিকার দেওয়া।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/prioritise/",
+    "ipa_uk": "/prioritise/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Prioritise' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'অগ্রাধিকার দেওয়া।' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3962",
@@ -1999,7 +4447,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Deepen' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সম্প্রসারিত করা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সম্প্রসারিত করা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈdipən/",
+    "ipa_uk": "/ˈdipən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Deepen' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'সম্প্রসারিত করা।' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3963",
@@ -2012,7 +4476,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Constructive' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গঠনমূলক।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গঠনমূলক।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/kənˈstrəktɪv/",
+    "ipa_uk": "/kənˈstrəktɪv/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Constructive' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'গঠনমূলক।' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3964",
@@ -2025,7 +4505,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Broaden' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বিস্তৃত করা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বিস্তৃত করা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈbrɔdən/",
+    "ipa_uk": "/ˈbrɔdən/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Broaden' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'বিস্তৃত করা।' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3965",
@@ -2038,7 +4534,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Consequential' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'গুরুত্বপূর্ণ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'গুরুত্বপূর্ণ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌkɑnsəkˈwɛnʃəl/",
+    "ipa_uk": "/ˌkɑnsəkˈwɛnʃəl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "\"We must understand the exact context of 'Consequential,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'গুরুত্বপূর্ণ।' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3966",
@@ -2051,7 +4563,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Navigate' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সামলানো।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সামলানো।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈnævəˌgeɪt/",
+    "ipa_uk": "/ˈnævəˌgeɪt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Navigate' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'সামলানো।' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3967",
@@ -2064,7 +4592,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Resonate' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'সাড়া জাগানো।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'সাড়া জাগানো।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈrɛzəˌneɪt/",
+    "ipa_uk": "/ˈrɛzəˌneɪt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "In professional communication, 'Resonate' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'সাড়া জাগানো।' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3968",
@@ -2077,7 +4621,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Incur' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'ভোগ করা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'ভোগ করা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌɪnˈkər/",
+    "ipa_uk": "/ˌɪnˈkər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Incur' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'ভোগ করা।' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3969",
@@ -2090,7 +4650,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Unreliable' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'অবিশ্বস্ত।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'অবিশ্বস্ত।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌənrɪˈlaɪəbəl/",
+    "ipa_uk": "/ˌənrɪˈlaɪəbəl/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Unreliable' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'অবিশ্বস্ত।' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3970",
@@ -2103,7 +4679,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Rhetoric' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বাগাড়ম্বর।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বাগাড়ম্বর।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈrɛtərɪk/",
+    "ipa_uk": "/ˈrɛtərɪk/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "\"We must understand the exact context of 'Rhetoric,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'বাগাড়ম্বর।' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3971",
@@ -2116,7 +4708,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Coercive' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'জবরদস্তিমূলক।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'জবরদস্তিমূলক।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/koʊəˈrsɪv/",
+    "ipa_uk": "/koʊəˈrsɪv/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Coercive' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'জবরদস্তিমূলক।' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3972",
@@ -2129,7 +4737,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Adversary' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'প্রতিপক্ষ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'প্রতিপক্ষ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈædvərˌsɛri/",
+    "ipa_uk": "/ˈædvərˌsɛri/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "In professional communication, 'Adversary' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'প্রতিপক্ষ।' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3973",
@@ -2142,7 +4766,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Enduring' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'স্থায়ী।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'স্থায়ী।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ɪnˈdʊrɪŋ/",
+    "ipa_uk": "/ɪnˈdʊrɪŋ/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Basic",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Enduring' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'স্থায়ী।' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3974",
@@ -2155,7 +4795,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Reciprocity' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'পারস্পরিকতা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'পারস্পরিকতা।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌrɛsɪˈprɑsɪti/",
+    "ipa_uk": "/ˌrɛsɪˈprɑsɪti/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "The official presented a comprehensive overview of 'Reciprocity' during the main proceedings.",
+    "example_sentence_bn": "কর্মকর্তা প্রধান কার্যপ্রণালীতে 'পারস্পরিকতা।' সম্পর্কে একটি বিস্তৃত তথ্য পরিবেশন করেছিলেন।",
+    "sentence_template_type": "narrative",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3975",
@@ -2168,7 +4824,23 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Subservient' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বশ্যতাপূর্ণ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বশ্যতাপূর্ণ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/səbˈsərviənt/",
+    "ipa_uk": "/səbˈsərviənt/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example_sentence_en": "\"We must understand the exact context of 'Subservient,'\" the board chairman noted.",
+    "example_sentence_bn": "\"আমাদের 'বশ্যতাপূর্ণ।' এর সঠিক প্রেক্ষাপট বুঝতে হবে,\" বোর্ড চেয়ারম্যান মন্তব্য করেছেন।",
+    "sentence_template_type": "dialogue",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3976",
@@ -2181,7 +4853,23 @@
     "sub_category": "IELTS Band 8+ Academic",
     "cefr_level": "B2",
     "sentence_en": "Using academic vocabulary like 'Pluralism' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বহুত্ববাদ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বহুত্ববাদ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈplʊrəˌlɪzəm/",
+    "ipa_uk": "/ˈplʊrəˌlɪzəm/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Basic",
+    "example_sentence_en": "Leading national outlets highlighted issues related to 'Pluralism' in today's policy report.",
+    "example_sentence_bn": "প্রধান জাতীয় পত্রিকাগুলো আজকের নীতি প্রতিবেদনে 'বহুত্ববাদ।' সংক্রান্ত বিষয়গুলো গুরুত্বের সাথে প্রকাশ করেছে।",
+    "sentence_template_type": "news-style",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3977",
@@ -2194,7 +4882,23 @@
     "sub_category": "Business & Salary",
     "cefr_level": "C1",
     "sentence_en": "Using academic vocabulary like 'Rupture' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'বিচ্ছেদ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'বিচ্ছেদ।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˈrəpʧər/",
+    "ipa_uk": "/ˈrəpʧər/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example_sentence_en": "In professional communication, 'Rupture' refers specifically to effective strategic action.",
+    "example_sentence_bn": "পেশাদার যোগাযোগের ক্ষেত্রে, 'বিচ্ছেদ।' মূলত কার্যকর কৌশলগত পদক্ষেপকে নির্দেশ করে।",
+    "sentence_template_type": "definition-in-context",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   },
   {
     "id": "v_3978",
@@ -2207,6 +4911,22 @@
     "sub_category": "Tech & Innovation",
     "cefr_level": "B1",
     "sentence_en": "Using academic vocabulary like 'Reassurance' helps achieve a higher IELTS speaking score.",
-    "sentence_bn": "'আশ্বাস।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।"
+    "sentence_bn": "'আশ্বাস।' এর মতো প্রাতিষ্ঠানিক শব্দ ব্যবহার করলে আইইএলটিএস স্পোকেনে উচ্চ ব্যান্ড স্কোর অর্জন করা যায়।",
+    "ipa_us": "/ˌriəˈʃʊrəns/",
+    "ipa_uk": "/ˌriəˈʃʊrəns/",
+    "goal_track": "IELTS Aspirant",
+    "allowed_goal_tracks": [
+      "IELTS Aspirant",
+      "Bank Job Seeker",
+      "Corporate English"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example_sentence_en": "As a candidate, I incorporated the concept of 'Reassurance' to strengthen my interview response.",
+    "example_sentence_bn": "একজন প্রার্থী হিসেবে, আমার ইন্টারভিউয়ের উত্তরকে শক্তিশালী করতে আমি 'আশ্বাস।' ধারণাটি প্রয়োগ করেছি।",
+    "sentence_template_type": "first-person",
+    "is_favorite": false,
+    "is_weak": false,
+    "status": "New"
   }
 ]
