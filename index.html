@@ -2123,19 +2123,24 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
     }
 
     function handleOAuthLogin(provider) {
+        if (provider === 'Google') {
+            if (typeof RealAuthEngine !== 'undefined') {
+                RealAuthEngine.signInWithGoogle();
+                return;
+            }
+        }
+        
         let name = "Shishir Ahmed";
         let email = "shishir@gmail.com";
         let avatar = "👨‍🎓";
 
-        if (provider === 'Google') {
-            name = prompt("Enter your Name for Google Sign-In:", "Shishir Ahmed") || "Shishir Ahmed";
-            email = prompt("Enter your Google Email:", "dhshishir6@gmail.com") || "dhshishir6@gmail.com";
-        } else if (provider === 'Facebook') {
-            name = prompt("Enter your Facebook Name:", "Shishir Ahmed") || "Shishir Ahmed";
+        if (provider === 'Facebook') {
             email = "shishir_fb@gmail.com";
         } else if (provider === 'LinkedIn') {
-            name = prompt("Enter your LinkedIn Name:", "Shishir Ahmed (BCS Aspirant)") || "Shishir Ahmed";
             email = "shishir_linkedin@gmail.com";
+        } else if (provider === 'Demo') {
+            name = "Demo Learner (Shishir)";
+            email = "demo@speakupai.pro";
         }
 
         currentUser = { id: 'usr_' + Date.now(), name: name, email: email, auth_provider: provider, avatar: avatar, isPaid: true };
@@ -2150,10 +2155,10 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
 
         updateUserUI();
         closeLoginModal();
-        alert(`🎉 Signed in successfully via ${provider}! Your account data & progress are active.`);
+        alert(`🎉 Signed in successfully via ${provider}! Account state active.`);
     }
 
-    function submitEmailAuth() {
+    async function submitEmailAuth() {
         const emailInput = document.getElementById('emailAuthInput');
         const passInput = document.getElementById('passwordAuthInput');
         const email = emailInput ? emailInput.value.trim() : '';
@@ -2164,7 +2169,16 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
             return;
         }
 
-        const name = email.split('@')[0].replace(/[^a-zA-Z]/g, ' ') || "Learner";
+        if (typeof RealAuthEngine !== 'undefined') {
+            const user = await RealAuthEngine.signInWithEmail(email, pass);
+            if (!user) {
+                // Try sign-up if sign-in failed
+                await RealAuthEngine.signUpWithEmail(email, pass, email.split('@')[0]);
+            }
+            closeLoginModal();
+            return;
+        }
+
         handleOAuthLogin('Email');
     }
 
@@ -2701,6 +2715,8 @@ Return only the spoken script formatted cleanly.`;
         drawPitchCanvas();
     });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/supabase_auth.js"></script>
 <script src="js/vocab_engine.js"></script>
 </body>
 </html>
