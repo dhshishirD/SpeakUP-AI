@@ -129,10 +129,11 @@ const VocabEngine = {
             const cleanMeaning = item.meaning_bn.replace(/'/g, "\\'");
             html += `
             <div class="vocab-card-pro" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:16px; padding:14px; margin-bottom:10px; text-align:left; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:4px;">
                     <div>
                         <strong style="font-size:16px; color:#0F172A; font-family:'Plus Jakarta Sans',sans-serif;">${item.word}</strong>
-                        <span class="ipa-badge" style="background:#E0F2FE; color:#0284C7; font-size:11px; font-weight:800; padding:2px 6px; border-radius:6px; margin-left:6px;">${item.ipa}</span>
+                        <span class="ipa-badge" style="background:#E0F2FE; color:#0369A1; border:1px solid #BAE6FD; font-family:monospace; font-size:11px; font-weight:800; padding:2px 7px; border-radius:6px; margin-left:6px;" title="IPA Pronunciation with Syllable Stress Mark (ˈ)">${item.ipa}</span>
+                        ${item.bangla_phonetic ? `<span style="background:#F1F5F9; color:#64748B; font-size:11px; font-weight:700; padding:2px 6px; border-radius:6px; margin-left:4px;">(${item.bangla_phonetic})</span>` : ''}
                     </div>
                     <span style="font-size:10px; font-weight:800; color:#059669; background:#D1FAE5; padding:2px 8px; border-radius:8px;">${item.cefr_level || 'B2'}</span>
                 </div>
