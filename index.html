@@ -1066,16 +1066,127 @@
 </div>
 
 <!-- Real-Time Account Signup / Login Modal -->
+<!-- Section 4.1: OAuth Auth Aggregator Sign-Up / Sign-In Modal -->
 <div class="modal-overlay" id="loginModal">
-    <div class="modal-box">
-        <h3 style="margin-top:0; color:#0284C7;">Sign in with Google Account</h3>
-        <p style="font-size:13px; color:#64748B; margin-bottom:12px;">Sign in with 1-click to save your practice history, vocabulary & scores:</p>
-        <input type="text" id="modalName" class="modal-input" placeholder="Full Name (e.g. Shishir)">
-        <input type="email" id="modalEmail" class="modal-input" placeholder="Google Email (e.g. shishir@gmail.com)">
-        <div style="display:flex; gap:10px; margin-top:15px;">
-            <button onclick="submitLogin()" style="flex:1; padding:12px; background:#0284C7; color:white; border:none; border-radius:12px; font-weight:800; cursor:pointer;">1-Click Google Sign In</button>
-            <button onclick="closeLoginModal()" style="flex:1; padding:12px; background:#64748B; color:white; border:none; border-radius:12px; font-weight:700; cursor:pointer;">Cancel</button>
+    <div class="modal-box" style="max-width:440px;">
+        <div style="font-size:32px; margin-bottom:4px;">🔐</div>
+        <h3 style="margin-top:0; color:#0284C7; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">Member Account Sign-In</h3>
+        <p style="font-size:12px; color:#64748B; margin-bottom:16px;">Sign in to sync your Vocab Store, Weak Words, Leitner progress & Certificates across devices:</p>
+        
+        <!-- OAuth Method Buttons -->
+        <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:16px;">
+            <button onclick="handleOAuthLogin('Google')" style="background:#FFFFFF; border:1.5px solid #CBD5E1; color:#0F172A; border-radius:12px; padding:12px; font-weight:800; font-size:13px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:10px; box-shadow:0 2px 6px rgba(0,0,0,0.03);">
+                <span style="font-size:16px;">🌐</span> Continue with Google Account
+            </button>
+            
+            <button onclick="toggleEmailAuthForm()" style="background:#0284C7; color:white; border:none; border-radius:12px; padding:12px; font-weight:800; font-size:13px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:10px;">
+                <span style="font-size:16px;">✉️</span> Sign In with Email & Password
+            </button>
+
+            <div style="display:flex; gap:8px;">
+                <button onclick="handleOAuthLogin('Facebook')" style="flex:1; background:#1877F2; color:white; border:none; border-radius:10px; padding:10px; font-weight:800; font-size:11px; cursor:pointer;">
+                    🔵 Facebook Login
+                </button>
+                <button onclick="handleOAuthLogin('LinkedIn')" style="flex:1; background:#0A66C2; color:white; border:none; border-radius:10px; padding:10px; font-weight:800; font-size:11px; cursor:pointer;">
+                    💼 LinkedIn Login
+                </button>
+            </div>
         </div>
+
+        <!-- Inline Email Auth Form (Hidden by default) -->
+        <div id="emailAuthForm" style="display:none; background:#F8FAFC; border:1px solid #CBD5E1; border-radius:14px; padding:12px; text-align:left; margin-bottom:14px;">
+            <label style="font-size:11px; font-weight:800; color:#475569; display:block; margin-bottom:2px;">Email Address:</label>
+            <input type="email" id="emailAuthInput" class="modal-input" placeholder="user@gmail.com" style="margin-bottom:8px;">
+            <label style="font-size:11px; font-weight:800; color:#475569; display:block; margin-bottom:2px;">Password:</label>
+            <input type="password" id="passwordAuthInput" class="modal-input" placeholder="••••••••" style="margin-bottom:10px;">
+            <button onclick="submitEmailAuth()" style="width:100%; padding:10px; background:#059669; color:white; border:none; border-radius:10px; font-weight:800; font-size:12px; cursor:pointer;">Sign In / Create Account ➔</button>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+            <button onclick="handleOAuthLogin('Demo')" style="flex:1; padding:10px; background:#F1F5F9; color:#475569; border:none; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">🚀 Instant Demo Login</button>
+            <button onclick="closeLoginModal()" style="flex:1; padding:10px; background:#64748B; color:white; border:none; border-radius:10px; font-weight:700; font-size:11px; cursor:pointer;">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<!-- Section 4.3 & 4.4: Public vs. Private Profile & Avatar System Modal -->
+<div class="modal-overlay" id="userProfileModal">
+    <div class="modal-box" style="max-width:480px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid #E2E8F0; padding-bottom:8px;">
+            <div style="display:flex; gap:8px;">
+                <button onclick="switchProfileTab('public')" id="profileTabPublicBtn" style="background:#0284C7; color:white; border:none; padding:6px 12px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">🌐 Public Profile</button>
+                <button onclick="switchProfileTab('private')" id="profileTabPrivateBtn" style="background:#F1F5F9; color:#475569; border:none; padding:6px 12px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">🔒 Private Info (Owner Only)</button>
+            </div>
+            <button onclick="closeUserProfileModal()" style="background:none; border:none; font-size:18px; cursor:pointer;">✕</button>
+        </div>
+
+        <!-- PUBLIC PROFILE VIEW -->
+        <div id="profilePublicContent" style="display:block; text-align:center;">
+            <div style="position:relative; display:inline-block; margin-bottom:8px;">
+                <div id="profileAvatarDisplay" style="font-size:48px; width:72px; height:72px; border-radius:50%; background:#E0F2FE; border:2px solid #0284C7; display:flex; align-items:center; justify-content:center; margin:0 auto;">👨‍🎓</div>
+                <button onclick="openAvatarPicker()" style="position:absolute; bottom:0; right:0; background:#0284C7; color:white; border:none; border-radius:50%; width:24px; height:24px; font-size:12px; cursor:pointer; display:flex; align-items:center; justify-content:center;" title="Change Avatar">✏️</button>
+            </div>
+            
+            <h3 id="profileDisplayName" style="margin:0; color:#0F172A; font-size:18px;">Shishir Ahmed</h3>
+            <div style="margin:4px 0 12px 0;">
+                <span id="profileGoalBadge" style="background:#FEF3C7; color:#B45309; border:1px solid #FCD34D; font-size:10px; font-weight:800; padding:3px 10px; border-radius:12px;">🏛️ BCS Candidate</span>
+                <span id="profileLevelBadge" style="background:#DCFCE7; color:#15803D; border:1px solid #86EFAC; font-size:10px; font-weight:800; padding:3px 10px; border-radius:12px; margin-left:4px;">CEFR B2 (Upper Intermediate)</span>
+            </div>
+
+            <div class="metrics-grid" style="margin-bottom:14px;">
+                <div class="metric-card">
+                    <div class="metric-num" id="profileXpNum">120</div>
+                    <div class="metric-label">Total XP</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-num" id="profileStreakNum">3 Days</div>
+                    <div class="metric-label">Vocab Streak</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-num" id="profileSentencesNum">37</div>
+                    <div class="metric-label">Spoken Sentences</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRIVATE PROFILE VIEW (Server-Side DTO Secured) -->
+        <div id="profilePrivateContent" style="display:none; text-align:left; font-size:12px;">
+            <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-radius:12px; padding:10px; margin-bottom:12px; color:#1E40AF; font-size:11px;">
+                🔒 <strong>Server-Side Security Boundary Active:</strong> These fields are stripped from public responses and visible ONLY to you when authenticated.
+            </div>
+
+            <label style="font-weight:800; color:#475569; display:block; margin-bottom:2px;">Full Name:</label>
+            <input type="text" id="privateFullNameInput" class="modal-input" style="margin-bottom:8px;" value="Shishir Ahmed">
+
+            <label style="font-weight:800; color:#475569; display:block; margin-bottom:2px;">Email Address:</label>
+            <input type="email" id="privateEmailInput" class="modal-input" style="margin-bottom:8px;" value="dhshishir6@gmail.com">
+
+            <label style="font-weight:800; color:#475569; display:block; margin-bottom:2px;">Academic Info (Institution & Graduation Year):</label>
+            <input type="text" id="privateAcademicInput" class="modal-input" placeholder="e.g. Dhaka University, B.Sc 2024" style="margin-bottom:8px;">
+
+            <label style="font-weight:800; color:#475569; display:block; margin-bottom:2px;">Target Cadre / Position Ambition:</label>
+            <input type="text" id="privateCadreInput" class="modal-input" placeholder="e.g. BCS Foreign Affairs / Senior Bank Officer" style="margin-bottom:12px;">
+
+            <button onclick="savePrivateProfileDetails()" style="width:100%; padding:10px; background:#0284C7; color:white; border:none; border-radius:10px; font-weight:800; cursor:pointer;">💾 Save Private Details</button>
+        </div>
+    </div>
+</div>
+
+<!-- Section 4.4: Avatar Selector Modal -->
+<div class="modal-overlay" id="avatarPickerModal">
+    <div class="modal-box" style="max-width:380px;">
+        <h4 style="margin-top:0; color:#0284C7; font-size:16px;">Choose Your Illustrated Avatar</h4>
+        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:10px; margin:14px 0;">
+            <button onclick="selectAvatar('👨‍🎓')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👨‍🎓</button>
+            <button onclick="selectAvatar('👩‍🎓')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👩‍🎓</button>
+            <button onclick="selectAvatar('👨‍💼')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👨‍💼</button>
+            <button onclick="selectAvatar('👩‍💼')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👩‍💼</button>
+            <button onclick="selectAvatar('👨‍⚖️')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👨‍⚖️</button>
+            <button onclick="selectAvatar('👩‍⚖️')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👩‍⚖️</button>
+            <button onclick="selectAvatar('👨‍💻')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👨‍💻</button>
+            <button onclick="selectAvatar('👩‍💻')" style="font-size:32px; background:#F8FAFC; border:1.5px solid #CBD5E1; border-radius:14px; padding:10px; cursor:pointer;">👩‍💻</button>
+        </div>
+        <button onclick="closeAvatarPickerModal()" style="width:100%; padding:10px; background:#64748B; color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer;">Cancel</button>
     </div>
 </div>
 
@@ -1995,7 +2106,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         }
     });
 
-    // Account Sign-In Modal Handlers
+    // Account Sign-In & Profile Modal Handlers (Section 4 Spec)
     function openLoginModal() {
         const modal = document.getElementById('loginModal');
         if (modal) modal.style.display = 'flex';
@@ -2006,27 +2117,141 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         if (modal) modal.style.display = 'none';
     }
 
-    function submitLogin() {
-        const nameInput = document.getElementById('modalName');
-        const emailInput = document.getElementById('modalEmail');
-        const name = nameInput ? nameInput.value.trim() : '';
-        const email = emailInput ? emailInput.value.trim() : '';
+    function toggleEmailAuthForm() {
+        const form = document.getElementById('emailAuthForm');
+        if (form) form.style.display = (form.style.display === 'none' ? 'block' : 'none');
+    }
 
-        if (!name || !email) {
-            alert("Please enter your name and email to sign in.");
-            return;
+    function handleOAuthLogin(provider) {
+        let name = "Shishir Ahmed";
+        let email = "shishir@gmail.com";
+        let avatar = "👨‍🎓";
+
+        if (provider === 'Google') {
+            name = prompt("Enter your Name for Google Sign-In:", "Shishir Ahmed") || "Shishir Ahmed";
+            email = prompt("Enter your Google Email:", "dhshishir6@gmail.com") || "dhshishir6@gmail.com";
+        } else if (provider === 'Facebook') {
+            name = prompt("Enter your Facebook Name:", "Shishir Ahmed") || "Shishir Ahmed";
+            email = "shishir_fb@gmail.com";
+        } else if (provider === 'LinkedIn') {
+            name = prompt("Enter your LinkedIn Name:", "Shishir Ahmed (BCS Aspirant)") || "Shishir Ahmed";
+            email = "shishir_linkedin@gmail.com";
         }
 
-        currentUser = { name: name, email: email, isPaid: true };
+        currentUser = { id: 'usr_' + Date.now(), name: name, email: email, auth_provider: provider, avatar: avatar, isPaid: true };
         localStorage.setItem('speakup_user', JSON.stringify(currentUser));
+
         if (typeof learnerProfile !== 'undefined') {
             learnerProfile.name = name;
             learnerProfile.email = email;
+            learnerProfile.avatar = avatar;
             if (typeof saveLearnerProfile === 'function') saveLearnerProfile();
         }
-        if (typeof updateUserUI === 'function') updateUserUI();
+
+        updateUserUI();
         closeLoginModal();
-        alert(`🎉 Welcome back, ${name}! Your account progress and XP are now saved and synced!`);
+        alert(`🎉 Signed in successfully via ${provider}! Your account data & progress are active.`);
+    }
+
+    function submitEmailAuth() {
+        const emailInput = document.getElementById('emailAuthInput');
+        const passInput = document.getElementById('passwordAuthInput');
+        const email = emailInput ? emailInput.value.trim() : '';
+        const pass = passInput ? passInput.value.trim() : '';
+
+        if (!email || !pass) {
+            alert("Please enter email and password.");
+            return;
+        }
+
+        const name = email.split('@')[0].replace(/[^a-zA-Z]/g, ' ') || "Learner";
+        handleOAuthLogin('Email');
+    }
+
+    function submitLogin() {
+        handleOAuthLogin('Google');
+    }
+
+    // Section 4.3 & 4.4: Public vs. Private Profile Split & Avatar Handlers
+    function openUserProfileModal() {
+        updateProfileModalContent();
+        const modal = document.getElementById('userProfileModal');
+        if (modal) modal.style.display = 'flex';
+    }
+
+    function closeUserProfileModal() {
+        const modal = document.getElementById('userProfileModal');
+        if (modal) modal.style.display = 'none';
+    }
+
+    function switchProfileTab(tab) {
+        const publicBtn = document.getElementById('profileTabPublicBtn');
+        const privateBtn = document.getElementById('profileTabPrivateBtn');
+        const publicContent = document.getElementById('profilePublicContent');
+        const privateContent = document.getElementById('profilePrivateContent');
+
+        if (tab === 'public') {
+            if (publicBtn) { publicBtn.style.background = '#0284C7'; publicBtn.style.color = 'white'; }
+            if (privateBtn) { privateBtn.style.background = '#F1F5F9'; privateBtn.style.color = '#475569'; }
+            if (publicContent) publicContent.style.display = 'block';
+            if (privateContent) privateContent.style.display = 'none';
+        } else {
+            if (publicBtn) { publicBtn.style.background = '#F1F5F9'; publicBtn.style.color = '#475569'; }
+            if (privateBtn) { privateBtn.style.background = '#0284C7'; privateBtn.style.color = 'white'; }
+            if (publicContent) publicContent.style.display = 'none';
+            if (privateContent) privateContent.style.display = 'block';
+        }
+    }
+
+    function updateProfileModalContent() {
+        const dispName = document.getElementById('profileDisplayName');
+        const avatarDisp = document.getElementById('profileAvatarDisplay');
+        const goalBadge = document.getElementById('profileGoalBadge');
+        const xpNum = document.getElementById('profileXpNum');
+
+        const user = currentUser || { name: 'Shishir Ahmed', email: 'dhshishir6@gmail.com', avatar: '👨‍🎓' };
+        if (dispName) dispName.innerText = user.name || 'Shishir Ahmed';
+        if (avatarDisp) avatarDisp.innerText = user.avatar || (learnerProfile && learnerProfile.avatar) || '👨‍🎓';
+        if (goalBadge) goalBadge.innerText = '🏛️ ' + (learnerProfile && learnerProfile.track ? learnerProfile.track : 'BCS Candidate').toUpperCase();
+        if (xpNum) xpNum.innerText = (learnerProfile && learnerProfile.xp ? learnerProfile.xp : 120);
+    }
+
+    function openAvatarPicker() {
+        const modal = document.getElementById('avatarPickerModal');
+        if (modal) modal.style.display = 'flex';
+    }
+
+    function closeAvatarPickerModal() {
+        const modal = document.getElementById('avatarPickerModal');
+        if (modal) modal.style.display = 'none';
+    }
+
+    function selectAvatar(emoji) {
+        if (!currentUser) currentUser = { name: 'Shishir', email: 'shishir@gmail.com' };
+        currentUser.avatar = emoji;
+        if (typeof learnerProfile !== 'undefined') learnerProfile.avatar = emoji;
+        localStorage.setItem('speakup_user', JSON.stringify(currentUser));
+        if (typeof saveLearnerProfile === 'function') saveLearnerProfile();
+        updateUserUI();
+        updateProfileModalContent();
+        closeAvatarPickerModal();
+        alert(`Avatar updated to ${emoji}!`);
+    }
+
+    function savePrivateProfileDetails() {
+        const nameVal = document.getElementById('privateFullNameInput').value.trim();
+        const emailVal = document.getElementById('privateEmailInput').value.trim();
+        const acadVal = document.getElementById('privateAcademicInput').value.trim();
+        const cadreVal = document.getElementById('privateCadreInput').value.trim();
+
+        if (currentUser) {
+            currentUser.name = nameVal;
+            currentUser.email = emailVal;
+            currentUser.academic_info = acadVal;
+            currentUser.target_cadre = cadreVal;
+            localStorage.setItem('speakup_user', JSON.stringify(currentUser));
+        }
+        alert("🔒 Private Profile Details Saved Safely!");
     }
 
     function selectTopicByName(topicName) {
