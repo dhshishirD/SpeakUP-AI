@@ -1541,7 +1541,8 @@
 
     function renderIpaSoundList(category) {
         const container = document.getElementById('ipaListContainer');
-        const filtered = category === 'all' ? all44IpaSounds : all44IpaSounds.filter(s => s.category === category);
+        if (!container) return;
+        const filtered = (category === 'all' || !category) ? all44IpaSounds : all44IpaSounds.filter(s => s.category === category);
         
         container.innerHTML = filtered.map((item, index) => `
             <div class="vocab-card-pro">
@@ -2098,6 +2099,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         } else if (serviceId === 'ipaLab') {
             targetId = 'ipaTab';
             labelText = '🎙️ 44 IPA PHONETICS SOUND LAB';
+            setTimeout(() => { renderIpaSoundList('all'); }, 50);
         } else if (serviceId === 'quizTab') {
             targetId = 'quizTab';
             labelText = '❓ SPOKEN QUIZ ENGINE';
@@ -2764,6 +2766,9 @@ Return only the spoken script formatted cleanly.`;
         updateProfileUI();
         updateApiKeyStatusLabel();
         drawPitchCanvas();
+        if (typeof renderIpaSoundList === 'function') {
+            renderIpaSoundList('all');
+        }
     });
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
