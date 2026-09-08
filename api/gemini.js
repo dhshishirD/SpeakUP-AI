@@ -1,5 +1,5 @@
 // Vercel Serverless Function: World-Class Gemini AI Proxy
-// Priority: gemini-2.0-flash (Ultra-Fast 2026 Production Endpoint) + Multi-Model Fallback
+// Priority: gemini-2.0-flash (Ultra-Fast 2026 Flagship Endpoint) + Multi-Model Fallback
 
 export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Credentials', true);
@@ -23,13 +23,35 @@ export default async function handler(req, res) {
         const apiKey = userApiKey || process.env.GEMINI_API_KEY;
 
         if (!apiKey) {
-            return res.status(401).json({ error: 'No GEMINI_API_KEY environment variable or user key provided.' });
+            return res.status(401).json({ 
+                error: 'GEMINI_API_KEY is missing. Please add GEMINI_API_KEY to your Vercel Environment Variables and redeploy, or enter your API key in app Settings.' 
+            });
         }
 
         let sysText = typeof systemInstruction === 'string' ? systemInstruction : (systemInstruction?.parts?.[0]?.text || "You are SpeakUP AI, a world-class intelligent Spoken English tutor for Bangladeshi learners.");
         
         if (persona && typeof persona === 'object') {
             sysText = `[Active Persona: ${persona.name} (${persona.role})]. ${persona.instructions}\n` + sysText;
+        }
+
+        // Clean & sanitize contents array for Gemini v1beta API
+        let formattedContents = [];
+        if (Array.isArray(contents)) {
+            for (let item of contents) {
+                if (item && item.parts && item.parts[0] && item.parts[0].text) {
+                    let role = (item.role === 'model' || item.role === 'assistant') ? 'model' : 'user';
+                    formattedContents.push({ role: role, parts: [{ text: item.parts[0].text }] });
+                }
+            }
+        }
+        
+        # Ensure array starts with a 'user' message
+        while (formattedContents.length > 0 && formattedContents[0].role !== 'user') {
+            formattedContents.shift();
+        }
+
+        if (formattedContents.length === 0) {
+            formattedContents = [{ role: 'user', parts: [{ text: 'Hello!' }] }];
         }
 
         // Official Google Gemini API production model identifiers
@@ -47,7 +69,7 @@ export default async function handler(req, res) {
                 const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
                 const payload = {
-                    contents: contents || [],
+                    contents: formattedContents,
                     systemInstruction: { parts: [{ text: sysText }] },
                     generationConfig: {
                         temperature: 0.8,
@@ -77,7 +99,7 @@ export default async function handler(req, res) {
             }
         }
 
-        return res.status(500).json({ error: "All Gemini AI models failed: " + lastError });
+        return res.status(500).json({ error: "Gemini API call failed: " + lastError });
     } catch (error) {
         console.error("Serverless Proxy Error:", error);
         return res.status(500).json({ error: error.message });

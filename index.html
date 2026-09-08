@@ -1828,7 +1828,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         updateUserUI();
         updateGoalTracker();
 
-        document.getElementById('statusText').innerText = "⚡ Our Intelligent Tutor AI is generating response...";
+        document.getElementById('statusText').innerText = "⚡ Gemini 2.0 AI generating spontaneous response...";
         chatHistory.push({ role: "user", parts: [{ text: userText }] });
 
         const activePersonaConfig = (typeof PERSONA_CONFIGS !== 'undefined' && typeof currentPersona !== 'undefined' && PERSONA_CONFIGS[currentPersona])
@@ -1837,7 +1837,18 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
 
         const sysInstructionText = `You are a world-class, spontaneous, and hyper-intelligent AI Spoken English Partner & Coach. Persona: ${activePersonaConfig.name} (${activePersonaConfig.role}) - ${activePersonaConfig.instructions}. Topic: "${currentTopic}". Guidelines: 1. Respond in a highly natural, engaging, empathetic, and spontaneous spoken tone (like ChatGPT Voice Mode / Gemini Live). 2. Keep responses to 2-3 natural spoken sentences. 3. Never sound robotic or templated. 4. If the student makes a grammar or phrasing error in ("${userText}"), gently incorporate a brief 1-line constructive tip seamlessly, then ask an open-ended question to keep the voice conversation flowing smoothly.`;
 
-        const recentHistory = chatHistory.slice(-10);
+        // Format history cleanly for Gemini API
+        let validContents = [];
+        for (let msg of chatHistory) {
+            if (msg && msg.parts && msg.parts[0] && msg.parts[0].text) {
+                let r = (msg.role === 'model' || msg.role === 'assistant') ? 'model' : 'user';
+                validContents.push({ role: r, parts: [{ text: msg.parts[0].text }] });
+            }
+        }
+        while (validContents.length > 0 && validContents[0].role !== 'user') {
+            validContents.shift();
+        }
+        const recentHistory = validContents.slice(-10);
 
         try {
             const aiReply = await fetchGeminiAiResponse(recentHistory, sysInstructionText);
@@ -1849,14 +1860,14 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
                 return;
             }
         } catch(e) {
-            console.warn("API fetch failed, trying fallback dialogue engine:", e);
+            console.error("Gemini API Error:", e);
+            document.getElementById('statusText').innerText = "⚠️ API Error: " + (e.message || e);
         }
 
-        // ULTRA-DYNAMIC NON-REPETITIVE FALLBACK DIALOGUE ENGINE
-        let aiReply = getDynamicIntelligentDialogue(userText);
-        saveUserData(userText, aiReply, score);
-        addMessage('ai', aiReply);
-        speakOut(aiReply);
+        // Informative AI Notice instead of repetitive text loops
+        let errorReply = "I noticed a temporary connection issue with the Gemini API. Please make sure your GEMINI_API_KEY is saved in settings or environment variables!";
+        addMessage('ai', errorReply);
+        speakOut(errorReply);
     }
 
     function getDynamicIntelligentDialogue(input) {
