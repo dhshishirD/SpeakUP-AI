@@ -905,6 +905,13 @@
         <div id="ipaListContainer" style="min-height:300px;">
             <!-- Populated via JS renderIpaSoundList() -->
         </div>
+        <script>
+            setTimeout(function() {
+                if (typeof renderIpaSoundList === 'function') {
+                    renderIpaSoundList('all');
+                }
+            }, 100);
+        </script>
     </div>
 
 
@@ -2772,7 +2779,7 @@ Return only the spoken script formatted cleanly.`;
     });
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase_auth.js"></script>
-<script src="js/vocab_engine.js"></script>
+<script src="js/supabase_auth.js?v=2.0.2"></script>
+<script src="js/vocab_engine.js?v=2.0.2"></script>
 </body>
 </html>
