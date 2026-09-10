@@ -3,16 +3,21 @@
  * Features:
  * 1. Real Google OAuth Redirect (signInWithOAuth)
  * 2. Real Email + Password Auth (signUp / signInWithPassword)
- * 3. Real Postgres Database Persistence (user_progress, user_profile)
+ * 3. Real Postgres Database Persistence (user_vocab_progress)
  */
 
-const SUPABASE_URL = window.ENV_SUPABASE_URL || 'https://xyzcompany.supabase.co';
-const SUPABASE_ANON_KEY = window.ENV_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...';
+const SUPABASE_URL = window.ENV_SUPABASE_URL || 'https://aizpmilyxcmvtbxyodxy.supabase.co';
+const SUPABASE_ANON_KEY = window.ENV_SUPABASE_ANON_KEY || 'sb_publishable_5X8m9ohyHTqaq2KC4HSg4A_kdePALwO';
 
 let supabaseClient = null;
 
 if (typeof supabase !== 'undefined') {
-    supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    try {
+        supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        console.log("🟢 Supabase Client initialized for https://aizpmilyxcmvtbxyodxy.supabase.co");
+    } catch(e) {
+        console.error("Supabase init error:", e);
+    }
 }
 
 const RealAuthEngine = {
@@ -25,30 +30,34 @@ const RealAuthEngine = {
             return;
         }
 
-        // Check active session
-        const { data: { session } } = await supabaseClient.auth.getSession();
-        if (session && session.user) {
-            this.user = session.user;
-            this.onAuthSuccess(session.user);
-        }
-
-        // Listen to auth state changes (Google OAuth redirect return)
-        supabaseClient.auth.onAuthStateChange((event, session) => {
-            console.log("Supabase Auth Event:", event);
+        try {
+            // Check active session
+            const { data: { session } } = await supabaseClient.auth.getSession();
             if (session && session.user) {
                 this.user = session.user;
                 this.onAuthSuccess(session.user);
-            } else if (event === 'SIGNED_OUT') {
-                this.user = null;
-                this.onSignOut();
             }
-        });
+
+            // Listen to auth state changes (Google OAuth redirect return)
+            supabaseClient.auth.onAuthStateChange((event, session) => {
+                console.log("Supabase Auth Event:", event);
+                if (session && session.user) {
+                    this.user = session.user;
+                    this.onAuthSuccess(session.user);
+                } else if (event === 'SIGNED_OUT') {
+                    this.user = null;
+                    this.onSignOut();
+                }
+            });
+        } catch(e) {
+            console.error("Supabase Session Check Error:", e);
+        }
     },
 
     // 1. REAL GOOGLE OAUTH REDIRECT
     async signInWithGoogle() {
         if (!supabaseClient) {
-            alert("⚠️ Supabase Backend Not Configured Yet!\n\nPlease add SUPABASE_URL and SUPABASE_ANON_KEY in Vercel environment variables to enable live Google OAuth consent screens.");
+            alert("⚠️ Supabase Client Not Loaded.");
             return;
         }
 
@@ -68,8 +77,8 @@ const RealAuthEngine = {
     // 2. REAL EMAIL + PASSWORD SIGN UP & SIGN IN
     async signUpWithEmail(email, password, fullName) {
         if (!supabaseClient) {
-            alert("⚠️ Supabase Backend Not Configured Yet.");
-            return;
+            alert("⚠️ Supabase Client Not Loaded.");
+            return null;
         }
 
         const { data, error } = await supabaseClient.auth.signUp({
@@ -86,15 +95,17 @@ const RealAuthEngine = {
         }
 
         if (data.user) {
-            alert("🎉 Sign-Up Successful! Please check your email for the confirmation link or sign in.");
+            alert("🎉 Sign-Up Successful! Welcome to SpeakUP AI.");
+            this.user = data.user;
+            this.onAuthSuccess(data.user);
             return data.user;
         }
     },
 
     async signInWithEmail(email, password) {
         if (!supabaseClient) {
-            alert("⚠️ Supabase Backend Not Configured Yet.");
-            return;
+            alert("⚠️ Supabase Client Not Loaded.");
+            return null;
         }
 
         const { data, error } = await supabaseClient.auth.signInWithPassword({
@@ -134,7 +145,7 @@ const RealAuthEngine = {
                 .from('user_vocab_progress')
                 .upsert(payload, { onConflict: 'user_id' });
 
-            if (error) console.error("Postgres Save Error:", error.message);
+            if (error) console.warn("Postgres Save Note:", error.message);
             else console.log("✅ Saved progress to Supabase Postgres database!");
         } catch (e) {
             console.error("Database save failed:", e);
@@ -176,7 +187,7 @@ const RealAuthEngine = {
             id: user.id,
             name: userName,
             email: user.email,
-            avatar: user.user_metadata?.avatar || '👨‍🎓',
+            avatar: user.user_metadata?.avatar_url || '👨‍🎓',
             isPaid: true
         };
 
@@ -193,12 +204,15 @@ const RealAuthEngine = {
                 }
             });
         }
+
+        // Close auth modal if open
+        const modal = document.getElementById('loginModal');
+        if (modal) modal.style.display = 'none';
     },
 
     onSignOut() {
         window.currentUser = null;
         if (typeof updateUserUI === 'function') updateUserUI();
-        alert("Logged out successfully.");
     }
 };
 
