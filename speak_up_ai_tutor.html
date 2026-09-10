@@ -2102,35 +2102,35 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         let targetId = 'practiceTab';
         let labelText = '🤖 AI SPOKEN PARTNER WORKSPACE';
 
-        if (serviceId === 'aiTutor') {
+        if (serviceId === 'jobVivaPrepWorkspace' || serviceId === 'jobViva' || serviceId === 'bcsViva') {
+            targetId = 'jobVivaPrepWorkspace';
+            labelText = 'UNIFIED JOB VIVA PREP STUDIO';
+            if (typeof VivaStudioEngine !== 'undefined') VivaStudioEngine.setTrack('bcs');
+        } else if (serviceId === 'profileTab') {
+            targetId = 'profileTab';
+            labelText = 'PERSONAL SPACE WORKSPACE';
+            if (typeof ProfileEngine !== 'undefined') ProfileEngine.renderPersonalSpaceUI();
+        } else if (serviceId === 'aiTutor') {
             targetId = 'practiceTab';
-            labelText = '🤖 AI SPOKEN PARTNER WORKSPACE';
+            labelText = 'AI SPOKEN PARTNER WORKSPACE';
             if (typeof selectTopicByName === 'function') selectTopicByName('General Spoken Practice');
         } else if (serviceId === 'realPartner') {
             targetId = 'realPartnerTab';
-            labelText = '👥 REAL PARTNER LIVE WEBRTC CALL';
+            labelText = 'REAL PARTNER LIVE WEBRTC CALL';
         } else if (serviceId === 'ieltsStudio') {
             targetId = 'ieltsWorkspaceTab';
-            labelText = '✈️ IELTS BAND 8.0 SPEAKING STUDIO';
+            labelText = 'IELTS BAND 8.0 SPEAKING STUDIO';
             if (typeof selectTopicByName === 'function') selectTopicByName('1-Month IELTS Speaking & AI Mock Test');
-        } else if (serviceId === 'bcsViva') {
-            targetId = 'bcsWorkspaceTab';
-            labelText = '🏛️ BCS CADRE VIVA PORTAL';
-            if (typeof selectTopicByName === 'function') selectTopicByName('BCS and Govt Viva Exam');
-        } else if (serviceId === 'jobViva') {
-            targetId = 'jobWorkspaceTab';
-            labelText = '💼 BANK & JOB VIVA SUITE';
-            if (typeof selectTopicByName === 'function') selectTopicByName('Bank and IT Job Interview');
         } else if (serviceId === 'ipaLab') {
             targetId = 'ipaTab';
-            labelText = '🎙️ 44 IPA PHONETICS SOUND LAB';
+            labelText = '44 IPA PHONETICS SOUND LAB';
             setTimeout(() => { renderIpaSoundList('all'); }, 50);
         } else if (serviceId === 'quizTab') {
             targetId = 'quizTab';
-            labelText = '❓ SPOKEN QUIZ ENGINE';
+            labelText = 'SPOKEN QUIZ ENGINE';
         } else if (serviceId === 'vocabBankTab') {
             targetId = 'vocabTab';
-            labelText = '📖 DYNAMIC VOCABULARY DICTIONARY';
+            labelText = 'DYNAMIC VOCABULARY DICTIONARY';
         }
 
         if (backLabel) backLabel.innerText = labelText;
@@ -2821,15 +2821,15 @@ Return only the spoken script formatted cleanly.`;
     });
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase_auth.js?v=3.0.0"></script>
-<script src="js/profile_engine.js?v=3.0.0"></script>
-<script src="js/svg_icons.js?v=3.0.0"></script>
-<script src="js/facebook_sharing.js?v=3.0.0"></script>
-<script src="js/diagnostic_engine.js?v=3.0.0"></script>
-<script src="js/viva_studio_engine.js?v=3.0.0"></script>
-<script src="js/native_resources.js?v=3.0.0"></script>
-<script src="js/prosody_engine.js?v=3.0.0"></script>
-<script src="js/vocab_engine.js?v=3.0.0"></script>
+<script src="js/supabase_auth.js?v=3.1.0"></script>
+<script src="js/profile_engine.js?v=3.1.0"></script>
+<script src="js/svg_icons.js?v=3.1.0"></script>
+<script src="js/facebook_sharing.js?v=3.1.0"></script>
+<script src="js/diagnostic_engine.js?v=3.1.0"></script>
+<script src="js/viva_studio_engine.js?v=3.1.0"></script>
+<script src="js/native_resources.js?v=3.1.0"></script>
+<script src="js/prosody_engine.js?v=3.1.0"></script>
+<script src="js/vocab_engine.js?v=3.1.0"></script>
 
 <!-- FACEBOOK GROUP ORAL PRACTICE SHARING MODAL -->
 <div id="fbShareModal" class="modal-overlay" style="display:none;">
