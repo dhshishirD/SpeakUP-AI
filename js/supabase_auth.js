@@ -192,6 +192,7 @@ const RealAuthEngine = {
         };
 
         if (typeof updateUserUI === 'function') updateUserUI();
+        if (typeof ProfileEngine !== 'undefined') ProfileEngine.syncFromCloud(user);
         if (typeof VocabEngine !== 'undefined') {
             this.loadProgressFromPostgres().then(remoteData => {
                 if (remoteData) {

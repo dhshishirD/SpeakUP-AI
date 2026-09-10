@@ -476,7 +476,7 @@
             <button onclick="toggleDarkMode()" class="theme-toggle-btn">
                 <span id="themeToggleIcon">🌙</span> <span id="themeToggleText">Dark Mode</span>
             </button>
-            <div id="userProfileHeaderPill" style="display:flex; align-items:center; gap:6px;"></div>
+            <div id="userProfileHeaderPill" style="display:flex; align-items:center; gap:6px; cursor:pointer;" onclick="openServiceWorkspace('profileTab')"></div>
             <button onclick="openOnboardingModal()" style="background:#F0F9FF; border:1px solid #BAE6FD; color:#0369A1; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
                 🎯 Level Diagnostic (<span id="userLevelBadge">CEFR B1</span>)
             </button>
@@ -2831,6 +2831,7 @@ Return only the spoken script formatted cleanly.`;
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/supabase_auth.js?v=2.0.2"></script>
+<script src="js/profile_engine.js?v=2.0.3"></script>
 <script src="js/vocab_engine.js?v=2.0.2"></script>
 </body>
 </html>
