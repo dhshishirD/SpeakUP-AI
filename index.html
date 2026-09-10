@@ -478,7 +478,7 @@
             </button>
             <div id="userProfileHeaderPill" style="display:flex; align-items:center; gap:6px; cursor:pointer;" onclick="openServiceWorkspace('profileTab')"></div>
             <button onclick="openOnboardingModal()" style="background:#F0F9FF; border:1px solid #BAE6FD; color:#0369A1; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
-                🎯 Level Diagnostic (<span id="userLevelBadge">CEFR B1</span>)
+                Level Diagnostic (<span id="userLevelBadge">CEFR B1</span>)
             </button>
         </div>
 
@@ -494,24 +494,24 @@
         <!-- TODAY'S AUTO-GENERATED 15-MIN PRACTICE PLAN WIDGET -->
         <div id="todayPracticePlanCard" style="background:linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%); border:1.5px solid #BFDBFE; border-radius:18px; padding:14px 16px; margin-bottom:16px; text-align:left; box-shadow:0 4px 12px rgba(2,132,199,0.06);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-                <span style="font-size:11px; font-weight:900; color:#1E40AF; background:#FFFFFF; padding:3px 10px; border-radius:10px; border:1px solid #93C5FD;">🎯 TODAY'S 15-MIN PLAN</span>
+                <span style="font-size:11px; font-weight:900; color:#1E40AF; background:#FFFFFF; padding:3px 10px; border-radius:10px; border:1px solid #93C5FD;">TODAY'S PRACTICE PLAN</span>
                 <span id="dailyProgressText" style="font-size:11px; font-weight:800; color:#1E40AF;">0 / 4 Completed (0 XP)</span>
             </div>
             <div id="dailyTaskListContainer" style="display:flex; flex-direction:column; gap:6px; margin-top:8px;">
                 <div onclick="openServiceWorkspace('aiTutor')" style="background:#FFFFFF; border:1px solid #93C5FD; border-radius:10px; padding:8px 12px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
-                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">🤖 5-Min AI Spoken Practice</span>
+                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">5-Min AI Spoken Practice</span>
                     <span style="font-size:10px; font-weight:800; color:#0284C7; background:#E0F2FE; padding:2px 8px; border-radius:6px;">+25 XP</span>
                 </div>
                 <div onclick="openServiceWorkspace('ipaLab')" style="background:#FFFFFF; border:1px solid #93C5FD; border-radius:10px; padding:8px 12px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
-                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">🎙️ 3 IPA Pronunciation Drills</span>
+                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">3 IPA Pronunciation Drills</span>
                     <span style="font-size:10px; font-weight:800; color:#0284C7; background:#E0F2FE; padding:2px 8px; border-radius:6px;">+20 XP</span>
                 </div>
                 <div onclick="openServiceWorkspace('quizTab')" style="background:#FFFFFF; border:1px solid #93C5FD; border-radius:10px; padding:8px 12px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
-                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">❓ 10-Question Spoken Quiz</span>
+                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">10-Question Spoken Quiz</span>
                     <span style="font-size:10px; font-weight:800; color:#0284C7; background:#E0F2FE; padding:2px 8px; border-radius:6px;">+35 XP</span>
                 </div>
                 <div onclick="openServiceWorkspace('vocabBankTab')" style="background:#FFFFFF; border:1px solid #93C5FD; border-radius:10px; padding:8px 12px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
-                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">📖 Master 3 New Vocab Words</span>
+                    <span style="font-size:11px; font-weight:800; color:#1E40AF;">Master 3 New Vocab Words</span>
                     <span style="font-size:10px; font-weight:800; color:#0284C7; background:#E0F2FE; padding:2px 8px; border-radius:6px;">+20 XP</span>
                 </div>
             </div>
@@ -522,56 +522,56 @@
             
             <!-- 1. AI Spoken Partner -->
             <div onclick="openServiceWorkspace('aiTutor')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#0284C7'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">🤖</div>
+                <div style="font-size:11px; font-weight:900; color:#0284C7; margin-bottom:6px; letter-spacing:0.5px;">AI PARTNER</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">AI Spoken Partner</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">24/7 Practice with instant spoken grammar tips</span>
             </div>
 
             <!-- 2. Real Spoken Partner -->
             <div onclick="openServiceWorkspace('realPartner')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#D97706'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">👥</div>
+                <div style="font-size:11px; font-weight:900; color:#D97706; margin-bottom:6px; letter-spacing:0.5px;">PEER VOICE</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Real Spoken Partner</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">1-on-1 Live WebRTC Voice Stream with Friends</span>
             </div>
 
             <!-- 3. IELTS Band 8.0 -->
             <div onclick="openServiceWorkspace('ieltsStudio')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#2563EB'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">✈️</div>
+                <div style="font-size:11px; font-weight:900; color:#2563EB; margin-bottom:6px; letter-spacing:0.5px;">IELTS PREP</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">IELTS Band 8.0</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Part 1, Part 2 Cue Cards, Part 3 & AI Mock Examiner</span>
             </div>
 
             <!-- 4. BCS Cadre Viva -->
             <div onclick="openServiceWorkspace('bcsViva')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#059669'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">🏛️</div>
+                <div style="font-size:11px; font-weight:900; color:#059669; margin-bottom:6px; letter-spacing:0.5px;">BCS VIVA</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">BCS Cadre Viva</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Constitution, 1971 History, & PSC Cadre Pitch</span>
             </div>
 
             <!-- 5. Bank & Other Job Viva -->
             <div onclick="openServiceWorkspace('jobViva')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#7C3AED'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">💼</div>
+                <div style="font-size:11px; font-weight:900; color:#7C3AED; margin-bottom:6px; letter-spacing:0.5px;">JOB VIVA</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Bank & Other Job Viva</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">STAR Framework, Pitch & Salary Negotiation</span>
             </div>
 
             <!-- 6. Phonetics Lab -->
             <div onclick="openServiceWorkspace('ipaLab')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#DC2626'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">🎙️</div>
+                <div style="font-size:11px; font-weight:900; color:#DC2626; margin-bottom:6px; letter-spacing:0.5px;">PHONETICS</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Phonetics Lab</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">44 IPA Sounds & Real-Time Pitch Wave Canvas</span>
             </div>
 
             <!-- 7. Spoken Quizzes -->
             <div onclick="openServiceWorkspace('quizTab')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#0284C7'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">❓</div>
+                <div style="font-size:11px; font-weight:900; color:#0284C7; margin-bottom:6px; letter-spacing:0.5px;">QUIZ ENGINE</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Spoken Quizzes</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Interactive 10-Question Spoken Quiz Engine</span>
             </div>
 
             <!-- 8. Vocab Bank -->
             <div onclick="openServiceWorkspace('vocabBankTab')" style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:14px; text-align:left; cursor:pointer; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(15,23,42,0.04);" onmouseover="this.style.borderColor='#059669'; this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='translateY(0)'">
-                <div style="font-size:24px; margin-bottom:8px;">📖</div>
+                <div style="font-size:11px; font-weight:900; color:#059669; margin-bottom:6px; letter-spacing:0.5px;">VOCAB BANK</div>
                 <strong style="font-size:14px; color:#0F172A; display:block; margin-bottom:2px;">Vocab Bank</strong>
                 <span style="font-size:10px; color:#64748B; display:block; line-height:1.3;">Dynamic Vocabulary & Idioms Dictionary</span>
             </div>
@@ -581,7 +581,7 @@
         <!-- Member Account Sync Pill -->
         <div style="background:#F0F9FF; border:1px solid #BAE6FD; border-radius:16px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
             <div id="memberSyncStatusText">
-                <strong style="font-size:12px; color:#0369A1; display:block;">🔐 Member Account Sync</strong>
+                <strong style="font-size:12px; color:#0369A1; display:block;">Cloud Account Sync</strong>
                 <span style="font-size:10px; color:#64748B;">Save progress & sync XP rewards</span>
             </div>
             <button id="memberSyncAuthBtn" onclick="openLoginModal()" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">Sign In ➔</button>
@@ -594,7 +594,7 @@
         <div style="background:linear-gradient(135deg, #0284C7 0%, #2563EB 100%); color:white; border-radius:20px; padding:20px; margin-bottom:14px; text-align:left; box-shadow:0 10px 30px rgba(2,132,199,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
                 <span style="font-size:11px; background:rgba(255,255,255,0.25); color:white; font-weight:900; padding:4px 12px; border-radius:12px;">Real-Time AI Tutor</span>
-                <span id="userXpBadge" style="font-size:11px; opacity:0.9; font-weight:700;">⭐ 100 XP</span>
+                <span id="userXpBadge" style="font-size:11px; opacity:0.9; font-weight:700;">100 XP</span>
             </div>
             <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">🤖 AI Spoken Partner Studio</h3>
             <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">24/7 Spoken practice with instant feedback, accents, & translation</p>
@@ -654,7 +654,7 @@
         <!-- 🎯 1-Day Trial Status Goal Bar -->
         <div class="goal-card">
             <div style="display:flex; align-items:center; gap:6px;">
-                <span id="streakBadge">🔥 1-Day Streak</span>
+                <span id="streakBadge">1-Day Streak</span>
                 <span>• Trial: <strong style="color:#D97706;" id="trialStatusText">24 Hours 100% Free</strong></span>
             </div>
             <div class="goal-progress-bg">
@@ -697,7 +697,7 @@
     <div id="realPartnerTab" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #D97706 0%, #F59E0B 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(217,119,6,0.25);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                <span style="font-size:11px; background:#10B981; color:white; font-weight:900; padding:4px 12px; border-radius:12px; letter-spacing:0.5px;">🟢 WebRTC Live Stream</span>
+                <span style="font-size:11px; background:#10B981; color:white; font-weight:900; padding:4px 12px; border-radius:12px; letter-spacing:0.5px;">WebRTC Live Stream</span>
                 <span style="font-size:11px; opacity:0.9; font-weight:700;">1-on-1 Voice Call</span>
             </div>
             <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">👥 Real Spoken Partner Studio</h3>
@@ -722,7 +722,7 @@
         </div>
 
         <div id="peerStatusCard" style="display:none; background:#ECFDF5; border:1.5px solid #6EE7B7; border-radius:16px; padding:14px; text-align:center; color:#065F46; font-weight:800; font-size:13px;">
-            🟢 Connected to Partner! Speak now into your microphone...
+            Connected to Partner! Speak now into your microphone...
         </div>
     </div>
 
@@ -810,7 +810,7 @@
         <div style="display:flex; justify-content:space-between; align-items:center; background:#ECFDF5; border:1px solid #A7F3D0; padding:10px 14px; border-radius:14px; margin-bottom:14px;">
             <span style="font-size:11px; font-weight:800; color:#047857;">PSC Panel Mode:</span>
             <div style="display:flex; gap:6px;">
-                <button onclick="switchBcsBoardMode('friendly', this)" class="bcs-mode-btn active" style="background:#059669; color:white; border:none; padding:4px 10px; border-radius:8px; font-weight:800; font-size:11px; cursor:pointer;">🟢 Friendly Board</button>
+                <button onclick="switchBcsBoardMode('friendly', this)" class="bcs-mode-btn active" style="background:#059669; color:white; border:none; padding:4px 10px; border-radius:8px; font-weight:800; font-size:11px; cursor:pointer;">Friendly Board</button>
                 <button onclick="switchBcsBoardMode('aggressive', this)" class="bcs-mode-btn" style="background:#F1F5F9; color:#475569; border:none; padding:4px 10px; border-radius:8px; font-weight:800; font-size:11px; cursor:pointer;">🔴 Aggressive Board</button>
             </div>
         </div>
@@ -856,7 +856,7 @@
                 <button onclick="switchJobTrack('salary', this)" class="job-track-btn" style="background:#F1F5F9; color:#475569; border:none; padding:8px 12px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer; whitespace:nowrap;">Salary Negotiator</button>
             </div>
             <button onclick="openStarBuilderModal()" style="background:#F59E0B; color:white; border:none; padding:8px 12px; border-radius:10px; font-weight:900; font-size:11px; cursor:pointer; whitespace:nowrap; box-shadow:0 4px 10px rgba(245,158,11,0.3);">
-                ⭐ STAR Builder
+                STAR Builder
             </button>
         </div>
 
@@ -1089,7 +1089,7 @@
 <!-- Section 4.1: OAuth Auth Aggregator Sign-Up / Sign-In Modal -->
 <div class="modal-overlay" id="loginModal">
     <div class="modal-box" style="max-width:440px;">
-        <div style="font-size:32px; margin-bottom:4px;">🔐</div>
+        <div style="font-size:32px; margin-bottom:4px;"></div>
         <h3 style="margin-top:0; color:#0284C7; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif;">Member Account Sign-In</h3>
         <p style="font-size:12px; color:#64748B; margin-bottom:16px;">Sign in to sync your Vocab Store, Weak Words, Leitner progress & Certificates across devices:</p>
         
@@ -1347,14 +1347,14 @@
             <span id="summaryFeedback">Great effort on fluency! Keep working on complex sentence structures and using advanced vocabulary.</span>
         </div>
 
-        <button onclick="closeSessionSummaryModal()" style="width:100%; padding:12px; background:#22C55E; color:white; border:none; border-radius:12px; font-weight:800; font-size:14px; cursor:pointer;">🔥 Claim Streak & Continue</button>
+        <button onclick="closeSessionSummaryModal()" style="width:100%; padding:12px; background:#22C55E; color:white; border:none; border-radius:12px; font-weight:800; font-size:14px; cursor:pointer;">Claim Streak & Continue</button>
     </div>
 </div>
 
-<!-- ⭐ STAR Builder Modal -->
+<!-- STAR Builder Modal -->
 <div class="modal-overlay" id="starBuilderModal">
     <div class="modal-box" style="max-width:480px;">
-        <h3 style="margin-top:0; color:#6D28D9; font-size:20px;">⭐ STAR Framework Pitch Builder</h3>
+        <h3 style="margin-top:0; color:#6D28D9; font-size:20px;">STAR Framework Pitch Builder</h3>
         <p style="font-size:12px; color:#64748B; margin-bottom:12px;">Construct high-impact behavioral interview answers for Bank & Corporate Vivas.</p>
         
         <div style="text-align:left; font-size:11px;">
@@ -1530,7 +1530,7 @@
 
     function claimStreakChest() {
         userXp += 50;
-        document.getElementById('userXpBadge').innerText = `⭐ ${userXp} XP`;
+        document.getElementById('userXpBadge').innerText = `${userXp} XP`;
         alert("🎁 Congratulations! You opened the 7-Day Gold Chest and claimed +50 Bonus XP!");
     }
 
@@ -2044,7 +2044,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
                 const pillBtn = document.getElementById('memberSyncAuthBtn');
                 if (pillStatus) {
                     pillStatus.innerHTML = `
-                        <strong style="font-size:12px; color:#15803D; display:block;">🟢 Connected: ${name}</strong>
+                        <strong style="font-size:12px; color:#15803D; display:block;">Connected: ${name}</strong>
                         <span style="font-size:10px; color:#15803D; font-weight:700;">${email} • Postgres Cloud Synced</span>
                     `;
                 }
@@ -2073,7 +2073,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
                 const pillBtn = document.getElementById('memberSyncAuthBtn');
                 if (pillStatus) {
                     pillStatus.innerHTML = `
-                        <strong style="font-size:12px; color:#0369A1; display:block;">🔐 Member Account Sync</strong>
+                        <strong style="font-size:12px; color:#0369A1; display:block;">Cloud Account Sync</strong>
                         <span style="font-size:10px; color:#64748B;">Save progress & sync XP rewards</span>
                     `;
                 }
@@ -2549,7 +2549,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         const badge = document.getElementById('userLevelBadge');
         if (badge) badge.innerText = 'CEFR ' + (learnerProfile.level || 'B1');
         const xpBadge = document.getElementById('userXpBadge');
-        if (xpBadge) xpBadge.innerText = '⭐ ' + (learnerProfile.xp || 100) + ' XP';
+        if (xpBadge) xpBadge.innerText = '' + (learnerProfile.xp || 100) + ' XP';
     }
 
     function openOnboardingModal() {
@@ -2563,13 +2563,37 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
     }
 
     function saveOnboardingDiagnostic() {
-        const track = document.getElementById('diagTrackSelect').value;
-        const level = document.getElementById('diagLevelSelect').value;
+        const trackSelect = document.getElementById('diagTrackSelect');
+        const levelSelect = document.getElementById('diagLevelSelect');
+        const track = trackSelect ? trackSelect.value : 'general';
+        const level = levelSelect ? levelSelect.value : 'B1';
+        
         learnerProfile.track = track;
         learnerProfile.level = level;
         saveLearnerProfile();
+
+        if (typeof ProfileEngine !== 'undefined') {
+            ProfileEngine.profile.cefrLevel = level;
+            ProfileEngine.profile.targetTrack = track;
+            ProfileEngine.saveLocalProfile();
+            ProfileEngine.renderPersonalSpaceUI();
+            
+            if (typeof supabaseClient !== 'undefined' && supabaseClient && ProfileEngine.profile.userId) {
+                supabaseClient.from('diagnostic_history').insert({
+                    user_id: ProfileEngine.profile.userId,
+                    track: track,
+                    cefr_score: level
+                });
+                
+                supabaseClient.from('users_profile').update({
+                    cefr_level: level,
+                    target_track: track
+                }).eq('user_id', ProfileEngine.profile.userId);
+            }
+        }
+
         closeOnboardingModal();
-        alert(`🎯 Placement Diagnostic Saved! Target Track: ${track.toUpperCase()} • Level: ${level}`);
+        alert(`Placement Diagnostic Saved: ${track.toUpperCase()} • Level ${level}`);
     }
 
     function switchAiPersona(personaKey, btnElement) {
@@ -2625,7 +2649,7 @@ Return only the spoken script formatted cleanly.`;
 
         try {
             const script = await fetchGeminiAiResponse([{ role: 'user', parts: [{ text: prompt }] }], 'You are an expert interview coach.');
-            outputDiv.innerHTML = `<strong>⭐ Model STAR Spoken Script:</strong><br>${script.replace(/\n/g, '<br>')}`;
+            outputDiv.innerHTML = `<strong>Model STAR Spoken Script:</strong><br>${script.replace(/\n/g, '<br>')}`;
         } catch(e) {
             outputDiv.innerText = `Situation: ${sit}\nTask: ${task}\nAction: ${act}\nResult: ${res}\n(In my previous role, I encountered this situation and successfully took initiative to deliver great results.)`;
         }
