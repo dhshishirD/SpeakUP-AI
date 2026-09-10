@@ -476,6 +476,7 @@
             <button onclick="toggleDarkMode()" class="theme-toggle-btn">
                 <span id="themeToggleIcon">🌙</span> <span id="themeToggleText">Dark Mode</span>
             </button>
+            <div id="userProfileHeaderPill" style="display:flex; align-items:center; gap:6px;"></div>
             <button onclick="openOnboardingModal()" style="background:#F0F9FF; border:1px solid #BAE6FD; color:#0369A1; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
                 🎯 Level Diagnostic (<span id="userLevelBadge">CEFR B1</span>)
             </button>
@@ -579,11 +580,11 @@
 
         <!-- Member Account Sync Pill -->
         <div style="background:#F0F9FF; border:1px solid #BAE6FD; border-radius:16px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
-            <div>
+            <div id="memberSyncStatusText">
                 <strong style="font-size:12px; color:#0369A1; display:block;">🔐 Member Account Sync</strong>
                 <span style="font-size:10px; color:#64748B;">Save progress & sync XP rewards</span>
             </div>
-            <button onclick="openLoginModal()" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">Sign In ➔</button>
+            <button id="memberSyncAuthBtn" onclick="openLoginModal()" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">Sign In ➔</button>
         </div>
     </div>
 
@@ -2030,14 +2031,64 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
         try {
             const userAvatar = document.getElementById('userAvatar');
             const userNameNav = document.getElementById('userNameNav');
-            if (currentUser) {
-                if (userAvatar) userAvatar.innerText = currentUser.name.charAt(0).toUpperCase();
-                if (userNameNav) userNameNav.innerText = currentUser.name;
+            const user = window.currentUser || (typeof RealAuthEngine !== 'undefined' ? RealAuthEngine.user : null);
+
+            if (user) {
+                const name = user.name || user.user_metadata?.full_name || user.email?.split('@')[0] || "Learner";
+                const email = user.email || "";
+
+                if (userAvatar) userAvatar.innerText = name.charAt(0).toUpperCase();
+                if (userNameNav) userNameNav.innerText = name;
+
+                const pillStatus = document.getElementById('memberSyncStatusText');
+                const pillBtn = document.getElementById('memberSyncAuthBtn');
+                if (pillStatus) {
+                    pillStatus.innerHTML = `
+                        <strong style="font-size:12px; color:#15803D; display:block;">🟢 Connected: ${name}</strong>
+                        <span style="font-size:10px; color:#15803D; font-weight:700;">${email} • Postgres Cloud Synced</span>
+                    `;
+                }
+                if (pillBtn) {
+                    pillBtn.innerText = 'Sign Out';
+                    pillBtn.style.background = '#DC2626';
+                    pillBtn.onclick = function() {
+                        if (typeof RealAuthEngine !== 'undefined') RealAuthEngine.signOut();
+                    };
+                }
+
+                const headerBadge = document.getElementById('userProfileHeaderPill');
+                if (headerBadge) {
+                    headerBadge.innerHTML = `
+                        <div style="background:#DCFCE7; border:1.5px solid #22C55E; border-radius:20px; padding:4px 10px; color:#15803D; font-size:11px; font-weight:800; display:flex; align-items:center; gap:6px;">
+                            <span style="width:18px; height:18px; border-radius:50%; background:#22C55E; color:white; font-size:10px; display:inline-flex; align-items:center; justify-content:center;">${name.charAt(0).toUpperCase()}</span>
+                            ${name}
+                        </div>
+                    `;
+                }
             } else {
                 if (userAvatar) userAvatar.innerText = "G";
                 if (userNameNav) userNameNav.innerText = "Guest";
+
+                const pillStatus = document.getElementById('memberSyncStatusText');
+                const pillBtn = document.getElementById('memberSyncAuthBtn');
+                if (pillStatus) {
+                    pillStatus.innerHTML = `
+                        <strong style="font-size:12px; color:#0369A1; display:block;">🔐 Member Account Sync</strong>
+                        <span style="font-size:10px; color:#64748B;">Save progress & sync XP rewards</span>
+                    `;
+                }
+                if (pillBtn) {
+                    pillBtn.innerText = 'Sign In ➔';
+                    pillBtn.style.background = '#0284C7';
+                    pillBtn.onclick = function() { openLoginModal(); };
+                }
+
+                const headerBadge = document.getElementById('userProfileHeaderPill');
+                if (headerBadge) headerBadge.innerHTML = '';
             }
-        } catch(e){}
+        } catch(e){
+            console.error("updateUserUI error:", e);
+        }
     }
 
 
