@@ -1082,6 +1082,60 @@
     
     <!-- 💼 UNIFIED JOB VIVA PREP STUDIO WORKSPACE -->
     
+    
+    <!-- 🎙️ WORD STRESS & SYLLABLE CALIBRATION STUDIO WORKSPACE -->
+    <div id="wordStressWorkspace" class="tab-content-page" style="display:none;">
+        <!-- Header Banner -->
+        <div style="background:linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%); color:white; border-radius:20px; padding:20px; margin-bottom:16px; text-align:left; box-shadow:0 10px 30px rgba(124,58,237,0.25);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:10px; background:rgba(255,255,255,0.2); color:white; font-weight:900; padding:4px 10px; border-radius:10px; letter-spacing:0.5px;">WORD STRESS STUDIO</span>
+                <button onclick="returnToCatalogHub()" style="background:rgba(255,255,255,0.2); color:white; border:none; padding:4px 12px; border-radius:10px; font-weight:800; font-size:11px; cursor:pointer;">← All Services Catalog</button>
+            </div>
+            <h3 style="margin:0; font-size:20px; font-family:'Plus Jakarta Sans',sans-serif; color:#FFFFFF;">🎙️ Word Stress & Syllable Calibration Studio</h3>
+            <p style="font-size:12px; opacity:0.9; margin:4px 0 0 0; line-height:1.4;">Master English word stress rules, Noun vs. Verb accent shifts, and suffix patterns</p>
+        </div>
+
+        <!-- Single Unified Search Bar -->
+        <div style="background:#FFFFFF; border:1.5px solid #E2E8F0; border-radius:18px; padding:16px; margin-bottom:16px; box-shadow:0 6px 16px rgba(0,0,0,0.04);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <strong style="font-size:13px; color:#0F172A;">🔍 Unified Word Stress & Syllable Search</strong>
+                <span style="font-size:10px; background:#F5F3FF; color:#6D28D9; font-weight:800; padding:2px 8px; border-radius:8px; border:1px solid #DDD6FE;">CMUDict + AI Phonetics</span>
+            </div>
+            <input type="text" id="wsStudioSearchInput" onkeyup="WordStressEngine.handleStudioSearch(this.value)" placeholder="Type ANY English word (e.g. technology, university, communication, record)..." style="width:100%; box-sizing:border-box; padding:12px 14px; border:1.5px solid #CBD5E1; border-radius:14px; font-size:13px; font-weight:700; outline:none;">
+
+            <!-- Dynamic AI Lookup Card -->
+            <div id="wordStressAiLookupCard" style="display:none; margin-top:14px; padding:14px; background:#F5F3FF; border:1.5px solid #DDD6FE; border-radius:14px;">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <div>
+                        <span style="font-size:10px; background:#6D28D9; color:white; font-weight:900; padding:2px 8px; border-radius:6px;">🔮 UNLIMITED AI LOOKUP TIER</span>
+                        <strong id="wsAiWord" style="font-size:18px; color:#0F172A; display:block; margin-top:2px;">Comfortable</strong>
+                    </div>
+                    <span id="wsAiIpa" style="font-size:14px; color:#6D28D9; font-weight:800;">/kʌmfətəbl/</span>
+                </div>
+                <div style="margin-top:8px;">
+                    <span style="font-size:10px; font-weight:800; color:#6D28D9; text-transform:uppercase;">Primary Stress Syllable Breakdown:</span>
+                    <div id="wsAiSyllables"></div>
+                </div>
+                <button onclick="speakOut(document.getElementById('wsAiWord').innerText)" style="margin-top:10px; width:100%; background:#6D28D9; color:white; border:none; padding:8px; border-radius:10px; font-weight:800; font-size:12px; cursor:pointer;">🔊 Hear AI Stressed Pronunciation</button>
+            </div>
+        </div>
+
+        <!-- Section Filter Pills Bar -->
+        <div id="wordStressSectionPills" style="display:flex; gap:6px; overflow-x:auto; padding-bottom:8px; margin-bottom:12px;">
+            <button data-sec="all" onclick="WordStressEngine.setSection('all')" style="background:#6366F1; color:white; border:1px solid #4F46E5; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">🌟 All Studio Sections</button>
+            <button data-sec="secA" onclick="WordStressEngine.setSection('secA')" style="background:#F1F5F9; color:#475569; border:1px solid #CBD5E1; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Section A: Noun/Verb Shifts (30 Pairs)</button>
+            <button data-sec="secB" onclick="WordStressEngine.setSection('secB')" style="background:#F1F5F9; color:#475569; border:1px solid #CBD5E1; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Section B: Suffix Rules (-tion, -ic, -ity)</button>
+            <button data-sec="secC" onclick="WordStressEngine.setSection('secC')" style="background:#F1F5F9; color:#475569; border:1px solid #CBD5E1; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Section C: Academic & Professional</button>
+            <button data-sec="secD" onclick="WordStressEngine.setSection('secD')" style="background:#F1F5F9; color:#475569; border:1px solid #CBD5E1; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Section D: Compound Words</button>
+            <button data-sec="secE" onclick="WordStressEngine.setSection('secE')" style="background:#F1F5F9; color:#475569; border:1px solid #CBD5E1; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Section E: Prefix Shift & Tone Rules</button>
+        </div>
+
+        <!-- Dynamic Stress Cards Container -->
+        <div id="wordStressCardsContainer" style="min-height:300px;">
+            <!-- Populated via JS WordStressEngine -->
+        </div>
+    </div>
+
     <!-- 🎧 NATIVE STORIES & INTONATION STUDIO WORKSPACE -->
     <div id="nativeStoryWorkspace" class="tab-content-page" style="display:none;">
         <div style="background:linear-gradient(135deg, #059669 0%, #10B981 100%); color:white; border-radius:20px; padding:20px; margin-bottom:14px; text-align:left; box-shadow:0 10px 30px rgba(5,150,105,0.25);">
@@ -3110,17 +3164,17 @@ Return only the spoken script formatted cleanly.`;
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase_auth.js?v=12.0.0"></script>
-<script src="js/profile_engine.js?v=12.0.0"></script>
-<script src="js/svg_icons.js?v=12.0.0"></script>
-<script src="js/facebook_sharing.js?v=12.0.0"></script>
-<script src="js/diagnostic_engine.js?v=12.0.0"></script>
-<script src="js/viva_studio_engine.js?v=12.0.0"></script>
-<script src="js/native_resources.js?v=12.0.0"></script>
-<script src="js/prosody_engine.js?v=12.0.0"></script>
-<script src="js/word_stress_engine.js?v=12.0.0"></script>
-<script src="js/cmudict_engine.js?v=12.0.0"></script>
-<script src="js/vocab_engine.js?v=12.0.0"></script>
+<script src="js/supabase_auth.js?v=13.0.0"></script>
+<script src="js/profile_engine.js?v=13.0.0"></script>
+<script src="js/svg_icons.js?v=13.0.0"></script>
+<script src="js/facebook_sharing.js?v=13.0.0"></script>
+<script src="js/diagnostic_engine.js?v=13.0.0"></script>
+<script src="js/viva_studio_engine.js?v=13.0.0"></script>
+<script src="js/native_resources.js?v=13.0.0"></script>
+<script src="js/prosody_engine.js?v=13.0.0"></script>
+<script src="js/word_stress_engine.js?v=13.0.0"></script>
+<script src="js/cmudict_engine.js?v=13.0.0"></script>
+<script src="js/vocab_engine.js?v=13.0.0"></script>
 
 <!-- FACEBOOK GROUP ORAL PRACTICE SHARING MODAL -->
 <div id="fbShareModal" class="modal-overlay" style="display:none;">
