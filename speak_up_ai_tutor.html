@@ -837,7 +837,10 @@
             <p style="font-size:11px; color:#64748B; margin:4px 0 0 0;">Tap any specialized service to open its dedicated focus workspace</p>
         </div>
 
-                <!-- 2x4 Premium Service Card Grid -->
+                <!-- 🎯 60-DAY BANGLADESHI LEARNER PROGRESSION CARD -->
+        <div id="curriculumTodayCard"></div>
+
+        <!-- 2x4 Premium Service Card Grid -->
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:18px;">
             
             <!-- 1. AI Spoken Partner -->
@@ -1302,7 +1305,8 @@
         </div>
         <script>
             setTimeout(function() {
-                if (typeof renderIpaSoundList === 'function') {
+                if (window.SpeakUPCurriculum && typeof window.SpeakUPCurriculum.renderDashboardCard === 'function') { window.SpeakUPCurriculum.renderDashboardCard('curriculumTodayCard'); }
+        if (typeof renderIpaSoundList === 'function') {
                     renderIpaSoundList('all');
                 }
             }, 100);
@@ -3554,6 +3558,7 @@ Return only the spoken script formatted cleanly.`;
             }
         }
 
+        if (window.SpeakUPCurriculum && typeof window.SpeakUPCurriculum.renderDashboardCard === 'function') { window.SpeakUPCurriculum.renderDashboardCard('curriculumTodayCard'); }
         if (typeof renderIpaSoundList === 'function') {
             renderIpaSoundList('all');
         }
@@ -3561,17 +3566,18 @@ Return only the spoken script formatted cleanly.`;
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase_auth.js?v=19.0.0"></script>
-<script src="js/profile_engine.js?v=19.0.0"></script>
-<script src="js/svg_icons.js?v=19.0.0"></script>
-<script src="js/facebook_sharing.js?v=19.0.0"></script>
-<script src="js/diagnostic_engine.js?v=19.0.0"></script>
-<script src="js/viva_studio_engine.js?v=19.0.0"></script>
-<script src="js/native_resources.js?v=19.0.0"></script>
-<script src="js/prosody_engine.js?v=19.0.0"></script>
-<script src="js/word_stress_engine.js?v=19.0.0"></script>
-<script src="js/cmudict_engine.js?v=19.0.0"></script>
-<script src="js/vocab_engine.js?v=19.0.0"></script>
+<script src="js/supabase_auth.js?v=20.0.0"></script>
+<script src="js/profile_engine.js?v=20.0.0"></script>
+<script src="js/svg_icons.js?v=20.0.0"></script>
+<script src="js/facebook_sharing.js?v=20.0.0"></script>
+<script src="js/diagnostic_engine.js?v=20.0.0"></script>
+<script src="js/viva_studio_engine.js?v=20.0.0"></script>
+<script src="js/native_resources.js?v=20.0.0"></script>
+<script src="js/prosody_engine.js?v=20.0.0"></script>
+<script src="js/word_stress_engine.js?v=20.0.0"></script>
+<script src="js/cmudict_engine.js?v=20.0.0"></script>
+<script src="js/curriculum_engine.js?v=20.0.0"></script>
+<script src="js/vocab_engine.js?v=20.0.0"></script>
 
 <!-- FACEBOOK GROUP ORAL PRACTICE SHARING MODAL -->
 <div id="fbShareModal" class="modal-overlay" style="display:none;">
