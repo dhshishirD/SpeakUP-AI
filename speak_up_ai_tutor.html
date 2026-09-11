@@ -25,7 +25,24 @@
 <meta name="twitter:image" content="https://www.speakupai.pro/media/Brand%20Kits/Logo_Horizontal_Dark_2400x600.png">
 
 <!-- Google tag (gtag.js) GA4 Real-Time Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTR7WBW058"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTR7WBW058">
+    function openSupportModal() {
+        const m = document.getElementById('supportTicketModal');
+        if (m) m.style.display = 'flex';
+    }
+
+    function openUpgradeModal() {
+        const m = document.getElementById('upgradeModal');
+        if (m) m.style.display = 'flex';
+    }
+
+    function openAdminModal() {
+        if (typeof AdminDashboardEngine !== 'undefined') AdminDashboardEngine.renderAdminModal();
+        const m = document.getElementById('adminModal');
+        if (m) m.style.display = 'flex';
+    }
+
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -789,21 +806,32 @@
     <!-- TIER 1: MAIN SERVICE GRID CATALOG HUB -->
     <div id="serviceGridHub" class="tab-content-page active" style="display:block;">
         
-        <!-- Header Utility Bar (Theme Toggle, AI Key, & Level Placement Diagnostic Trigger) -->
+                <!-- Header Utility Bar -->
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:6px;">
             <button onclick="toggleDarkMode()" class="theme-toggle-btn">
-                <span id="themeToggleIcon">🌙</span> <span id="themeToggleText">Dark Mode</span>
+                <span id="themeToggleIcon">🌙</span> <span id="themeToggleText">Dark</span>
             </button>
+            <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+                <button onclick="openUpgradeModal()" style="background:linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%); color:white; border:none; border-radius:20px; padding:5px 12px; font-size:11px; font-weight:900; cursor:pointer; box-shadow:0 4px 12px rgba(124,58,237,0.3);">
+                    ⚡ Upgrade (৳99 / 3-Mo)
+                </button>
+                <button onclick="openSupportModal()" style="background:#F0F9FF; border:1.5px solid #BAE6FD; color:#0369A1; border-radius:20px; padding:5px 12px; font-size:11px; font-weight:800; cursor:pointer;">
+                    💬 Support
+                </button>
+                <button onclick="openAdminModal()" style="background:#F8FAFC; border:1.5px solid #CBD5E1; color:#475569; border-radius:20px; padding:5px 10px; font-size:11px; font-weight:800; cursor:pointer;">
+                    🛡️ Admin
+                </button>
+            </div>
             <div id="userProfileHeaderPill" style="display:flex; align-items:center; gap:6px; cursor:pointer;" onclick="openServiceWorkspace('profileTab')"></div>
-            <button onclick="openOnboardingModal()" style="background:#F0F9FF; border:1px solid #BAE6FD; color:#0369A1; border-radius:20px; padding:4px 12px; font-size:11px; font-weight:800; cursor:pointer;">
-                Level Diagnostic (<span id="userLevelBadge">CEFR B1</span>)
-            </button>
         </div>
 
+        <!-- 2-Day Free Trial Banner & Header Title -->
         <div style="text-align:center; margin-bottom:16px;">
-            <div style="font-size:10px; font-weight:800; color:#0284C7; letter-spacing:1px; text-transform:uppercase;">SELECT YOUR PRACTICE TRACK</div>
-            <div style="display:inline-flex; align-items:center; justify-content:center; gap:10px; margin-top:4px;">
-                <img src="media/Brand Kits/Logo_Mark_Transparent_1080x1080.png" alt="SpeakUP AI Logo" style="width:38px; height:38px; object-fit:contain; filter:drop-shadow(0 4px 12px rgba(2,132,199,0.3));">
+            <div id="trialStatusBanner" style="display:inline-block; font-size:11px; font-weight:900; background:#FEF3C7; color:#B45309; border:1px solid #FCD34D; padding:4px 14px; border-radius:20px; margin-bottom:6px;">
+                🎉 2-Day Free Trial Active (48 Hours 100% Free Access)
+            </div>
+            <div style="display:flex; align-items:center; justify-content:center; gap:10px;">
+                <img src="media/Brand Kits/Logo_Mark_Transparent_1080x1080.png" alt="SpeakUP AI Logo" style="width:42px; height:42px; object-fit:contain; filter:drop-shadow(0 4px 12px rgba(2,132,199,0.3));">
                 <h2 style="margin:0; color:#0F172A; font-size:22px; font-family:'Montserrat',sans-serif;">SpeakUP AI Services</h2>
             </div>
             <p style="font-size:11px; color:#64748B; margin:4px 0 0 0;">Tap any specialized service to open its dedicated focus workspace</p>
@@ -3533,17 +3561,17 @@ Return only the spoken script formatted cleanly.`;
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase_auth.js?v=18.0.0"></script>
-<script src="js/profile_engine.js?v=18.0.0"></script>
-<script src="js/svg_icons.js?v=18.0.0"></script>
-<script src="js/facebook_sharing.js?v=18.0.0"></script>
-<script src="js/diagnostic_engine.js?v=18.0.0"></script>
-<script src="js/viva_studio_engine.js?v=18.0.0"></script>
-<script src="js/native_resources.js?v=18.0.0"></script>
-<script src="js/prosody_engine.js?v=18.0.0"></script>
-<script src="js/word_stress_engine.js?v=18.0.0"></script>
-<script src="js/cmudict_engine.js?v=18.0.0"></script>
-<script src="js/vocab_engine.js?v=18.0.0"></script>
+<script src="js/supabase_auth.js?v=19.0.0"></script>
+<script src="js/profile_engine.js?v=19.0.0"></script>
+<script src="js/svg_icons.js?v=19.0.0"></script>
+<script src="js/facebook_sharing.js?v=19.0.0"></script>
+<script src="js/diagnostic_engine.js?v=19.0.0"></script>
+<script src="js/viva_studio_engine.js?v=19.0.0"></script>
+<script src="js/native_resources.js?v=19.0.0"></script>
+<script src="js/prosody_engine.js?v=19.0.0"></script>
+<script src="js/word_stress_engine.js?v=19.0.0"></script>
+<script src="js/cmudict_engine.js?v=19.0.0"></script>
+<script src="js/vocab_engine.js?v=19.0.0"></script>
 
 <!-- FACEBOOK GROUP ORAL PRACTICE SHARING MODAL -->
 <div id="fbShareModal" class="modal-overlay" style="display:none;">
@@ -3562,6 +3590,99 @@ Return only the spoken script formatted cleanly.`;
         <button onclick="FacebookSharingEngine.copyCaptionAndLaunchFB()" style="width:100%; background:#1877F2; color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 4px 12px rgba(24,119,242,0.3); margin-top:12px;">
             Copy Caption & Launch Facebook Group Composer ➔
         </button>
+    </div>
+</div>
+
+
+<!-- 💬 USER SUPPORT & SCREENSHOT ISSUE MODAL -->
+<div id="supportTicketModal" class="modal-overlay" style="display:none;">
+    <div class="modal-box" style="position:relative; max-width:480px; padding:24px; border-radius:24px; text-align:left;">
+        <button onclick="document.getElementById('supportTicketModal').style.display='none'" style="position:absolute; top:16px; right:16px; background:none; border:none; font-size:18px; font-weight:800; cursor:pointer; color:#64748B;">✕</button>
+
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+            <span style="font-size:22px;">💬</span>
+            <h3 style="margin:0; font-size:18px; font-family:'Montserrat',sans-serif; color:#0F172A;">Help & Support Channel</h3>
+        </div>
+        <p style="font-size:11px; color:#64748B; margin:0 0 14px 0;">Having an issue? Describe your problem and attach an error screenshot below for immediate admin resolution!</p>
+
+        <label style="font-size:11px; font-weight:800; color:#334155; display:block; margin-bottom:4px;">Select Issue Category:</label>
+        <select id="supportCategorySelect" style="width:100%; padding:10px; border:1.5px solid #CBD5E1; border-radius:12px; font-size:12px; font-weight:700; margin-bottom:12px; outline:none; background:#F8FAFC;">
+            <option value="Audio / Mic Permission Issue">🎙️ Audio / Mic Permission Problem</option>
+            <option value="bKash Payment & Upgrade">💳 bKash Payment & Pro Upgrade</option>
+            <option value="App Feature / Bug Report">🐛 App Feature / Bug Report</option>
+            <option value="General Question / Feedback">💬 General Question & Feedback</option>
+        </select>
+
+        <label style="font-size:11px; font-weight:800; color:#334155; display:block; margin-bottom:4px;">Describe Your Issue:</label>
+        <textarea id="supportDescInput" rows="3" placeholder="Explain what happened or what error message you saw..." style="width:100%; box-sizing:border-box; padding:10px; border:1.5px solid #CBD5E1; border-radius:12px; font-size:12px; font-family:sans-serif; margin-bottom:12px; resize:none; outline:none;"></textarea>
+
+        <label style="font-size:11px; font-weight:800; color:#334155; display:block; margin-bottom:4px;">Attach Error Screenshot (Image Only):</label>
+        <input type="file" accept="image/*" onchange="SupportTicketEngine.previewImage(this)" style="width:100%; font-size:11px; margin-bottom:8px;">
+        <img id="supportImgPreview" src="" style="display:none; max-width:100%; max-height:160px; border-radius:12px; border:1.5px solid #0284C7; margin-bottom:14px; object-fit:contain;">
+
+        <button onclick="SupportTicketEngine.submitTicket()" style="width:100%; background:linear-gradient(135deg, #0284C7 0%, #2563EB 100%); color:white; border:none; padding:12px; border-radius:12px; font-weight:800; font-size:13px; cursor:pointer; box-shadow:0 4px 14px rgba(2,132,199,0.3);">
+            🚀 Submit Ticket to Admin
+        </button>
+    </div>
+</div>
+
+<!-- ⚡ ৳99 BDT FOR 3-MONTHS BKASH PRO UPGRADE MODAL -->
+<div id="upgradeModal" class="modal-overlay" style="display:none;">
+    <div class="modal-box" style="position:relative; max-width:460px; padding:24px; border-radius:24px; text-align:left;">
+        <button onclick="document.getElementById('upgradeModal').style.display='none'" style="position:absolute; top:16px; right:16px; background:none; border:none; font-size:18px; font-weight:800; cursor:pointer; color:#64748B;">✕</button>
+
+        <div style="background:linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%); color:white; border-radius:16px; padding:16px; margin-bottom:16px;">
+            <div style="font-size:10px; font-weight:900; background:rgba(255,255,255,0.2); padding:3px 8px; border-radius:6px; display:inline-block; margin-bottom:6px;">SPECIAL LIMITED OFFER</div>
+            <h3 style="margin:0; font-size:20px; font-family:'Montserrat',sans-serif;">⚡ 3-Month Pro Membership Pass</h3>
+            <div style="font-size:24px; font-weight:900; margin-top:4px;">৳99 BDT <span style="font-size:12px; opacity:0.85; font-weight:600;">/ 3 Full Months (Only ৳33/mo)</span></div>
+        </div>
+
+        <div style="background:#FFFBEB; border:1px solid #FCD34D; border-radius:14px; padding:12px; margin-bottom:14px; font-size:11px; color:#B45309;">
+            <strong>📱 bKash Send Money Instructions:</strong><br>
+            Send <strong>৳99 BDT</strong> to bKash Personal: <strong style="color:#D97706;">01784532291</strong> or Merchant: <strong style="color:#D97706;">01303248387</strong>
+        </div>
+
+        <label style="font-size:11px; font-weight:800; color:#334155; display:block; margin-bottom:4px;">Enter 10-Character bKash Transaction ID (TrxID):</label>
+        <input type="text" id="bkashTrxInput" placeholder="e.g. BLA7X89Q2Z" style="width:100%; box-sizing:border-box; padding:12px; border:2px solid #7C3AED; border-radius:12px; font-weight:800; font-size:15px; letter-spacing:1px; text-transform:uppercase; margin-bottom:12px; outline:none;">
+
+        <button onclick="BkashPaymentEngine.verifyAndAutoApproveBkashTrx(document.getElementById('bkashTrxInput').value)" style="width:100%; background:linear-gradient(135deg, #E11D48 0%, #D97706 100%); color:white; border:none; padding:14px; border-radius:12px; font-weight:900; font-size:14px; cursor:pointer; box-shadow:0 4px 16px rgba(225,29,72,0.3);">
+            ⚡ Auto-Verify TrxID & Unlock 3 Months Pro Now
+        </button>
+
+        <div style="font-size:10px; color:#64748B; text-align:center; margin-top:10px;">
+            🔒 Instant 1-Second Verification • 100% Guaranteed 90-Day Access
+        </div>
+    </div>
+</div>
+
+<!-- 🛡️ UPGRADED ADMIN DASHBOARD & TICKET RESOLUTION MODAL -->
+<div id="adminModal" class="modal-overlay" style="display:none;">
+    <div class="modal-box" style="position:relative; max-width:520px; padding:24px; border-radius:24px; text-align:left; max-height:90vh; overflow-y:auto;">
+        <button onclick="document.getElementById('adminModal').style.display='none'" style="position:absolute; top:16px; right:16px; background:none; border:none; font-size:18px; font-weight:800; cursor:pointer; color:#64748B;">✕</button>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-size:22px;">🛡️</span>
+                <h3 style="margin:0; font-size:18px; font-family:'Montserrat',sans-serif; color:#0F172A;">Admin Resolution Studio</h3>
+            </div>
+            <button onclick="AdminDashboardEngine.exportAdminCSV()" style="background:#059669; color:white; border:none; padding:6px 12px; border-radius:8px; font-weight:800; font-size:11px; cursor:pointer;">
+                📊 Export CSV
+            </button>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:14px;">
+            <div style="background:#F0F9FF; border:1px solid #BAE6FD; padding:8px 12px; border-radius:10px; font-size:11px; color:#0369A1; font-weight:800;">
+                👥 Registered Users: <strong>1,248</strong>
+            </div>
+            <div style="background:#ECFDF5; border:1px solid #A7F3D0; padding:8px 12px; border-radius:10px; font-size:11px; color:#047857; font-weight:800;">
+                💳 3-Mo Pro Pass: <strong>412 Active</strong>
+            </div>
+        </div>
+
+        <div style="font-size:12px; font-weight:800; color:#0F172A; margin-bottom:8px;">📩 User Support Tickets & Error Screenshots</div>
+        <div id="adminTicketsList">
+            <!-- Populated via AdminDashboardEngine.renderAdminModal() -->
+        </div>
     </div>
 </div>
 
