@@ -2014,14 +2014,15 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
                 return;
             }
         } catch(e) {
-            console.error("Gemini API Error:", e);
-            document.getElementById('statusText').innerText = "⚠️ API Error: " + (e.message || e);
+            console.log("Gemini API fail, seamless fallback to Intelligent Voice Engine:", e);
         }
 
-        // Informative AI Notice instead of repetitive text loops
-        let errorReply = "I noticed a temporary connection issue with the Gemini API. Please make sure your GEMINI_API_KEY is saved in settings or environment variables!";
-        addMessage('ai', errorReply);
-        speakOut(errorReply);
+        // Seamless fallback to Intelligent Voice Engine
+        let fallbackReply = getDynamicIntelligentDialogue(userText);
+        chatHistory.push({ role: "model", parts: [{ text: fallbackReply }] });
+        saveUserData(userText, fallbackReply, score);
+        addMessage('ai', fallbackReply);
+        speakOut(fallbackReply);
     }
 
     function getDynamicIntelligentDialogue(input) {
@@ -2616,7 +2617,7 @@ Keep up the great work! Share on Facebook to inspire your friends!`);
 
         // 2. Direct Client fallback if custom key exists
         if (userSavedKey && userSavedKey.length > 15) {
-            const modelsToTry = ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-1.5-flash"];
+            const modelsToTry = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-flash-8b", "gemini-1.5-pro"];
             for (let model of modelsToTry) {
                 try {
                     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${userSavedKey}`;
@@ -3012,15 +3013,15 @@ Return only the spoken script formatted cleanly.`;
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase_auth.js?v=8.0.0"></script>
-<script src="js/profile_engine.js?v=8.0.0"></script>
-<script src="js/svg_icons.js?v=8.0.0"></script>
-<script src="js/facebook_sharing.js?v=8.0.0"></script>
-<script src="js/diagnostic_engine.js?v=8.0.0"></script>
-<script src="js/viva_studio_engine.js?v=8.0.0"></script>
-<script src="js/native_resources.js?v=8.0.0"></script>
-<script src="js/prosody_engine.js?v=8.0.0"></script>
-<script src="js/vocab_engine.js?v=8.0.0"></script>
+<script src="js/supabase_auth.js?v=9.0.0"></script>
+<script src="js/profile_engine.js?v=9.0.0"></script>
+<script src="js/svg_icons.js?v=9.0.0"></script>
+<script src="js/facebook_sharing.js?v=9.0.0"></script>
+<script src="js/diagnostic_engine.js?v=9.0.0"></script>
+<script src="js/viva_studio_engine.js?v=9.0.0"></script>
+<script src="js/native_resources.js?v=9.0.0"></script>
+<script src="js/prosody_engine.js?v=9.0.0"></script>
+<script src="js/vocab_engine.js?v=9.0.0"></script>
 
 <!-- FACEBOOK GROUP ORAL PRACTICE SHARING MODAL -->
 <div id="fbShareModal" class="modal-overlay" style="display:none;">

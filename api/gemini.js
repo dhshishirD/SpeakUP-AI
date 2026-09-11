@@ -53,15 +53,12 @@ export default async function handler(req, res) {
             formattedContents = [{ role: 'user', parts: [{ text: 'Hello!' }] }];
         }
 
-        // Official Google Gemini API production model identifiers (Priority: gemini-3.5-flash)
+        // Official Google Gemini API production model identifiers
         const modelsToTry = [
-            "gemini-3.5-flash",
-            "gemini-3.6-flash",
-            "gemini-3.7-flash",
-            "gemini-flash-latest",
-            "gemini-2.5-flash-lite",
+            "gemini-2.0-flash",
             "gemini-1.5-flash",
-            "gemini-2.0-flash"
+            "gemini-1.5-flash-8b",
+            "gemini-1.5-pro"
         ];
 
         let lastError = null;
