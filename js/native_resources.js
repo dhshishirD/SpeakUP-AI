@@ -1,5 +1,5 @@
 /**
- * SpeakUP AI - BBC & Native Short Story Resource Hub
+ * SpeakUP AI - Native Short Story Resource Hub
  * Embedded native reference stories, transcripts, Bengali translations, and audio shadowing data.
  */
 

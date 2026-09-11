@@ -50,7 +50,7 @@ const SVGIcons = {
         </svg>
     `,
 
-    // 6. BBC & Native Stories - Video Play & Storybook
+    // 6. Native Stories - Video Play & Storybook
     nativeStories: `
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polygon points="5 3 19 12 5 21 5 3"></polygon>
