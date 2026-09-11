@@ -901,9 +901,9 @@
         <!-- Filter Category Pills & Real-Time Pitch Waveform Canvas -->
         <div style="display:flex; gap:8px; overflow-x:auto; padding-bottom:10px; margin-bottom:10px;">
             <button onclick="renderIpaSoundList('all')" style="background:#0284C7; color:white; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">All 44 Sounds</button>
-            <button onclick="renderIpaSoundList('vowel')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Vowels (12)</button>
-            <button onclick="renderIpaSoundList('diphthong')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Diphthongs (8)</button>
-            <button onclick="renderIpaSoundList('consonant')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Consonants (24)</button>
+            <button onclick="renderIpaSoundList('vowels')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Vowels (12)</button>
+            <button onclick="renderIpaSoundList('diphthongs')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Diphthongs (8)</button>
+            <button onclick="renderIpaSoundList('consonants')" style="background:#F1F5F9; color:#475569; border:none; padding:8px 14px; border-radius:12px; font-weight:800; font-size:12px; cursor:pointer; whitespace:nowrap;">Consonants (24)</button>
         </div>
 
         <!-- REAL-TIME WEB AUDIO PITCH WAVEFORM CANVAS -->
@@ -1728,21 +1728,71 @@
         window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
     }
 
+    function playIsolatedPhonemeSound(ipaSymbol, soundWord, audioPath) {
+        if (audioPath) {
+            const a = new Audio(audioPath);
+            a.play().catch(() => speakOut(soundWord));
+        } else {
+            speakOut(soundWord);
+        }
+    }
+
+    async function triggerCmuWordLookup(customVal) {
+        const inputEl = document.getElementById('cmuWordSearchInput');
+        const query = customVal || (inputEl ? inputEl.value : '');
+        if (!query || !query.trim()) return;
+
+        const card = document.getElementById('cmuLookupResultCard');
+        if (card) {
+            card.style.display = 'block';
+            document.getElementById('cmuResWord').innerText = query.trim();
+            document.getElementById('cmuResIpa').innerText = 'Searching CMUDict...';
+            document.getElementById('cmuResSyllables').innerHTML = '<span style="font-size:12px; color:#64748B;">Analyzing syllable stress...</span>';
+        }
+
+        if (typeof CMUDictEngine !== 'undefined') {
+            const res = await CMUDictEngine.lookupWord(query);
+            if (res && card) {
+                document.getElementById('cmuResWord').innerText = res.word;
+                document.getElementById('cmuResIpa').innerText = res.ipa || '/--/';
+                document.getElementById('cmuResBadge').innerHTML = res.sourceBadge || '';
+                document.getElementById('cmuResSyllables').innerHTML = CMUDictEngine.renderSyllableStressHTML(res.syllables);
+                document.getElementById('cmuResMeaning').innerText = res.meaning || '';
+                document.getElementById('cmuResBangla').innerText = res.bangla || '';
+                document.getElementById('cmuResExample').innerText = res.example ? `💡 Example: "${res.example}"` : '';
+            }
+        }
+    }
+
     function renderIpaSoundList(category) {
         const container = document.getElementById('ipaListContainer');
         if (!container) return;
-        const filtered = (category === 'all' || !category) ? all44IpaSounds : all44IpaSounds.filter(s => s.category === category);
         
-        container.innerHTML = filtered.map((item, index) => `
+        const filtered = (!category || category === 'all') 
+            ? all44IpaSounds 
+            : all44IpaSounds.filter(s => s.category === category || s.category.startsWith(category) || category.startsWith(s.category));
+        
+        container.innerHTML = filtered.map((item, index) => {
+            const isVerified = item.isStudioVerified || false;
+            const badgeTag = isVerified 
+                ? `<span style="font-size:9px; background:#DCFCE7; color:#15803D; font-weight:800; padding:2px 6px; border-radius:6px; border:1px solid #86EFAC;">🎙 Studio Verified</span>`
+                : `<span style="font-size:9px; background:#FEF3C7; color:#B45309; font-weight:800; padding:2px 6px; border-radius:6px; border:1px solid #FCD34D;">⚡ AI Preview</span>`;
+            
+            const cleanSym = (item.ipa || '').replace(/[\/\s]/g, '');
+            const audioPath = item.isolatedAudioPath || `public/audio/fluency/phonemes/phoneme-isolated-${cleanSym}.mp3`;
+
+            return `
             <div class="vocab-card-pro">
                 <div style="display:flex; justify-content:space-between; align-items:center;">
                     <div>
                         <strong style="font-size:16px; color:#0284C7;">${item.ipa} Sound</strong>
-                        <span style="font-size:12px; font-weight:700; color:#0F172A; margin-left:6px;">(${item.word})</span>
+                        <span style="font-size:12px; font-weight:700; color:#0F172A; margin-left:4px;">(${item.word})</span>
+                        <span style="margin-left:6px;">${badgeTag}</span>
                     </div>
                     <div style="display:flex; gap:6px;">
-                        <button onclick="speakOut('${item.example.replace(/'/g, "\\'")}')" style="background:#0284C7; color:white; border:none; padding:3px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Listen</button>
-                        <button onclick="testIpaVoiceRecording('${item.word.replace(/'/g, "\\'")}', this)" style="background:#22C55E; color:white; border:none; padding:3px 8px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🎙️ Shadow Voice</button>
+                        <button onclick="playIsolatedPhonemeSound('${item.ipa.replace(/'/g, "\\'")}', '${item.word.replace(/'/g, "\\'")}', '${audioPath}')" style="background:#4F46E5; color:white; border:none; padding:4px 10px; border-radius:8px; font-weight:800; font-size:10px; cursor:pointer;">▶ Pure Sound</button>
+                        <button onclick="speakOut('${item.example.replace(/'/g, "\\'")}')" style="background:#0284C7; color:white; border:none; padding:4px 10px; border-radius:8px; font-weight:800; font-size:10px; cursor:pointer;">🔊 Word Audio</button>
+                        <button onclick="testIpaVoiceRecording('${item.word.replace(/'/g, "\\'")}', this)" style="background:#22C55E; color:white; border:none; padding:4px 10px; border-radius:6px; font-weight:800; font-size:10px; cursor:pointer;">🎙️ Shadow Voice</button>
                     </div>
                 </div>
                 <!-- Feature 1: ELSA Pitch Waveform Visual -->
@@ -1757,7 +1807,7 @@
                 <div style="font-size:11px; color:#64748B; margin-top:3px;">💡 Example: "${item.example}" • ${item.tip}</div>
                 <div class="ipa-eval-result" style="margin-top:4px;"></div>
             </div>
-        `).join('');
+        `}).join('');
     }
 
     function filterIpaList(cat) {
@@ -3049,16 +3099,16 @@ Return only the spoken script formatted cleanly.`;
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase_auth.js?v=10.0.0"></script>
-<script src="js/profile_engine.js?v=10.0.0"></script>
-<script src="js/svg_icons.js?v=10.0.0"></script>
-<script src="js/facebook_sharing.js?v=10.0.0"></script>
-<script src="js/diagnostic_engine.js?v=10.0.0"></script>
-<script src="js/viva_studio_engine.js?v=10.0.0"></script>
-<script src="js/native_resources.js?v=10.0.0"></script>
-<script src="js/prosody_engine.js?v=10.0.0"></script>
-<script src="js/cmudict_engine.js?v=10.0.0"></script>
-<script src="js/vocab_engine.js?v=10.0.0"></script>
+<script src="js/supabase_auth.js?v=11.0.0"></script>
+<script src="js/profile_engine.js?v=11.0.0"></script>
+<script src="js/svg_icons.js?v=11.0.0"></script>
+<script src="js/facebook_sharing.js?v=11.0.0"></script>
+<script src="js/diagnostic_engine.js?v=11.0.0"></script>
+<script src="js/viva_studio_engine.js?v=11.0.0"></script>
+<script src="js/native_resources.js?v=11.0.0"></script>
+<script src="js/prosody_engine.js?v=11.0.0"></script>
+<script src="js/cmudict_engine.js?v=11.0.0"></script>
+<script src="js/vocab_engine.js?v=11.0.0"></script>
 
 <!-- FACEBOOK GROUP ORAL PRACTICE SHARING MODAL -->
 <div id="fbShareModal" class="modal-overlay" style="display:none;">
